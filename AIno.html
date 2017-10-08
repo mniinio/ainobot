@@ -5,6 +5,7 @@
     <!-- <script src="//speechkitt.min.js"></script>--> <!-- //cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/ -->
     <script>
     "use strict";
+
     if (annyang) {
 
       // define the functions our commands will run.
@@ -18,8 +19,16 @@
         'hello (there)':    hello,
       };
 
+      // OPTIONAL: activate debug mode for detailed logging in the console
+      annyang.debug();
+
       // Add our commands to annyang
       annyang.addCommands(commands);
+
+      // OPTIONAL: Set a language for speech recognition (defaults to English)
+      // For a full list of language codes, see the documentation:
+      // https://github.com/TalAter/annyang/blob/master/docs/FAQ.md#what-languages-are-supported
+      annyang.setLanguage('en');
 
       // Start listening. You can call this here, or attach this call to an event, button, etc.
       annyang.start();
@@ -38,5 +47,10 @@
       <p class="voice_instructions">Say "Hello!"</p>
       <p id="hello" class="hidden">Annyang!</p>
     </section>
+    <div id="unsupported" class="hidden">
+      <h4>It looks like your browser doesn't support speech recognition.</h4>
+      <p>annyang plays nicely with all browsers, progressively enhancing modern browsers that support the SpeechRecognition standard, while leaving users with older browsers unaffected.</p>
+      <p>Please visit <a href="http://www.annyangjs.com/">http://www.annyangjs.com/</a> in a desktop browser like Chrome.</p>
+    </div>
 	</body>
 </html>
