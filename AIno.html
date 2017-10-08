@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>AIno bot</title>
+    <script src="annyang.min.js"></script> <!-- //cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/ -->
+    <!-- <script src="//speechkitt.min.js"></script>--> <!-- //cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/ -->
+    <script>
+    "use strict";
+    if (annyang) {
+
+      // define the functions our commands will run.
+      var hello = function() {
+        $("#hello").slideDown("slow");
+        scrollTo("#section_hello");
+      };
+
+      // Let's define our first command. First the text we expect, and then the function it should call
+      var commands = {
+        'hello (there)':    hello,
+      };
+
+      // Add our commands to annyang
+      annyang.addCommands(commands);
+
+      // Start listening. You can call this here, or attach this call to an event, button, etc.
+      annyang.start();
+    } else {
+      $(document).ready(function() {
+        $('#unsupported').fadeIn('fast');
+      });
+    }
+    </script>
+    <link rel="stylesheet" href="main.min.css" />
+	</head>
+	<body>
+		<h1>AIno bot</h1>
+    <section id="section_hello">
+      <p><em>Go ahead, try it&hellip;</em></p>
+      <p class="voice_instructions">Say "Hello!"</p>
+      <p id="hello" class="hidden">Annyang!</p>
+    </section>
+	</body>
+</html>
