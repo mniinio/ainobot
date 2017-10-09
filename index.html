@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>AIno bot</title>
     <script src="annyang.min.js"></script> <!-- //cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/ -->
+		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/"></script> -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- <script src="//speechkitt.min.js"></script>--> <!-- //cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/ -->
     <script>
     "use strict";
@@ -10,13 +13,21 @@
 
       // define the functions our commands will run.
       var hello = function() {
-        $("#hello").slideDown("slow");
-        scrollTo("#section_hello");
+        $("#hei").slideDown("slow");
+        scrollTo("#section_hei");
+      };
+
+			var get_org = function(heard_org) {
+        $("#p_org").slideDown("slow");
+				// $("#aino_org").value = heard_org + '';
+				document.getElementById("aino_org").value = heard_org.toString();
+        // scrollTo("#section_hei");
       };
 
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
-        'hello (there)':    hello,
+        'hei':    	hello,
+				'yritys *hear_org':   get_org,
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
@@ -28,10 +39,16 @@
       // OPTIONAL: Set a language for speech recognition (defaults to English)
       // For a full list of language codes, see the documentation:
       // https://github.com/TalAter/annyang/blob/master/docs/FAQ.md#what-languages-are-supported
-      annyang.setLanguage('en');
+      annyang.setLanguage('fi');
 
       // Start listening. You can call this here, or attach this call to an event, button, etc.
       annyang.start();
+
+			var scrollTo = function(identifier, speed) {
+		    $('html, body').animate({
+		        scrollTop: $(identifier).offset().top
+		    }, speed || 1000);
+		  }
     } else {
       $(document).ready(function() {
         $('#unsupported').fadeIn('fast');
@@ -41,11 +58,15 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
-		<h1>AIno bot</h1>
-    <section id="section_hello">
-      <p><em>Go ahead, try it&hellip;</em></p>
-      <p class="voice_instructions">Say "Hello!"</p>
-      <p id="hello" class="hidden">Annyang!</p>
+		<section id="section_header">
+			<h1>AIno bot</h1>
+		</section>
+    <section id="section_hei">
+      <p class="voice_instructions">Sano "Hei!"</p>
+      <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?</p>
+			<p id="p_org" class="hidden">
+				Kuulinko oikein: <input id="aino_org" type="text" size="20"/> ?
+			</p>
     </section>
     <div id="unsupported" class="hidden">
       <h4>It looks like your browser doesn't support speech recognition.</h4>
