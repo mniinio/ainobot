@@ -10,6 +10,7 @@
 		<script type="text/javascript">
 			meSpeak.loadConfig("mespeak/mespeak_config.json");
 			meSpeak.loadVoice("mespeak/voices/fi.json");
+			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 	    </script>
     <script>
     "use strict";
@@ -21,20 +22,21 @@
       var hello = function() {
         $("#hei").slideDown("slow");
         scrollTo("#section_hei");
-		meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
+		meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
       };
 
 			var get_org = function(heard_org) {
         $("#p_org").slideDown("slow");
 				// $("#aino_org").value = heard_org + '';
 				document.getElementById("aino_org").value = heard_org.toString();
+				meSpeak.speak('Kuulinko oikein, sanoitko '+heard_org.toString(), { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
         // scrollTo("#section_hei");
       };
 
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
         'hei':    	hello,
-				'yritys *hear_org':   get_org,
+				'nimi on *hear_org':   get_org,
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
@@ -70,7 +72,7 @@
 		</section>
     <section id="section_hei">
       <p class="voice_instructions">Sano "Hei!"</p>
-      <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?</p>
+      <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
 			<p id="p_org" class="hidden">
 				Kuulinko oikein: <input id="aino_org" type="text" size="20"/> ?
 			</p>
