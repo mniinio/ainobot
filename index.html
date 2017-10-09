@@ -14,7 +14,6 @@
     <script>
     "use strict";
 	
-	var hello_said = false;
 
     if (annyang) {
 
@@ -22,7 +21,7 @@
       var hello = function() {
         $("#hei").slideDown("slow");
         scrollTo("#section_hei");
-		hello_said = true;
+		meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
       };
 
 			var get_org = function(heard_org) {
@@ -70,11 +69,6 @@
 			<h1>AIno bot</h1>
 		</section>
     <section id="section_hei">
-	  <script>
-		if (hello_said) {
-			meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-		}
-	  </script>
       <p class="voice_instructions">Sano "Hei!"</p>
       <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?</p>
 			<p id="p_org" class="hidden">
