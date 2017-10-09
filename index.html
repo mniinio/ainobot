@@ -2,10 +2,15 @@
 <html>
 	<head>
 		<title>AIno bot</title>
-    <script src="annyang.min.js"></script> <!-- //cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/ -->
+		<script src="annyang.min.js"></script> <!-- //cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/ -->
 		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/"></script> -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <!-- <script src="//speechkitt.min.js"></script>--> <!-- //cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/ -->
+		<!-- <script src="//speechkitt.min.js"></script>--> <!-- //cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/ -->
+		<script type="text/javascript" src="mespeak/mespeak.js?v=1.9.7.1"></script>
+		<script type="text/javascript">
+			meSpeak.loadConfig("mespeak/mespeak_config.json");
+			meSpeak.loadVoice("mespeak/voices/fi/fi.json");
+	    </script>
     <script>
     "use strict";
 
@@ -63,7 +68,7 @@
 		</section>
     <section id="section_hei">
       <p class="voice_instructions">Sano "Hei!"</p>
-      <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?</p>
+      <p id="hei" class="hidden" onfocus="meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi?</p>
 			<p id="p_org" class="hidden">
 				Kuulinko oikein: <input id="aino_org" type="text" size="20"/> ?
 			</p>
