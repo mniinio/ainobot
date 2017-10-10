@@ -19,6 +19,10 @@
 				overflow: auto;
 			}
 
+			section{
+				color: #AAAAAA;
+			}
+
 			ul li{
 				color: #AAAAAA;
 				display: block;
@@ -175,10 +179,10 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
-		<section id="section_header">
+		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
-    <section id="section_hei">
+    <section id="section_hei" class="sec">
       <p class="voice_instructions">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
       <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
 			<p id="p_org" class="hidden">
@@ -188,20 +192,24 @@
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "Nimi oikein", kiitos.
 			</p>
     </section>
-		<section id="section_choose">
-			<p id="p_options" class="hidden">
+		<section id="section_choose" class="sec">
+			<div id="p_options" class="hidden">
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
 
+				<ul>
+					<li>
 						<input type="radio" name="selector" id="arvolupaus">
 						<label for="f-option">arvolupaus</label>
 						<div class="check"></div>
-						</br>
-						</br>
+					</li>
+					<li>
 						<input type="radio" name="selector" id="suhteellinen">
 						<label for="f-option">suhteellinen etumatka</label>
 						<div class="check"></div>
+					</li>
+				</ul>
 
-			</p>
+			</div>
 		</section>
     <div id="unsupported" class="hidden">
       <h4>It looks like your browser doesn't support speech recognition.</h4>
