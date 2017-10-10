@@ -117,6 +117,7 @@
 
       // define the functions our commands will run.
       var hello = function() {
+				$("#intro").slideUp("slow");
         $("#hei").slideDown("slow");
         scrollTo("#section_hei");
 		meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
@@ -130,6 +131,7 @@
       };
 
 			var got_name_right = function() {
+				$("#hei").slideUp("slow");
 				$("#p_options").slideDown("slow");
 				meSpeak.speak('Valitse paras vaihtoehto lukemalla vaihtoehdon teksti', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 			}
@@ -148,7 +150,7 @@
 				'nimi on *hear_org':  get_org,
 				'nimi oikein':				got_name_right,
 				'arvolupaus':					choose_arvolupaus,
-				'suhteellinen':				choose_suhteellinen,
+				'suhteellinen *':				choose_suhteellinen,
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
@@ -183,7 +185,7 @@
 			<h1>AIno bot</h1>
 		</section>
     <section id="section_hei" class="sec">
-      <p class="voice_instructions">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
+      <p id="intro" class="voice_instructions">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
       <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
 			<p id="p_org" class="hidden">
 				Kuulinko oikein: <input id="aino_org" type="text" size="20"/>? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
@@ -195,7 +197,6 @@
 		<section id="section_choose" class="sec">
 			<div id="p_options" class="hidden">
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
-
 				<ul>
 					<li>
 						<input type="radio" name="selector" id="arvolupaus">
