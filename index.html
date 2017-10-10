@@ -7,6 +7,7 @@
 
 			body, html{
 				height: 100%;
+				color: #AAAAAA;
 				background: #222222;
 				font-family: 'Lato', sans-serif;
 			}
@@ -122,7 +123,6 @@
 				// $("#aino_org").value = heard_org + '';
 				document.getElementById("aino_org").value = heard_org.toString();
 				meSpeak.speak('Kuulinko oikein, sanoitko '+heard_org.toString(), { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-        meSpeak.speak('Ole hyvä ja vahvista nimi oikeaksi sanomalla "Nimi oikein", kiitos.', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
       };
 
 			var got_name_right = function() {
@@ -191,18 +191,16 @@
 		<section id="section_choose">
 			<p id="p_options" class="hidden">
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
-				<ul>
-					<li>
-						<input type="radio" id="f-option" name="selector" id="arvolupaus">
+
+						<input type="radio" name="selector" id="arvolupaus">
 						<label for="f-option">arvolupaus</label>
 						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" id="f-option" name="selector" id="suhteellinen">
+						</br>
+						</br>
+						<input type="radio" name="selector" id="suhteellinen">
 						<label for="f-option">suhteellinen etumatka</label>
 						<div class="check"></div>
-					</li>
-				</ul>
+
 			</p>
 		</section>
     <div id="unsupported" class="hidden">
