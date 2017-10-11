@@ -134,13 +134,13 @@
     "use strict";
 
 		function play3D() {
-			$( '#_play' ).prop('checked', true);
-			// $( '#_play' ).trigger('change');
+			//$( '#_play' ).prop('checked', true);
+			$( '#_play' ).trigger('click');
 		}
 
 		function pause3D() {
-			$( '#_play' ).prop('checked', false);
-			// $( '#_play' ).trigger('change');
+			//$( '#_play' ).prop('checked', false);
+			$( '#_stop' ).trigger('click');
 		}
 
 		var f_AIno_initialize = function () {
@@ -233,7 +233,8 @@
 	<body>
 		<!-- Hidden checkbox used to control playing the 3D animation -->
 		<p align="right">
-			<input id="_play" type="checkbox" checked="false"/>
+			<input id="_play" type="button"/>
+			<input id="_stop" type="button"/>
 		</p>
 
 		<!-- firts version, the static iframe of 3D AIno -->
@@ -255,15 +256,14 @@
     client.init( urlid, {
         success: function onSuccess( api ){
           api.start( function () {
-							$( '#_play' ).change( function (event) {
-								let chkbox = event.target;
-								if (chkbox.checked) {
-									console.log( '_play checked!' );
+							$( '#_play' ).click( function (event) {
+									console.log( '_play!' );
 									api.start();
-								} else {
-									console.log( '_play uncheked' );
+							});
+
+							$( '#_stop' ).click( function (event) {
+									console.log( '_stop!' );
 									api.stop();
-								}
 							});
         	} );
 
