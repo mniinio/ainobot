@@ -134,18 +134,18 @@
     "use strict";
 
 		function play3D() {
-			// $( '#_play' ).prop('checked', true);
+			$( '#_play' ).prop('checked', true);
 			$( '#_play' ).trigger('change');
 		}
 
 		function pause3D() {
-			// $( '#_play' ).prop('checked', false);
+			$( '#_play' ).prop('checked', false);
 			$( '#_play' ).trigger('change');
 		}
 
 		var f_AIno_initialize = function () {
-			play3D();
 			$("#intro").slideDown("slow");
+			play3D();
 			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 			pause3D();
 		};
@@ -262,7 +262,7 @@
 									api.start();
 								} else {
 									console.log( '_play uncheked' );
-									api.stop();
+									api.pause();
 								}
 							});
         	} );
