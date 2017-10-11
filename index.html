@@ -133,13 +133,13 @@
     "use strict";
 
 		var f_AIno_initialize = function () {
+			setTimeout(f_AIno_initialize, 500);
 			$("#intro").slideDown("slow");
 			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
 		function AIno_intro() {
-			setTimeout(f_AIno_initialize, 500);
 			$('#background').ready(f_AIno_initialize);
 		}
 
