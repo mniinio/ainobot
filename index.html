@@ -156,6 +156,7 @@
       };
 
 			var get_org = function(heard_org) {
+				$("#hei").slideUp("slow");
         $("#p_org").slideDown("slow");
 				// $("#aino_org").value = heard_org + '';
 				document.getElementById("aino_org").value = heard_org.toString();
@@ -163,7 +164,7 @@
       };
 
 			var got_name_right = function() {
-				$("#hei").slideUp("slow");
+				$("#p_org").slideUp("slow");
 				$("#p_options").slideDown("slow");
 				meSpeak.speak('Valitse paras vaihtoehto lukemalla vaihtoehdon teksti', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 			}
@@ -229,9 +230,7 @@
 				</br>
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "Nimi oikein", kiitos.
 			</p>
-    </section>
-		<section id="section_choose" class="sec">
-			<div id="p_options" class="hidden">
+			<p id="p_options" class="hidden aino-speech">
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
 				<ul>
 					<li>
@@ -245,8 +244,7 @@
 						<div class="check"></div>
 					</li>
 				</ul>
-
-			</div>
+			</p>
 		</section>
     <div id="unsupported" class="hidden">
       <h4>It looks like your browser doesn't support speech recognition.</h4>
