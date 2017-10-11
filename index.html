@@ -6,22 +6,25 @@
 			@import url('https://fonts.googleapis.com/css?family=Lato');
 
 			#background {
-			    position: fixed;
-			    top: 50%;
-			    left: 50%;
-			    min-width: 100%;
-			    min-height: 100%;
-			    width: auto;
-			    height: auto;
-			    z-index: -100;
-			    -webkit-transform: translateX(-50%) translateY(-50%);
-			    transform: translateX(-50%) translateY(-50%);
-			    background-size: cover;
+				position: fixed;
+				top: 50%;
+				left: 10%;
+				min-width: 100%;
+				min-height: 100%;
+				width: auto;
+				height: auto;
+				z-index: -100;
+				-webkit-transform: translateX(-50%) translateY(-50%);
+				/* transform: translateX(-50%) translateY(-50%); */
+				/* background-size: cover; */
+				
 			}
 
 			body, html{
 				height: 100%;
 				font-family: 'Lato', sans-serif;
+				color: #191818;
+				background: #cbe3f1;
 			}
 
 			.container ul{
@@ -32,11 +35,11 @@
 			}
 
 			section{
-				color: #AAAAAA;
+				color: #444;
 			}
 
 			ul li{
-				color: #AAAAAA;
+				color: #444;
 				display: block;
 				position: relative;
 				float: left;
@@ -100,7 +103,7 @@
 			}
 
 			input[type=radio]:checked ~ .check {
-				border: 5px solid #0DFF92;
+				border: none;
 			}
 
 			input[type=radio]:checked ~ .check::before{
@@ -110,6 +113,16 @@
 			input[type=radio]:checked ~ label{
 				color: #0DFF92;
 			}
+			
+			.aino-speech {
+			    display: block;
+				background: #fff;
+				border-radius: 10px;
+				padding: 5px;
+				width: 50%;
+				margin-left: 7%;
+			}
+			
 		</style>
 		<script src="annyang.min.js"></script> <!-- //cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/ -->
 		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/"></script> -->
@@ -193,16 +206,18 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
-		<video autoplay loop muted poster="aino_bg.png" id="background">
-			<source src="aino_bot_video.mp4" type="video/mp4">
-		</video>
+		<iframe src="https://sketchfab.com/models/e535f09ece994dd0988a52a6086e40dd/embed?autospin=0&amp;autostart=1&amp;camera=0&amp;ui_infos=0&amp;ui_controls=0&amp;ui_general_controls=0&amp;ui_stop=0&amp;transparent=1&amp;preload=1&amp;fullscreen=1" style="
+			height: auto;
+			height: 100%;
+			width: 100%;
+		"></iframe>
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
     <section id="section_hei" class="sec">
-      <p id="intro" class="voice_instructions">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
-      <p id="hei" class="hidden">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
-			<p id="p_org" class="hidden">
+      <p id="intro" class="voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
+      <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
+			<p id="p_org" class="hidden aino-speech">
 				Kuulinko oikein: <input id="aino_org" type="text" size="20"/>? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
 				</br>
 				</br>
