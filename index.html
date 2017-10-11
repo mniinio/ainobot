@@ -134,10 +134,10 @@
     "use strict";
 
 		var f_AIno_initialize = function () {
-			$( '#_play' ).prop('checked', true);
+			$( '#_play' ).trigger('click');
 			$("#intro").slideDown("slow");
 			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-			$( '#_play' ).prop('checked', false);
+			$( '#_play' ).trigger('click');
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
@@ -155,9 +155,9 @@
 				$("#intro").slideUp("slow");
         $("#hei").slideDown("slow");
         scrollTo("#section_hei");
-				$( '#_play' ).prop('checked', true);
+				$( '#_play' ).trigger('click');
 				meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-				$( '#_play' ).prop('checked', false);
+				$( '#_play' ).trigger('click');
       };
 
 			var get_org = function(heard_org) {
@@ -165,7 +165,9 @@
         $("#p_org").slideDown("slow");
 				// $("#aino_org").value = heard_org + '';
 				document.getElementById("aino_org").value = heard_org.toString();
+				$( '#_play' ).trigger('click');
 				meSpeak.speak('Kuulinko oikein, sanoitko '+heard_org.toString(), { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
+				$( '#_play' ).trigger('click');
       };
 
 			var got_name_right = function() {
