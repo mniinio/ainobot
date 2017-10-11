@@ -255,17 +255,17 @@
 
     client.init( urlid, {
         success: function onSuccess( api ){
-          api.start( function () {
-							$( '#_play' ).click( function (event) {
-									console.log( '_play!' );
-									api.start();
-							});
+          api.start( function() {
+						$( '#_play' ).click( function (event) {
+								console.log( '_play!' );
+								api.play();
+						});
 
-							$( '#_stop' ).click( function (event) {
-									console.log( '_stop!' );
-									api.stop();
-							});
-        	} );
+						$( '#_stop' ).click( function (event) {
+								console.log( '_stop!' );
+								api.pause();
+						});
+					});
 
 					api.addEventListener( 'viewerready', function() {
 							console.log( 'Viewer is ready' );
