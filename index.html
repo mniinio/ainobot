@@ -103,11 +103,11 @@
 			}
 
 			input[type=radio]:checked ~ .check::before{
-				background: ##0000ff;
+				background: #e60000;
 			}
 
 			input[type=radio]:checked ~ label{
-				color: ##0000ff;
+				color: #e60000;
 			}
 
 			.aino-speech {
@@ -134,8 +134,10 @@
 
 		// This function is called when the AIno 3D-model iframe is loaded
 		function AIno_intro() {
+			$('#aino3D').ready(function () {
 				$("#intro").slideDown("slow");
 				meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
+			});
 		}
 
     if (annyang) {
@@ -206,7 +208,7 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
-		<iframe id="background" src="https://sketchfab.com/models/e535f09ece994dd0988a52a6086e40dd/embed?autospin=0&amp;autostart=1&amp;camera=0&amp;ui_infos=0&amp;ui_controls=0&amp;ui_general_controls=0&amp;ui_stop=0&amp;transparent=1&amp;preload=1&amp;fullscreen=1" style="
+		<iframe id="aino3D" src="https://sketchfab.com/models/e535f09ece994dd0988a52a6086e40dd/embed?autospin=0&amp;autostart=1&amp;camera=0&amp;ui_infos=0&amp;ui_controls=0&amp;ui_general_controls=0&amp;ui_stop=0&amp;transparent=1&amp;preload=1&amp;fullscreen=1" style="
 			height: auto;
 			border: none;
 		" onload="AIno_intro(this)"></iframe>
