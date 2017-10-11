@@ -135,12 +135,14 @@
 
 		function play3D() {
 			//$( '#_play' ).prop('checked', true);
-			$( '#_play' ).trigger('click');
+			//$( '#_play' ).trigger('click');
+			$( '#_play' ).click(function() {console.log("play.click")});
 		}
 
 		function pause3D() {
 			//$( '#_play' ).prop('checked', false);
-			$( '#_stop' ).trigger('click');
+			//$( '#_stop' ).trigger('click');
+			$( '#_stop' ).click(function() {console.log("stop.click")});
 		}
 
 		var f_AIno_initialize = function () {
@@ -233,8 +235,8 @@
 	<body>
 		<!-- Hidden checkbox used to control playing the 3D animation -->
 		<p align="right">
-			<input id="_play" type="button"/>
-			<input id="_stop" type="button"/>
+			<input id="_play" type="button" title="play"/>
+			<input id="_stop" type="button" title="stop"/>
 		</p>
 
 		<!-- firts version, the static iframe of 3D AIno -->
