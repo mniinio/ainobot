@@ -30,6 +30,7 @@
 			}
 
 			section{
+				font-family: 'Lato', sans-serif;
 				color: #444;
 			}
 
@@ -102,13 +103,13 @@
 			}
 
 			input[type=radio]:checked ~ .check::before{
-				background: #0DFF92;
+				background: ##0000ff;
 			}
 
 			input[type=radio]:checked ~ label{
-				color: #0DFF92;
+				color: ##0000ff;
 			}
-			
+
 			.aino-speech {
 			    display: block;
 				background: #fff;
@@ -117,21 +118,25 @@
 				width: 50%;
 				margin-left: 7%;
 			}
-			
+
 		</style>
-		<script src="annyang.min.js"></script> <!-- //cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/ -->
+		<script src="annyang.min.js"></script>
 		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/"></script> -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<!-- <script src="//speechkitt.min.js"></script>--> <!-- //cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/ -->
+		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>-->
 		<script type="text/javascript" src="mespeak/mespeak.js?v=1.9.7.1"></script>
 		<script type="text/javascript">
 			meSpeak.loadConfig("mespeak/mespeak_config.json");
 			meSpeak.loadVoice("mespeak/voices/fi.json");
-			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 	    </script>
     <script>
     "use strict";
 
+		// This function is called when the AIno 3D-model iframe is loaded
+		function AIno_intro() {
+				$("#intro").slideDown("slow");
+				meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
+		}
 
     if (annyang) {
 
@@ -204,12 +209,12 @@
 		<iframe id="background" src="https://sketchfab.com/models/e535f09ece994dd0988a52a6086e40dd/embed?autospin=0&amp;autostart=1&amp;camera=0&amp;ui_infos=0&amp;ui_controls=0&amp;ui_general_controls=0&amp;ui_stop=0&amp;transparent=1&amp;preload=1&amp;fullscreen=1" style="
 			height: auto;
 			border: none;
-		"></iframe>
+		" onload="AIno_intro(this)"></iframe>
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
     <section id="section_hei" class="sec">
-      <p id="intro" class="voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
+      <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
       <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
 			<p id="p_org" class="hidden aino-speech">
 				Kuulinko oikein: <input id="aino_org" type="text" size="20"/>? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
@@ -223,12 +228,12 @@
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
 				<ul>
 					<li>
-						<input type="radio" name="selector" id="arvolupaus">
+						<input type="radio" name="question1" id="arvolupaus">
 						<label for="f-option">arvolupaus</label>
 						<div class="check"></div>
 					</li>
 					<li>
-						<input type="radio" name="selector" id="suhteellinen">
+						<input type="radio" name="question1" id="suhteellinen">
 						<label for="f-option">suhteellinen etumatka</label>
 						<div class="check"></div>
 					</li>
