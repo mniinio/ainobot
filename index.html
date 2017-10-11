@@ -135,12 +135,12 @@
 
 		function play3D() {
 			$( '#_play' ).prop('checked', true);
-			$( '#_play' ).trigger('change');
+			// $( '#_play' ).trigger('change');
 		}
 
 		function pause3D() {
 			$( '#_play' ).prop('checked', false);
-			$( '#_play' ).trigger('change');
+			// $( '#_play' ).trigger('change');
 		}
 
 		var f_AIno_initialize = function () {
@@ -262,7 +262,7 @@
 									api.start();
 								} else {
 									console.log( '_play uncheked' );
-									api.pause();
+									api.stop();
 								}
 							});
         	} );
