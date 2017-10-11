@@ -156,7 +156,7 @@
         $("#hei").slideDown("slow");
         scrollTo("#section_hei");
 				$( '#_play' ).prop('checked', true);
-		meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
+				meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
 				$( '#_play' ).prop('checked', false);
       };
 
@@ -219,6 +219,9 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
+		<!-- Hidden checkbox used to control playing the 3D animation -->
+		<input id="_play" type="checkbox" class="hidden"/>
+
 		<!-- firts version, the static iframe of 3D AIno -->
 		<!--
 		<iframe id="aino-background" src="https://sketchfab.com/models/e535f09ece994dd0988a52a6086e40dd/embed?autospin=0&amp;autostart=1&amp;camera=0&amp;ui_infos=0&amp;ui_controls=0&amp;ui_general_controls=0&amp;ui_stop=0&amp;transparent=1&amp;preload=1&amp;fullscreen=1" style="
@@ -241,14 +244,19 @@
 							$( '#_play' ).change( function (event) {
 								let chkbox = event.target;
 								if (chkbox.checked) {
-									api.play();
+									console.log( '_play checked!' );
+									api.start();
 								} else {
-									api.pause()
+									console.log( '_play uncheked' );
+									api.stop();
 								}
 							});
-
-							f_AIno_initialize();
         	} );
+
+					api.addEventListener( 'viewerready', function() {
+							console.log( 'Viewer is ready' );
+							f_AIno_initialize();
+					} );
         },
         error: function onError() {
             console.log( 'Viewer error' );
@@ -257,20 +265,13 @@
     } );
 
 		/*
-		api.addEventListener( 'viewerready', function() {
-				console.log( 'Viewer is ready' );
-				f_AIno_initialize();
-		} );
+
 		*/
     </script>
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
     <section id="section_hei" class="sec">
-
-			<!-- Hidden checkbox used to control playing the 3D animation -->
-			<input id="_play" type="checkbox" class="hidden"/>
-
       <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
       <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
 			<p id="p_org" class="hidden aino-speech">
