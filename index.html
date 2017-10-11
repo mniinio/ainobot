@@ -135,10 +135,12 @@
 
 		var _3D_api; // global variable for getting pointer to the 3D control API
 
-		var f_AIno_initialize = function () {
+		var f_AIno_initialize = function (f_api) {
+			_3D_api = f_api;
+			f_api.play();
 			$("#intro").slideDown("slow");
 			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-			_3D_api.pause();
+			f_api.pause();
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
@@ -238,14 +240,11 @@
 
     client.init( urlid, {
         success: function onSuccess( api ){
-						_3D_api = api;
             api.start();
             api.addEventListener( 'viewerready', function() {
-                // API is ready to use
-                // Insert your code here
+								_3D_api = api;
                 console.log( 'Viewer is ready' );
-								api.play();
-								f_AIno_initialize();
+								f_AIno_initialize(api);
             } );
         },
         error: function onError() {
