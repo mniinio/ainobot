@@ -133,6 +133,12 @@
     <script>
     "use strict";
 
+		function speak_aino(speechtext) {
+			play3D();
+			// meSpeak.speak calls the pause3D as callback when finished
+			meSpeak.speak(speechtext, { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' }, pause3D);
+		}
+
 		function play3D() {
 			//$( '#_play' ).prop('checked', true);
 			$( '#_play' ).trigger('click');
@@ -147,9 +153,7 @@
 
 		var f_AIno_initialize = function () {
 			$("#intro").slideDown("slow");
-			play3D();
-			meSpeak.speak('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-			pause3D();
+			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
@@ -167,9 +171,7 @@
 				$("#intro").slideUp("slow");
         $("#hei").slideDown("slow");
         scrollTo("#section_hei");
-				play3D();
-				meSpeak.speak('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-				pause3D();
+				speak_aino('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"');
       };
 
 			var get_org = function(heard_org) {
@@ -233,7 +235,7 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
-		<!-- Hidden checkbox used to control playing the 3D animation -->
+		<!-- Hidden checkbox used to contmrol playing the 3D animation -->
 		<p align="right">
 			<button id="_play" type="button" title="play">play</button>
 			<button id="_stop" type="button" title="stop">stop</button>
@@ -289,12 +291,12 @@
 		</section>
     <section id="section_hei" class="sec">
       <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
-      <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on..."</p>
+      <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "<b>Nimi on</b>..."</p>
 			<p id="p_org" class="hidden aino-speech">
 				Kuulinko oikein: <input id="aino_org" type="text" size="20"/>? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
 				</br>
 				</br>
-				Ole hyvä ja vahvista nimi oikeaksi sanomalla "Nimi oikein", kiitos.
+				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
 			</p>
 			<div id="p_options" class="hidden aino-speech">
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
