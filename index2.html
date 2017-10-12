@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>AIno bot</title>
-		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 		<style>
 			@import url('https://fonts.googleapis.com/css?family=Lato');
 
@@ -124,12 +123,14 @@
 		<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.1.js"></script>
 		<script src="annyang.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+		<script>
     "use strict";
 
 		function speak_aino(speechtext) {
 			play3D();
 			// meSpeak.speak calls the pause3D as callback when finished
-			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
+			responsiveVoice.speak(speechtext, &quote;Finnish Female&quote;, {rate: 1.5});
 		}
 
 		function play3D() {
