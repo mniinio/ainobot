@@ -177,17 +177,14 @@
 			var get_org = function(heard_org) {
 				$("#hei").slideUp("slow");
         $("#p_org").slideDown("slow");
-				// $("#aino_org").value = heard_org + '';
 				document.getElementById("aino_org").value = heard_org.toString();
-				play3D();
-				meSpeak.speak('Kuulinko oikein, sanoitko '+heard_org.toString(), { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
-				pause3D();
+				speak_aino('Kuulinko oikein, sanoitko '+heard_org.toString());
       };
 
 			var got_name_right = function() {
 				$("#p_org").slideUp("slow");
 				$("#p_options").slideDown("slow");
-				meSpeak.speak('Valitse paras vaihtoehto lukemalla vaihtoehdon teksti', { amplitude: 80, wordgap: 0, pitch: 50, speed: 150, variant: 'f5' });
+				speak_aino('Valitse paras vaihtoehto lukemalla vaihtoehdon teksti');
 			}
 
 			var choose_arvolupaus = function() {
@@ -235,8 +232,8 @@
     <link rel="stylesheet" href="main.min.css" />
 	</head>
 	<body>
-		<!-- Hidden checkbox used to contmrol playing the 3D animation -->
-		<p align="right">
+		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
+		<p align="right" class="hidden">
 			<button id="_play" type="button" title="play">play</button>
 			<button id="_stop" type="button" title="stop">stop</button>
 		</p>
@@ -248,6 +245,7 @@
 			border: none;
 		" onload="AIno_intro(this)"></iframe>
 		-->
+
 		<!-- Insert an empty iframe for AIno 3D animation -->
 		<iframe src="" id="aino-background" style="height: auto; border: none;"></iframe>
 		<!-- Initialize the viewer -->
@@ -279,7 +277,10 @@
         error: function onError() {
             console.log( 'Viewer error' );
         },
-				transparent: 1
+				transparent: 1,
+				ui_infas: 0,
+				ui_controls: 0,
+				ui_general_controls: 0,
     } );
 
 		/*
