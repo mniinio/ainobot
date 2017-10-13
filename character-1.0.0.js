@@ -63,6 +63,50 @@ function ainoIdle() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
+						let $apiFrame = document.getElementById("aino-idle");
+						AIno_intro();
+						$apiFrame.classList.remove("hidden"); // Remove hidden class
+			                      //once the viewer is ready, show the iframe
+					} );
+        },
+        error: function onError() {
+            console.log( 'Viewer error' );
+        },
+				transparent: 1,
+				camera: 0,
+				ui_infos: 0,
+				ui_controls: 0,
+				ui_general_controls: 0,
+				ui_stop: 0,
+				preload: 1,
+    } );
+}
+
+function ainoDancing() {
+    var iframe = document.getElementById( 'aino-dancing' );
+    var version = '1.0.0';
+    var urlid = '5344313985f34a5ca8caa95145ea9fc3';
+    var client = new Sketchfab( version, iframe );
+
+    client.init( urlid, {
+        success: function onSuccess( api ){
+          api.start( function() {
+						$( '#_play' ).click( function (event) {
+								console.log( '_play!' );
+								api.play();
+						});
+
+						$( '#_stop' ).click( function (event) {
+								console.log( '_stop!' );
+								api.pause();
+						});
+					});
+
+					api.addEventListener( 'viewerready', function() {
+						console.log( 'Viewer is ready' );
+						let $apiFrame = document.getElementById("aino-dancing");
+						AIno_intro();
+						$apiFrame.classList.remove("hidden"); // Remove hidden class
 			                      //once the viewer is ready, show the iframe
 					} );
         },
@@ -104,5 +148,19 @@ function hideAinoTalking() {
 	//let $apiFrame = document.getElementById("aino-talking");
 	//$apiFrame.classList.add("hidden"); // Remove hidden class		
 	var div = $("#aino-talking");
+	    div.animate({zIndex: '-100', opacity: '0'}, "slow");
+}
+
+function showAinoDancing() {
+	//let $apiFrame = document.getElementById("aino-talking");
+	//$apiFrame.classList.remove("hidden"); // Remove hidden class
+	var div = $("#aino-dancing");
+   	 	div.animate({zIndex: '100', opacity: '1'}, "slow");
+}
+
+function hideAinoDancing() {
+	//let $apiFrame = document.getElementById("aino-talking");
+	//$apiFrame.classList.add("hidden"); // Remove hidden class		
+	var div = $("#aino-Dancing");
 	    div.animate({zIndex: '-100', opacity: '0'}, "slow");
 }
