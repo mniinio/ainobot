@@ -1,6 +1,17 @@
 			@import url('https://fonts.googleapis.com/css?family=Lato');
 
-			#aino-background {
+			#aino-talking {
+			    position: fixed;
+			    top: 0%;
+			    left: 0%;
+			    min-width: 25%;
+			    min-height: 100%;
+			    width: auto;
+			    height: auto;
+			    background: #000;
+			}
+
+			#aino-idle {
 			    position: fixed;
 			    top: 0%;
 			    left: 0%;
