@@ -236,9 +236,8 @@
 		</p>
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
-		<iframe src="" id="aino-background" style="height: auto; border: none;"></iframe>
+		<iframe src="" id="aino-background" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
-  <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
     var iframe = document.getElementById( 'aino-background' );
@@ -263,7 +262,7 @@
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
 			                      //once the viewer is ready, show the iframe
-						let $apiFrame = document.getElementById("api-frame");
+						let $apiFrame = document.getElementById("aino-background");
 						$apiFrame.classList.remove("hidden"); // Remove hidden class
 						f_AIno_initialize();
 					} );
