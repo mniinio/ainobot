@@ -130,7 +130,7 @@
 		function speak_aino(speechtext) {
 			play3D();
 			// meSpeak.speak calls the pause3D as callback when finished
-			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
+			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5}, pause3D);
 		}
 
 		function play3D() {
