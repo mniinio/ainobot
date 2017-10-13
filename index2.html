@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="ainobot.css">
 		<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.1.js"></script>
 		<script src="annyang.min.js"></script>
+		<script type="text/javascript" src="character-1.0.0.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 		<script>
@@ -119,49 +120,6 @@
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
-    var iframe = document.getElementById( 'aino-background' );
-    var version = '1.0.0';
-    var urlid = 'e535f09ece994dd0988a52a6086e40dd'; //'7w7pAfrCfjovwykkEeRFLGw5SXS';
-    var client = new Sketchfab( version, iframe );
-
-    client.init( urlid, {
-        success: function onSuccess( api ){
-          api.start( function() {
-						$( '#_play' ).click( function (event) {
-								console.log( '_play!' );
-								api.play();
-						});
-
-						$( '#_stop' ).click( function (event) {
-								console.log( '_stop!' );
-								api.pause();
-						});
-					});
-
-					api.addEventListener( 'viewerready', function() {
-						console.log( 'Viewer is ready' );
-			                      //once the viewer is ready, show the iframe
-						let $apiFrame = document.getElementById("aino-background");
-						AIno_intro();
-						//f_AIno_initialize();
-						$apiFrame.classList.remove("hidden"); // Remove hidden class
-					} );
-        },
-        error: function onError() {
-            console.log( 'Viewer error' );
-        },
-				transparent: 1,
-				camera: 0,
-				ui_infos: 0,
-				ui_controls: 0,
-				ui_general_controls: 0,
-				ui_stop: 0,
-				preload: 1,
-    } );
-
-		/*
-
-		*/
     </script>
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
