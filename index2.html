@@ -14,6 +14,10 @@
 			    width: auto;
 			    height: auto;
 			}
+			    // Hidden class for Mozilla and others with no display none support
+				    .hidden {
+					visibility:hidden; height:0; width: 0;
+				    }
 
 			body, html{
 				height: 100%;
@@ -231,16 +235,10 @@
 			<button id="_stop" type="button" title="stop">stop</button>
 		</p>
 
-		<!-- firts version, the static iframe of 3D AIno -->
-		<!--
-		<iframe id="aino-background" src="https://sketchfab.com/models/e535f09ece994dd0988a52a6086e40dd/embed?autospin=0&amp;autostart=1&amp;camera=0&amp;ui_infos=0&amp;ui_controls=0&amp;ui_general_controls=0&amp;ui_stop=0&amp;transparent=1&amp;preload=1&amp;fullscreen=1" style="
-			height: auto;
-			border: none;
-		" onload="AIno_intro(this)"></iframe>
-		-->
-
 		<!-- Insert an empty iframe for AIno 3D animation -->
 		<iframe src="" id="aino-background" style="height: auto; border: none;"></iframe>
+		 <!-- Insert an empty iframe, hidden by default using a class-->
+  <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
     var iframe = document.getElementById( 'aino-background' );
@@ -263,8 +261,11 @@
 					});
 
 					api.addEventListener( 'viewerready', function() {
-							console.log( 'Viewer is ready' );
-							f_AIno_initialize();
+						console.log( 'Viewer is ready' );
+			                      //once the viewer is ready, show the iframe
+						let $apiFrame = document.getElementById("api-frame");
+						$apiFrame.classList.remove("hidden"); // Remove hidden class
+						f_AIno_initialize();
 					} );
         },
         error: function onError() {
