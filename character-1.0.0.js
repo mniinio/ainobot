@@ -80,6 +80,7 @@ function ainoIdle() {
 }
 
 function showAinoIdle() {
+	hideAinoTalking();
 	let $apiFrame = document.getElementById("aino-idle");
 	$apiFrame.classList.remove("hidden"); // Remove hidden class		
 }
@@ -90,6 +91,7 @@ function hideAinoIdle() {
 }
 
 function showAinoTalking() {
+	hideAinoIdle();
 	let $apiFrame = document.getElementById("aino-talking");
 	$apiFrame.classList.remove("hidden"); // Remove hidden class		
 }
