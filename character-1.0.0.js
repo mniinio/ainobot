@@ -84,7 +84,7 @@ function showAinoIdle() {
 	$apiFrame.classList.remove("hidden"); // Remove hidden class		
 }
 
-function showAinoIdle() {
+function hideAinoIdle() {
 	let $apiFrame = document.getElementById("aino-idle");
 	$apiFrame.classList.add("hidden"); // Remove hidden class		
 }
