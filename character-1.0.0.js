@@ -25,7 +25,6 @@ function ainoTalking() {
 			                      //once the viewer is ready, show the iframe
 						let $apiFrame = document.getElementById("aino-talking");
 						AIno_intro();
-						//f_AIno_initialize();
 						$apiFrame.classList.remove("hidden"); // Remove hidden class
 					} );
         },
@@ -65,10 +64,6 @@ function ainoIdle() {
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
 			                      //once the viewer is ready, show the iframe
-						let $apiFrame = document.getElementById("aino-idle");
-						AIno_intro();
-						//f_AIno_initialize();
-						$apiFrame.classList.remove("hidden"); // Remove hidden class
 					} );
         },
         error: function onError() {
@@ -82,4 +77,24 @@ function ainoIdle() {
 				ui_stop: 0,
 				preload: 1,
     } );
+}
+
+function showAinoIdle() {
+	let $apiFrame = document.getElementById("aino-idle");
+	$apiFrame.classList.remove("hidden"); // Remove hidden class		
+}
+
+function showAinoIdle() {
+	let $apiFrame = document.getElementById("aino-idle");
+	$apiFrame.classList.add("hidden"); // Remove hidden class		
+}
+
+function showAinoTalking() {
+	let $apiFrame = document.getElementById("aino-talking");
+	$apiFrame.classList.remove("hidden"); // Remove hidden class		
+}
+
+function hideAinoTalking() {
+	let $apiFrame = document.getElementById("aino-talking");
+	$apiFrame.classList.add("hidden"); // Remove hidden class		
 }
