@@ -264,8 +264,9 @@
 						console.log( 'Viewer is ready' );
 			                      //once the viewer is ready, show the iframe
 						let $apiFrame = document.getElementById("aino-background");
+						AIno_intro();
+						//f_AIno_initialize();
 						$apiFrame.classList.remove("hidden"); // Remove hidden class
-						f_AIno_initialize();
 					} );
         },
         error: function onError() {
