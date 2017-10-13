@@ -80,21 +80,29 @@ function ainoIdle() {
 }
 
 function showAinoIdle() {
-	let $apiFrame = document.getElementById("aino-idle");
-	$apiFrame.classList.remove("hidden"); // Remove hidden class		
+	//let $apiFrame = document.getElementById("aino-idle");
+	//$apiFrame.classList.remove("hidden"); // Remove hidden class	
+	var div = $("#aino-idle");
+ 	   div.animate({zIndex: '100', opacity: '1'}, "slow");
 }
 
 function hideAinoIdle() {
-	let $apiFrame = document.getElementById("aino-idle");
-	$apiFrame.classList.add("hidden"); // Remove hidden class		
+	//let $apiFrame = document.getElementById("aino-idle");
+	//$apiFrame.classList.add("hidden"); // Remove hidden class
+	var div = $("#aino-idle");
+  	  div.animate({zIndex: '-100', opacity: '0'}, "slow");
 }
 
 function showAinoTalking() {
-	let $apiFrame = document.getElementById("aino-talking");
-	$apiFrame.classList.remove("hidden"); // Remove hidden class		
+	//let $apiFrame = document.getElementById("aino-talking");
+	//$apiFrame.classList.remove("hidden"); // Remove hidden class
+	var div = $("#aino-talking");
+   	 	div.animate({zIndex: '100', opacity: '1'}, "slow");
 }
 
 function hideAinoTalking() {
-	let $apiFrame = document.getElementById("aino-talking");
-	$apiFrame.classList.add("hidden"); // Remove hidden class		
+	//let $apiFrame = document.getElementById("aino-talking");
+	//$apiFrame.classList.add("hidden"); // Remove hidden class		
+	var div = $("#aino-talking");
+	    div.animate({zIndex: '-100', opacity: '0'}, "slow");
 }
