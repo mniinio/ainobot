@@ -51,17 +51,16 @@
 
 		var f_AIno_initialize = function () {
 			$("#intro").slideDown("slow");
-			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
+			//speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
+			responsiveVoice.speak("Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!", "Finnish Female", {rate: 1.5}, { onstart: hideIdle, onend: enterIdle });
+
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
 		function AIno_intro() {
 			// JS way to have pause before calling f_AIno_initialize
 			$('#aino-talking').ready(function () {
-				//setTimeout(f_AIno_initialize, 2000);
-				setTimeout($("#intro").slideDown("slow"),2000);
-				//speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
-				responsiveVoice.speak("Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!", "Finnish Female", {rate: 1.5}, { onstart: hideIdle, onend: enterIdle });
+				setTimeout(f_AIno_initialize, 2000);
 			});
 			play3D();			
 		}
