@@ -18,6 +18,8 @@
 		var answers_score = []; //array of each answer's score. First answer is company name which has score 0.
 		var lastanswered = 0; //sequence number of the last already answered question to follow where user is
 		
+		var companyname = "";
+		
 		function speak_aino(speechtext) {
 			// meSpeak.speak calls the pause3D as callback when finished
 			hideIdle();
@@ -70,19 +72,20 @@
     if (annyang) {
 
       // define the functions our commands will run.
-      var hello = function() {
+     			 var hello = function() {
 				$("#intro").slideUp("slow");
-        $("#hei").slideDown("slow");
-        scrollTo("#section_hei");
+				$("#hei").slideDown("slow");
+				scrollTo("#section_hei");
 				speak_aino('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"');
-      };
+    			  };
 
 			var get_org = function(heard_org) {
 				$("#hei").slideUp("slow");
-        $("#p_org").slideDown("slow");
+        			$("#p_org").slideDown("slow");
 				document.getElementById("aino_org").value = heard_org.toString();
 				speak_aino('Kuulinko oikein, sanoitko '+heard_org.toString());
-      };
+				companyname = heard_org.toSting();
+      			 };
 
 			var got_name_right = function() {
 				example();
@@ -149,7 +152,7 @@ function example()
 	
     $.ajax({
         type: "GET", 
-        url: "/api/simpleget?companyname="+ heard_org, 
+        url: "/api/simpleget?companyname="+ companyname, 
         success: function(response)
         {
             /*response = {
