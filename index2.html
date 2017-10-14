@@ -13,10 +13,19 @@
     "use strict";
 		function speak_aino(speechtext) {
 			// meSpeak.speak calls the pause3D as callback when finished
-			showAinoTalking();
+			hideIdle();
 			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
-			setTimeout(showAinoIdle, 4500);
-			setTimeout(hideAinoTalking, 6500);
+			setTimeout(enterIdle, 4500);
+		}
+		
+		function enterIdle() {
+			let div = document.getElementById('aino-idle');
+			div.animate({zIndex: 100, opacity: 1});
+		}
+			
+		function hideIdle() {
+			let div = document.getElementById('aino-idle');
+			div.animate({zIndex: -100, opacity: 0});
 		}
 
 		function play3D() {
@@ -42,6 +51,7 @@
 			$('#aino-talking').ready(function () {
 				setTimeout(f_AIno_initialize, 2000);
 			});
+			showAinoIdle();
 			showAinoTalking();
 			play3D();
 		}
