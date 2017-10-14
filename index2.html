@@ -19,13 +19,11 @@
 		}
 		
 		function enterIdle() {
-			let div = document.getElementById('aino-idle');
-			div.animate({zIndex: 100, opacity: 1});
+			$("#aino-idle").animate({zIndex: 100, opacity: 1});
 		}
 			
 		function hideIdle() {
-			let div = document.getElementById('aino-idle');
-			div.animate({zIndex: -100, opacity: 0});
+			$("#aino-idle").animate({zIndex: -100, opacity: 0});
 		}
 
 		function play3D() {
@@ -35,7 +33,7 @@
 		}
 
 		function pause3D() {
-			//$( '#_play' ).prop('checked', false);
+			//$( '#_play' ).prop('checked', fal<se);
 			$( '#_stop' ).trigger('click');
 			//$( '#_stop' ).click(function() {console.log("stop.click")});
 		}
