@@ -135,13 +135,25 @@
 				color: #e60000;
 			}
 
-			.aino-speech {
+			.aino-speech {    
 			    display: block;
-				background: #000;
-				color: #fff;
-				border-radius: 10px;
-				padding: 5px;
-				width: 50%;
-				margin-left: 300px;
+			    background: transparent;
+			    color: #fff;
+			    border-radius: 10px;
+			    padding: 5px;
+			    width: 50%;
+			    margin-left: 10em;
+			    font-size: xx-large;
+			}
+
+			input .aino-speech {
+			    background: none;
+			    border-left: 0;
+			    border-top: 0;
+			    border-right: 0;
+			    font-size: larger;
+			    color: #fff;
+			    display: block;
+			    margin: 2em;
 			}
 
