@@ -120,7 +120,7 @@ function showAinoIdle() {
 function hideAinoIdle() {
 	let $apiFrame = document.getElementById('aino-idle');
 	$apiFrame.classList.add('hidden'); 
-	
+}	
 function showAinoTalking() {
 	let $apiFrame = document.getElementById('aino-talking');
 	$apiFrame.classList.remove('hidden');
@@ -129,6 +129,7 @@ function showAinoTalking() {
 function hideAinoTalking() {
 	let $apiFrame = document.getElementById('aino-talking');
 	$apiFrame.classList.add('hidden'); 	
+}
 
 function showAinoDancing() {
 	let $apiFrame = document.getElementById('aino-dancing');
