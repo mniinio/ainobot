@@ -87,9 +87,10 @@
 			var next_question = function() {
 				lastanswered++;
 				console.log(lastanswered);
-				let qname = '#p_question'+lastanswered+1;
+				let next = lastanswered+1;
+				let qname = '#p_question'+next;
 				$(qname).slideDown("slow");
-				speak_aino('Kysymys numero'+lastanswered+1);
+				speak_aino('Kysymys numero'+next);
 			}
 
 			var choose_arvolupaus = function() {
@@ -169,7 +170,7 @@
       <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
       <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "<b>Nimi on</b>..."</p>
 			<p id="p_org" class="hidden aino-speech">
-				Kuulinko oikein: <input id="aino_org" type="text" size="20"/>? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
+				Kuulinko oikein: <input id="aino_org" type="text" size="20" class="aino-speech" />? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
 				</br>
 				</br>
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
