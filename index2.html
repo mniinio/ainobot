@@ -15,7 +15,8 @@
 			// meSpeak.speak calls the pause3D as callback when finished
 			showAinoTalking();
 			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
-			setTimeout(showAinoIdle, 6500);
+			setTimeout(showAinoIdle, 4500);
+			setTimeout(hideAinoTalking, 6500);
 		}
 
 		function play3D() {
