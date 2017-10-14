@@ -8,7 +8,7 @@
 			    min-height: 100%;
 			    width: auto;
 			    height: auto;
-			    background: #000;
+			    background: transparent;
 			}
 
 			#aino-dancing {
@@ -19,7 +19,7 @@
 			    min-height: 100%;
 			    width: auto;
 			    height: auto;
-			    background: #000;
+			    background: transparent;
 			}
 
 			#aino-idle {
@@ -30,7 +30,7 @@
 			    min-height: 100%;
 			    width: auto;
 			    height: auto;
-			    background: #000;
+			    background: transparent;
 			}
 			    // Hidden class for Mozilla and others with no display none support
 			.hidden {
@@ -145,7 +145,7 @@
 			    font-size: xx-large;
 			}
 
-			input .aino-speech {
+			input .aino-speech::before {
 			    background: none;
 			    border-left: 0;
 			    border-top: 0;
