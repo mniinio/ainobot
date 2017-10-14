@@ -124,43 +124,29 @@ function ainoDancing() {
 }
 
 function showAinoIdle() {
-	//let $apiFrame = document.getElementById("aino-idle");
-	//$apiFrame.classList.remove("hidden"); // Remove hidden class	
-	var div = $("#aino-idle");
- 	   div.animate({zIndex: '100', opacity: '1'}, "slow");
+	let $apiFrame = document.getElementById("aino-idle");
+	$apiFrame.classList.remove("hidden"); 
 }
 
 function hideAinoIdle() {
-	//let $apiFrame = document.getElementById("aino-idle");
-	//$apiFrame.classList.add("hidden"); // Remove hidden class
-	var div = $("#aino-idle");
-  	  div.animate({zIndex: '-100', opacity: '0'}, "slow");
-}
-
+	let $apiFrame = document.getElementById("aino-idle");
+	$apiFrame.classList.add("hidden"); 
+	
 function showAinoTalking() {
-	//let $apiFrame = document.getElementById("aino-talking");
-	//$apiFrame.classList.remove("hidden"); // Remove hidden class
-	var div = $("#aino-talking");
-   	 	div.animate({zIndex: '100', opacity: '1'}, "slow");
+	let $apiFrame = document.getElementById("aino-talking");
+	$apiFrame.classList.remove("hidden");
 }
 
 function hideAinoTalking() {
-	//let $apiFrame = document.getElementById("aino-talking");
-	//$apiFrame.classList.add("hidden"); // Remove hidden class		
-	var div = $("#aino-talking");
-	    div.animate({zIndex: '-100', opacity: '0'}, "slow");
-}
+	$apiFrame = document.getElementById("aino-talking");
+	$apiFrame.classList.add("hidden"); 	
 
 function showAinoDancing() {
-	//let $apiFrame = document.getElementById("aino-talking");
-	//$apiFrame.classList.remove("hidden"); // Remove hidden class
-	var div = $("#aino-dancing");
-   	 	div.animate({zIndex: '100', opacity: '1'}, "slow");
+	let $apiFrame = document.getElementById("aino-dancing");
+	$apiFrame.classList.remove("hidden");
 }
 
 function hideAinoDancing() {
-	//let $apiFrame = document.getElementById("aino-talking");
-	//$apiFrame.classList.add("hidden"); // Remove hidden class		
-	var div = $("#aino-Dancing");
-	    div.animate({zIndex: '-100', opacity: '0'}, "slow");
+	$apiFrame = document.getElementById("aino-dancing");
+	$apiFrame.classList.add("hidden");		
 }
