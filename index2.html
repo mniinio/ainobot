@@ -50,8 +50,6 @@
 		}
 
 		var f_AIno_initialize = function () {
-			enterIdle();
-			hideIdle();
 			$("#intro").slideDown("slow");
 			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
 		};
@@ -59,7 +57,9 @@
 		// This function is called when the AIno 3D-model iframe is loaded
 		function AIno_intro() {
 			// JS way to have pause before calling f_AIno_initialize
-			$('#aino-talking').ready(function () {
+			$('#aino-idle').ready(function () {
+				enterIdle();
+				hideIdle();
 				setTimeout(f_AIno_initialize, 2000);
 			});
 			play3D();			
