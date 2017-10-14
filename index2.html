@@ -26,11 +26,13 @@
 		}
 		
 		function enterIdle() {
-			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");
+			$("#aino-talking").addClass("hidden");
+			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");			
 		}
 			
 		function hideIdle() {
 			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
+			$("#aino-talking").removeClass("hidden");
 		}
 
 		function play3D() {
