@@ -15,7 +15,7 @@
 			// meSpeak.speak calls the pause3D as callback when finished
 			showAinoTalking();
 			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
-			setTimeout(showAinoIdle, 10000);
+			setTimeout(showAinoIdle, 6500);
 		}
 
 		function play3D() {
@@ -41,6 +41,7 @@
 			$('#aino-talking').ready(function () {
 				setTimeout(f_AIno_initialize, 2000);
 			});
+			showAinoTalking();
 			play3D();
 		}
 
@@ -77,11 +78,11 @@
 
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
-        'hei':    						hello,
+        			'hei': hello,
 				'nimi on *hear_org':  get_org,
-				'nimi oikein':				got_name_right,
-				'arvolupaus':					choose_arvolupaus,
-				'suhteellinen *what_ever':	choose_suhteellinen,
+				'nimi oikein': got_name_right,
+				'arvolupaus': choose_arvolupaus,
+				'suhteellinen *what_ever': choose_suhteellinen,
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
