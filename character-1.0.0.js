@@ -23,7 +23,7 @@ function ainoTalking() {
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
 						AIno_intro();
-					} )
+					} );
         },
         error: function onError() {
             console.log( 'Viewer error' );
@@ -60,7 +60,7 @@ function ainoIdle() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
-					} )
+					} );
         },
         error: function onError() {
             console.log( 'Viewer error' );
@@ -97,7 +97,7 @@ function ainoDancing() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
-					} )
+					} );
         },
         error: function onError() {
             console.log( 'Viewer error' );
