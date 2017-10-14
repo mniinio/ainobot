@@ -31,8 +31,8 @@
 		}
 			
 		function hideIdle() {
-			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
 			$("#aino-talking").removeClass("hidden");
+			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
 		}
 
 		function play3D() {
@@ -56,11 +56,12 @@
 		function AIno_intro() {
 			// JS way to have pause before calling f_AIno_initialize
 			$('#aino-talking').ready(function () {
-				setTimeout(f_AIno_initialize, 2000);
+				//setTimeout(f_AIno_initialize, 2000);
+				$("#intro").slideDown("slow");
+				//speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
+				responsiveVoice.speak("Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!", "Finnish Female", {rate: 1.5}, { onstart: hideIdle, onend: enterIdle);
 			});
-			showAinoIdle();
-			showAinoTalking();
-			play3D();
+			play3D();			
 		}
 
     if (annyang) {
