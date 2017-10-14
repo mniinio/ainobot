@@ -87,7 +87,8 @@
 			var next_question = function() {
 				lastanswered++;
 				console.log(lastanswered);
-				$("#p_question"+lastanswered+1+").slideDown("slow");
+				let qname = '#p_question'+lastanswered+1'
+				$(qname).slideDown("slow");
 				speak_aino('Kysymys numero'+lastanswered+1+');
 			}
 
