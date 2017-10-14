@@ -97,6 +97,7 @@ function ainoDancing() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
+					} );
         },
         error: function onError() {
             console.log( 'Viewer error' );
