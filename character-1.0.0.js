@@ -22,10 +22,7 @@ function ainoTalking() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
-			                      //once the viewer is ready, show the iframe
-						let $apiFrame = document.getElementById("aino-talking");
 						AIno_intro();
-						$apiFrame.classList.remove("hidden"); // Remove hidden class
 					} );
         },
         error: function onError() {
@@ -63,10 +60,6 @@ function ainoIdle() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
-						let $apiFrame = document.getElementById("aino-idle");
-						AIno_intro();
-						$apiFrame.classList.remove("hidden"); // Remove hidden class
-			                      //once the viewer is ready, show the iframe
 					} );
         },
         error: function onError() {
@@ -104,11 +97,6 @@ function ainoDancing() {
 
 					api.addEventListener( 'viewerready', function() {
 						console.log( 'Viewer is ready' );
-						let $apiFrame = document.getElementById("aino-dancing");
-						AIno_intro();
-						$apiFrame.classList.remove("hidden"); // Remove hidden class
-			                      //once the viewer is ready, show the iframe
-					} );
         },
         error: function onError() {
             console.log( 'Viewer error' );
@@ -138,7 +126,7 @@ function showAinoTalking() {
 }
 
 function hideAinoTalking() {
-	$apiFrame = document.getElementById("aino-talking");
+	let $apiFrame = document.getElementById("aino-talking");
 	$apiFrame.classList.add("hidden"); 	
 
 function showAinoDancing() {
@@ -147,6 +135,6 @@ function showAinoDancing() {
 }
 
 function hideAinoDancing() {
-	$apiFrame = document.getElementById("aino-dancing");
+	let $apiFrame = document.getElementById("aino-dancing");
 	$apiFrame.classList.add("hidden");		
 }
