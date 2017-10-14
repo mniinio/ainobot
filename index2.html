@@ -16,6 +16,7 @@
 		
 		var answers = []; //array of all answers as they are. First answer is the company name
 		var answers_score = []; //array of each answer's score. First answer is company name which has score 0.
+		var lastanswered = 0; //sequence number of the last already answered question to follow where user is
 		
 		function speak_aino(speechtext) {
 			// meSpeak.speak calls the pause3D as callback when finished
@@ -80,7 +81,14 @@
 			var got_name_right = function() {
 				$("#p_org").slideUp("slow");
 				$("#p_options").slideDown("slow");
-				speak_aino('Valitse paras vaihtoehto lukemalla vaihtoehdon teksti');
+				speak_aino('Valitse paras vaihtoehto sanomalla vaihtoehdon teksti');
+			}
+			
+			var next_question = function() {
+				lastanswered++;
+				console.log(lastanswered);
+				$("#p_question"+lastanswered+1+").slideDown("slow");
+				speak_aino('Kysymys numero'+lastanswered+1+');
 			}
 
 			var choose_arvolupaus = function() {
@@ -98,6 +106,7 @@
 				'nimi oikein': got_name_right,
 				'arvolupaus': choose_arvolupaus,
 				'suhteellinen *what_ever': choose_suhteellinen,
+	      			'seuraava kysymys': next_question
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
@@ -166,6 +175,22 @@
 			</p>
 			<div id="p_options" class="hidden aino-speech">
 				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
+				<ul>
+					<li>
+						<input type="radio" name="question1" id="arvolupaus">
+						<label for="f-option">arvolupaus</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question1" id="suhteellinen">
+						<label for="f-option">suhteellinen etumatka</label>
+						<div class="check"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="p_question2" class="hidden aino-speech">
+				Tämä on toinen kysymys.
 				<ul>
 					<li>
 						<input type="radio" name="question1" id="arvolupaus">
