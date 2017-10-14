@@ -15,15 +15,15 @@
 			// meSpeak.speak calls the pause3D as callback when finished
 			hideIdle();
 			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
-			setTimeout(enterIdle, 4500);
+			setTimeout(enterIdle, 6500);
 		}
 		
 		function enterIdle() {
-			$("#aino-idle").animate({zIndex: 100, opacity: 1});
+			$("#aino-idle").animate({zIndex: 100, opacity: 1}, slow);
 		}
 			
 		function hideIdle() {
-			$("#aino-idle").animate({zIndex: -100, opacity: 0});
+			$("#aino-idle").animate({zIndex: -100, opacity: 0}, slow);
 		}
 
 		function play3D() {
