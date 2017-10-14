@@ -52,6 +52,7 @@
 		var f_AIno_initialize = function () {
 			$("#intro").slideDown("slow");
 			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
+			
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
@@ -65,6 +66,7 @@
 			play3D();			
 		}
 
+			
     if (annyang) {
 
       // define the functions our commands will run.
@@ -83,6 +85,7 @@
       };
 
 			var got_name_right = function() {
+				example();
 				$("#p_org").slideUp("slow");
 				$("#p_options").slideDown("slow");
 				speak_aino('Valitse paras vaihtoehto sanomalla vaihtoehdon teksti');
@@ -139,6 +142,52 @@
         $('#unsupported').fadeIn('fast');
       });
     }
+			
+function example()
+{
+    var response = "";
+    var form_data = {
+        username: username,
+        password: password
+    };
+    $.ajax({
+        type: "GET", 
+        url: "/api/simpleget?companyname="+ heard_org, 
+        success: function(response)
+        {
+            /*response = {
+    "needs": [
+           {
+            "trait_id": "need_curiosity",
+            "name": "Curiosity",
+            "percentile": 0.5373686337663708,
+            "raw_score": 0.8191191361274531
+        },
+        {
+            "trait_id": "need_excitement",
+            "name": "Excitement",
+            "percentile": 0.09803489645368363,
+            "raw_score": 0.5825083820482316
+        }
+    ]
+}*/
+            console.log(response);
+            
+	    var json_obj = $.parseJSON(response);//parse JSON
+            
+            var output="<ul>";
+            for (var i in json_obj) 
+            {
+                output+="<li>" + json_obj.needs[i].name + ",  " + json_obj.needs[i].percentile + "</li>";
+            }
+            output+="</ul>";
+            
+            $('span').html(output);
+        },
+        dataType: "json"//set to JSON    
+    })    
+}
+
     </script>
 	</head>
 	<body>
