@@ -50,6 +50,8 @@
 		}
 
 		var f_AIno_initialize = function () {
+			enterIdle();
+			hideIdle();
 			$("#intro").slideDown("slow");
 			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
 		};
