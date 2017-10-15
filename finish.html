@@ -24,7 +24,7 @@
 		
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
-		<iframe src="" id="aino-dancing" style="z-index: -100; height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
@@ -41,7 +41,7 @@
 			<h1>AIno bot</h1>
 		</section>
     		<section id="section_hei" class="sec">
-			<p class="aino-speech">Sano "Aloita" jos haluat että mittaan digitalisaatiovalmiutesi</p>
+			<p class="aino-speech" style = "z-index:100;">Sano "Aloita" jos haluat että mittaan digitalisaatiovalmiutesi</p >
 		</section>
  <script>
     "use strict";
@@ -95,8 +95,8 @@
 					$(document).ready(function(){
 						window.open('index2.html');
 						return false;
-					}	);
-					});
+					}
+				);
     
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
