@@ -15,7 +15,7 @@
 			    position: fixed;
 			    top: 0%;
 			    left: 0%;
-			    min-width: 100%;
+			    min-width: 50%;
 			    min-height: 100%;
 			    width: auto;
 			    height: auto;
@@ -136,6 +136,16 @@
 			    padding: 5px;
 			    width: 50%;
 			    margin-left: 7em;
+			    font-size: xx-large;
+			}
+
+			.aino-speech-dancing {        
+			    display: block;
+			    background: transparent;
+			    color: #fff;
+			    padding: 5px;
+			    width: 50%;
+			    margin-left: 50%;
 			    font-size: xx-large;
 			}
 
