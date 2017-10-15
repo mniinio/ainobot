@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AIno bot</title>
+		<link rel="stylesheet" type="text/css" href="ainobot.css">
+		<link rel="stylesheet" href="main.min.css">
+		<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.1.js"></script>
+		<script type="text/javascript" src="character-1.0.0.js"></script>
+		<script src="annyang.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+	</head>
+	<body>
+				
+	<!-- DRAW 3D CHARACTERS -->
+		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
+		<p align="right" class="hidden">
+			<button id="_play" type="button" title="play">play</button>
+			<button id="_stop" type="button" title="stop">stop</button>
+		</p>
+		
+
+		<!-- Insert an empty iframe for AIno 3D animation -->
+		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		 <!-- Insert an empty iframe, hidden by default using a class-->
+		<!-- Initialize the viewer -->
+    <script type="text/javascript">
+			
+		ainoDancing();
+    showAinoDancing();
+
+
+    </script>
+		
+	<!-- START SPEACH -->	
+	
+		<section id="section_header" class="sec">
+			<h1>AIno bot</h1>
+		</section>
+    <section id="section_hei" class="sec">
+ 		<script>
+    "use strict";
+
+		function speak_aino(speechtext) {
+			// meSpeak.speak calls the pause3D as callback when finished
+			annyang.abort();
+			hideIdle();
+			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
+			setTimeout(enterIdle, 6500);
+			annyang.start();
+		}
+		
+		function enterIdle() {
+			$("#aino-talking").addClass("hidden");
+			$("#aino-idle").removeClass("hidden");
+			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");			
+		}
+			
+		function hideIdle() {
+			$("#aino-talking").removeClass("hidden");
+			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
+			$("#aino-idle").addClass("hidden");
+		}
+
+		function play3D() {
+			//$( '#_play' ).prop('checked', true);
+			$( '#_play' ).trigger('click');
+			//$( '#_play' ).click(function() {console.log("play.click")});
+		}
+
+		function pause3D() {
+			//$( '#_play' ).prop('checked', fal<se);
+			$( '#_stop' ).trigger('click');
+			//$( '#_stop' ).click(function() {console.log("stop.click")});
+		}
+
+		// This function is called when the AIno 3D-model iframe is loaded
+		function AIno_intro() {
+			// JS way to have pause before calling f_AIno_initialize
+			$('#aino-dancing').ready(function () {
+				//setTimeout(f_AIno_initialize, 2000);
+			});
+			play3D();			
+		}
+
+			
+    if (annyang) {
+
+	    
+    
+      // Let's define our first command. First the text we expect, and then the function it should call
+      var commands = {
+        			//'hei': hello
+      };
+
+      // OPTIONAL: activate debug mode for detailed logging in the console
+      annyang.debug();
+
+      // Add our commands to annyang
+      annyang.addCommands(commands);
+
+      // OPTIONAL: Set a language for speech recognition (defaults to English)
+      // For a full list of language codes, see the documentation:
+      // https://github.com/TalAter/annyang/blob/master/docs/FAQ.md#what-languages-are-supported
+      annyang.setLanguage('fi');
+
+	// Start listening, don't restart automatically, stop recognition after first phrase recognized
+	annyang.start({ autoRestart: false, continuous: false });
+
+			var scrollTo = function(identifier, speed) {
+		    $('html, body').animate({
+		        scrollTop: $(identifier).offset().top
+		    }, speed || 1000);
+		  }
+    } else {
+      $(document).ready(function() {
+        $('#unsupported').fadeIn('fast');
+      });
+    }
+			
+
+    </script>
+
+	</body>
+</html>
