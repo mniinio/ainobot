@@ -12,12 +12,17 @@
 	</head>
 	<body>
 		
+		<p align="right" class="">
+			<button onclick="speak_aino('Welcome to the Responsive Voice website');">Start</button>
+		</p>
+		
 	<!-- DRAW 3D CHARACTERS -->
 		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
 		<p align="right" class="hidden">
 			<button id="_play" type="button" title="play">play</button>
 			<button id="_stop" type="button" title="stop">stop</button>
 		</p>
+		
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
 		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
@@ -219,6 +224,7 @@
 			
     if (annyang) {
 
+	    
       // define the functions our commands will run.
      			 var hello = function() {
 				$("#intro").slideUp("slow");
