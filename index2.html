@@ -134,6 +134,12 @@
 			}
 			
 			var results = function() {
+				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]; //täydennä loput
+				//laske percentile
+				//näytä kuva
+				document.getElementById("aino_tulos").value = digipoints_raw.toString();
+				$("#p_question"+lastanswered).slideUp("slow");
+				$(section_email).slideDown("slow");
 				console.log(answers[0]);
 				console.log(answers[1]);
 				console.log(answers[2]);
@@ -316,6 +322,7 @@
 		</section>
 		<section id="section_email" class="sec">
 			<div class="hidden">
+				<p>Tuloksesi on <input id="aino_tulos" type="text" size="20" class="aino-speech" /></p>
 				<form name="contact" action="thank-you" netlify="">
 					<p>
 						<label>Your Name: <input type="text" name="name"></label>
@@ -323,6 +330,9 @@
 					<p>
 						<label>Your Email: <input type="email" name="email"></label>
 					</p>
+					<p>
+					    <label>Message: <textarea name="message"></textarea></label>
+					  </p>
 					<p>
 						<button type="submit">Send</button>
 					</p>
