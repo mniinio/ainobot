@@ -24,7 +24,7 @@
 		
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
-		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		<iframe src="" id="aino-dancing" style="z-index: 1; height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
@@ -92,10 +92,7 @@
     if (annyang) {
 
 	    			var startover = function (
-					$(document).ready(function(){
-						window.open('index2.html');
-						return false;
-					}
+					window.open('index2.html');
 				);
     
       // Let's define our first command. First the text we expect, and then the function it should call
