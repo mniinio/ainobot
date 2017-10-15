@@ -232,6 +232,7 @@
 				$("#intro").slideUp("slow");
 				$("#hei").slideDown("slow");
 				scrollTo("#section_hei");
+				//tarkista kuuleeko käyttäjä, jos ei kuule, vaihda pois responsivevoicesta
 				speak_aino('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"');
     			  };
 
@@ -243,6 +244,7 @@
 				companyname = heard_org.toString();
 				answers[lastanswered] = companyname;
 				answers_score[lastanswered] = 0;
+				//käynnistä kuva- ja personallisuushaut askynkronisesti
       			 };
 
 			var got_name_right = function() {
@@ -290,10 +292,25 @@
 			}
 			
 			var results = function() {
+				//tulosta viestiä parin sekunnin välein että haku on käynnissä
+				//hae website kuvan arvio
+				//hae personallisuusarvio
 				lastanswered++;
 				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]; //täydennä loput
-				//laske percentile
-				//näytä kuva
+				if (digipoints_raw <= 1) {
+				    digipoints_percentile = 1;
+				} else if (digipoints_raw > 1 && digipoints_raw <= 2) {
+				    digipoints_percentile = 2;
+				} else if (digipoints_raw > 2 && digipoints_raw <= 3) {
+				    digipoints_percentile = 3;
+				} else if (digipoints_raw > 3 && digipoints_raw <= 4) {
+				    digipoints_percentile = 4;
+				} else if (digipoints_raw > 4 && digipoints_raw <= 5) {
+				    digipoints_percentile = 5;
+				} else {
+				    digipoints_percentile = 0;
+				}
+				//näytä tulos ja lyhyt lausunto ja kuva
 				document.getElementById("aino_tulos").value = digipoints_raw.toString();
 				$("#recipient_message").val(digipoints_raw.toString());
 				$("#p_question"+lastanswered).slideUp("slow");
@@ -310,7 +327,8 @@
 				console.log(answers_score[3]);
 				//console.log(answers_score[4]);
 				//console.log(answers_score[5]);
-				console.log(answers_score[1]+answers_score[2]+answers_score[3]);
+				console.log(digipoints_raw);
+				console.log(digipoints_percentile);
 			}
 
 			var get_name = function(heard_name) {
