@@ -139,6 +139,7 @@
 				//laske percentile
 				//näytä kuva
 				document.getElementById("aino_tulos").value = digipoints_raw.toString();
+				document.getElementById("message").value = digipoints_raw.toString();
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
 				console.log(answers[0]);
@@ -156,6 +157,21 @@
 				console.log(answers_score[1]+answers_score[2]+answers_score[3]);
 			}
 
+			var get_name = function(heard_name) {
+				document.getElementById("name").value = heard_name.toString();
+				speak_aino('Kuulinko oikein, sanoitko '+heard_name.toString());
+      			 };
+	    
+	    		var get_email = function(heard_email) {
+				document.getElementById("email").value = heard_email.toString();
+				speak_aino('Kuulinko oikein, sanoitko '+heard_email.toString());
+      			 };
+
+	    	    	var get_email = function(heard_email) {
+				$( '#result_form' ).trigger('click');
+				speak_aino('Lomake lähetetty');
+      			 };
+
 
 
       // Let's define our first command. First the text we expect, and then the function it should call
@@ -168,7 +184,11 @@
 				'vastaus C': choose_vastausC,
 				'vastaus D': choose_vastausD,
 	      			'seuraava kysymys': next_question,
-	      			'tulos': results
+	      			'tulos': results,
+	      			'nimeni on *hear_name': get_name,
+	      			'sähköpostiosoitteeni on *hear_email': get_email,
+	      			'lähetä lomake': send_form
+
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
@@ -333,7 +353,7 @@
 					    <label>Message: <textarea name="message"></textarea></label>
 					  </p>
 					<p>
-						<button type="submit">Send</button>
+						<button type="submit" name="result_form">Send</button>
 					</p>
 				</form>
 			</div>
