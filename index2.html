@@ -9,6 +9,151 @@
 		<script src="annyang.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+	</head>
+	<body>
+		
+	<!-- DRAW 3D CHARACTERS -->
+		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
+		<p align="right" class="hidden">
+			<button id="_play" type="button" title="play">play</button>
+			<button id="_stop" type="button" title="stop">stop</button>
+		</p>
+
+		<!-- Insert an empty iframe for AIno 3D animation -->
+		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		<iframe src="" id="aino-idle" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		<iframe src="" id="aino-talking" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		 <!-- Insert an empty iframe, hidden by default using a class-->
+		<!-- Initialize the viewer -->
+    <script type="text/javascript">
+			
+		ainoIdle();
+	    	ainoDancing();
+		ainoTalking();
+
+
+    </script>
+		
+	<!-- START SPEACH -->	
+	
+		<section id="section_header" class="sec">
+			<h1>AIno bot</h1>
+		</section>
+    <section id="section_hei" class="sec">
+      <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
+      <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "<b>Nimi on</b>..."</p>
+			<p id="p_org" class="hidden aino-speech">
+				Kuulinko oikein: <input id="aino_org" type="text" size="20" class="aino-speech" />? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
+				</br>
+				</br>
+				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
+			</p>
+			<div id="p_question1" class="hidden aino-speech">
+				Valitse paras vaihtoehto sanomalla "Vastaus" ja vatauksen kirjain.
+				Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
+				<ul>
+					<li>
+						<input type="radio" name="question1" id="vastausA1">
+						<label for="f-option">A) Organisaationi saa digitaalisuudesta suhteellista etua muihin nähden, olemme jo diginatiiveja</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question1" id="vastausB1">
+						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
+						<div class="check"></div>
+					</li>
+					
+					<li>
+						<input type="radio" name="question1" id="vastausC1">
+						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question1" id="vastausD1">
+						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
+						<div class="check"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="p_question2" class="hidden aino-speech">
+				Kysymys 2. Yhteiskehittely asiakkaiden kanssa ja valmius kumppanuuksiin:
+	
+				<ul>
+					<li>
+						<input type="radio" name="question2" id="vastausA2">
+						<label for="f-option">A) Organisaationi saa digitaalisuudesta suhteellista etua muihin nähden, olemme jo diginatiiveja</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question2" id="vastausB2">
+						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
+						<div class="check"></div>
+					</li>
+					
+					<li>
+						<input type="radio" name="question2" id="vastausC2">
+						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question2" id="vastausD2">
+						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
+						<div class="check"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="p_question3" class="hidden aino-speech">
+				Kysymys 3. Digitalisaation esteet:
+	
+				<ul>
+					<li>
+						<input type="radio" name="question3" id="vastausA3">
+						<label for="f-option">A) Emme näe mitään isoja esteitä</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question3" id="vastausB3">
+						<label for="f-option">B) Organisaation on iso ja muutos on suuri ja tulee viemään pitkään</label>
+						<div class="check"></div>
+					</li>
+					
+					<li>
+						<input type="radio" name="question3" id="vastausC3">
+						<label for="f-option">C) Digitalisaatioon liittyy turvallisuusuhkia ja muita suuria kustannuksia aiheuttavia muutoksia</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question3" id="vastausD3">
+						<label for="f-option">D) Emme tunne vielä tarpeeksi digitalisaation tarvittavia teknologioita ja niiden mahdollisuuksia</label>
+						<div class="check"></div>
+					</li>
+				</ul>
+			</div>
+			<div id="section_email" class="hidden aino-speech">
+				<p>Tuloksesi on <input id="aino_tulos" type="text" size="20" class="aino-speech" /></p>
+				<form name="contact" action="thank-you" netlify="">
+					<p>
+						<label>Your Name: <input type="text" name="name"></label>
+					</p>
+					<p>
+						<label>Your Email: <input type="email" name="email"></label>
+					</p>
+					<p>
+					    <label>Message: <textarea name="message"></textarea></label>
+					  </p>
+					<p>
+						<button type="submit" name="result_form">Send</button>
+					</p>
+				</form>
+			</div>
+		</section>
+    <div id="unsupported" class="hidden">
+      <h4>It looks like your browser doesn't support speech recognition.</h4>
+      <p>annyang plays nicely with all browsers, progressively enhancing modern browsers that support the SpeechRecognition standard, while leaving users with older browsers unaffected.</p>
+      <p>Please visit <a href="http://www.annyangjs.com/">http://www.annyangjs.com/</a> in a desktop browser like Chrome.</p>
+    </div>
 		<script>
     "use strict";
 		var digipoints_raw = 0; //these points are added everytime user answers question or analysis is ready
@@ -218,150 +363,6 @@
 			
 
     </script>
-	</head>
-	<body>
-		
-	<!-- DRAW 3D CHARACTERS -->
-		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
-		<p align="right" class="hidden">
-			<button id="_play" type="button" title="play">play</button>
-			<button id="_stop" type="button" title="stop">stop</button>
-		</p>
 
-		<!-- Insert an empty iframe for AIno 3D animation -->
-		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		<iframe src="" id="aino-idle" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		<iframe src="" id="aino-talking" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		 <!-- Insert an empty iframe, hidden by default using a class-->
-		<!-- Initialize the viewer -->
-    <script type="text/javascript">
-			
-		ainoIdle();
-	    	ainoDancing();
-		ainoTalking();
-
-
-    </script>
-		
-	<!-- START SPEACH -->	
-	
-		<section id="section_header" class="sec">
-			<h1>AIno bot</h1>
-		</section>
-    <section id="section_hei" class="sec">
-      <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
-      <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "<b>Nimi on</b>..."</p>
-			<p id="p_org" class="hidden aino-speech">
-				Kuulinko oikein: <input id="aino_org" type="text" size="20" class="aino-speech" />? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
-				</br>
-				</br>
-				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
-			</p>
-			<div id="p_question1" class="hidden aino-speech">
-				Valitse paras vaihtoehto sanomalla "Vastaus" ja vatauksen kirjain.
-				Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
-				<ul>
-					<li>
-						<input type="radio" name="question1" id="vastausA1">
-						<label for="f-option">A) Organisaationi saa digitaalisuudesta suhteellista etua muihin nähden, olemme jo diginatiiveja</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question1" id="vastausB1">
-						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
-						<div class="check"></div>
-					</li>
-					
-					<li>
-						<input type="radio" name="question1" id="vastausC1">
-						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question1" id="vastausD1">
-						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
-						<div class="check"></div>
-					</li>
-				</ul>
-			</div>
-
-			<div id="p_question2" class="hidden aino-speech">
-				Kysymys 2. Yhteiskehittely asiakkaiden kanssa ja valmius kumppanuuksiin:
-	
-				<ul>
-					<li>
-						<input type="radio" name="question2" id="vastausA2">
-						<label for="f-option">A) Organisaationi saa digitaalisuudesta suhteellista etua muihin nähden, olemme jo diginatiiveja</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question2" id="vastausB2">
-						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
-						<div class="check"></div>
-					</li>
-					
-					<li>
-						<input type="radio" name="question2" id="vastausC2">
-						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question2" id="vastausD2">
-						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
-						<div class="check"></div>
-					</li>
-				</ul>
-			</div>
-
-			<div id="p_question3" class="hidden aino-speech">
-				Kysymys 3. Digitalisaation esteet:
-	
-				<ul>
-					<li>
-						<input type="radio" name="question3" id="vastausA3">
-						<label for="f-option">A) Emme näe mitään isoja esteitä</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question3" id="vastausB3">
-						<label for="f-option">B) Organisaation on iso ja muutos on suuri ja tulee viemään pitkään</label>
-						<div class="check"></div>
-					</li>
-					
-					<li>
-						<input type="radio" name="question3" id="vastausC3">
-						<label for="f-option">C) Digitalisaatioon liittyy turvallisuusuhkia ja muita suuria kustannuksia aiheuttavia muutoksia</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question3" id="vastausD3">
-						<label for="f-option">D) Emme tunne vielä tarpeeksi digitalisaation tarvittavia teknologioita ja niiden mahdollisuuksia</label>
-						<div class="check"></div>
-					</li>
-				</ul>
-			</div>
-			<div id="section_email" class="hidden aino-speech">
-				<p>Tuloksesi on <input id="aino_tulos" type="text" size="20" class="aino-speech" /></p>
-				<form name="contact" action="thank-you" netlify="">
-					<p>
-						<label>Your Name: <input type="text" name="name"></label>
-					</p>
-					<p>
-						<label>Your Email: <input type="email" name="email"></label>
-					</p>
-					<p>
-					    <label>Message: <textarea name="message"></textarea></label>
-					  </p>
-					<p>
-						<button type="submit" name="result_form">Send</button>
-					</p>
-				</form>
-			</div>
-		</section>
-    <div id="unsupported" class="hidden">
-      <h4>It looks like your browser doesn't support speech recognition.</h4>
-      <p>annyang plays nicely with all browsers, progressively enhancing modern browsers that support the SpeechRecognition standard, while leaving users with older browsers unaffected.</p>
-      <p>Please visit <a href="http://www.annyangjs.com/">http://www.annyangjs.com/</a> in a desktop browser like Chrome.</p>
-    </div>
 	</body>
 </html>
