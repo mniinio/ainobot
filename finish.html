@@ -31,7 +31,7 @@
 			
 		ainoDancing();
     		showAinoDancing();
-
+		setTimeout(hideAinoDancing, 184800);
 
     </script>
 		
@@ -40,8 +40,8 @@
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
-    		<section id="section_hei" class="sec">
-			<p class="aino-speech" style = "z-index:100;">Sano "Aloita" jos haluat että mittaan digitalisaatiovalmiutesi</p >
+    		<section id="section_hei" class="sec" style = "z-index: 100;">
+			<p class="aino-speech">Sano "Aloita" jos haluat että mittaan digitalisaatiovalmiutesi</p >
 		</section>
  <script>
     "use strict";
@@ -92,7 +92,10 @@
     if (annyang) {
 
 	    			var startover = function () {
-					window.open('index2.html');
+					$(document).ready(function(){
+						window.open('index2.html','main','_self');
+						return false;
+					});
 				}
     
       // Let's define our first command. First the text we expect, and then the function it should call
