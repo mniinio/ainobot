@@ -100,7 +100,7 @@
 				console.log(lastanswered);
 				let next = lastanswered+1;
 				let qname = '#p_question'+next;
-				$("#p_question+lastanswered").slideUp("slow");
+				$("#p_question"+lastanswered).slideUp("slow");
 				$(qname).slideDown("slow");
 				speak_aino('Kysymys numero'+next);
 			}
