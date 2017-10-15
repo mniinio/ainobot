@@ -11,8 +11,7 @@
 		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 	</head>
 	<body>
-		<audio>
-		  <source src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" autoplay>
+		<audio source="" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false" autoplay>
 		Your browser does not support the audio element.
 		</audio>
 				
@@ -25,13 +24,13 @@
 		
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
-		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		<iframe src="" id="aino-dancing" style="z-index: -100; height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
 			
 		ainoDancing();
-    showAinoDancing();
+    		showAinoDancing();
 
 
     </script>
@@ -41,8 +40,10 @@
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
-    <section id="section_hei" class="sec">
- 		<script>
+    		<section id="section_hei" class="sec">
+			<p class="aino-speech">Sano "Aloita" jos haluat että mittaan digitalisaatiovalmiutesi</p>
+		</section>
+ <script>
     "use strict";
 
 		function speak_aino(speechtext) {
@@ -90,11 +91,16 @@
 			
     if (annyang) {
 
-	    
+	    			var startover = function (
+					$(document).ready(function(){
+						window.open('index2.html');
+						return false;
+					}	);
+					});
     
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
-        			//'hei': hello
+        			'aloita': startover
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
