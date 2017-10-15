@@ -85,6 +85,8 @@
 				document.getElementById("aino_org").value = heard_org.toString();
 				speak_aino('Kuulinko oikein, sanoitko '+heard_org.toString());
 				companyname = heard_org.toString();
+				answers[lastanswered] = companyname;
+				answers_score[lastanswered] = 0;
       			 };
 
 			var got_name_right = function() {
@@ -109,21 +111,42 @@
 				let answeredelement = lastanswered+1
 				document.getElementById("vastausA"+answeredelement).checked = true;
 				// push answer to array
+				answers[lastanswered+1] = "A";
+				answers_score[lastanswered+1] = 1;
 			}
 			var choose_vastausB = function() {
 				let answeredelement = lastanswered+1
 				document.getElementById("vastausB"+answeredelement).checked = true;
-				// push answer to array
+				answers[lastanswered+1] = "B";
+				answers_score[lastanswered+1] = 0.75;
 			}
 			var choose_vastausC = function() {
 				let answeredelement = lastanswered+1
 				document.getElementById("vastausC"+answeredelement).checked = true;
-				// push answer to array
+				answers[lastanswered+1] = "C";
+				answers_score[lastanswered+1] = 0.50;				
 			}
 			var choose_vastausD = function() {
 				let answeredelement = lastanswered+1
 				document.getElementById("vastausD"+answeredelement).checked = true;
-				// push answer to array
+				answers[lastanswered+1] = "D";
+				answers_score[lastanswered+1] = 0;
+			}
+			
+			var results = function() {
+				console.log(answers[0]);
+				console.log(answers[1]);
+				console.log(answers[2]);
+				console.log(answers[3]);
+				/console.log(answers[4]);
+				//console.log(answers[5]);
+				console.log(answers_score[0]);
+				console.log(answers_score[1]);
+				console.log(answers_score[2]);
+				console.log(answers_score[3]);
+				//console.log(answers_score[4]);
+				//console.log(answers_score[5]);
+				console.log(answers_score[1]+answers_score[2]+answers_score[3]);
 			}
 
 
@@ -137,7 +160,8 @@
 	      			'vastaus B': choose_vastausB,
 				'vastaus C': choose_vastausC,
 				'vastaus D': choose_vastausD,
-	      			'seuraava kysymys': next_question
+	      			'seuraava kysymys': next_question,
+	      			'tulos': results
       };
 
       // OPTIONAL: activate debug mode for detailed logging in the console
