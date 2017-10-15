@@ -95,6 +95,8 @@
 			}
 			
 			var next_question = function() {
+				// calculate score
+				// if lastanswered == 3 then present total and show form
 				lastanswered++;
 				console.log(lastanswered);
 				let next = lastanswered+1;
@@ -103,20 +105,38 @@
 				speak_aino('Kysymys numero'+next);
 			}
 
-			var choose_arvolupaus = function() {
-				document.getElementById("arvolupaus").checked = true;
+			var choose_vastausA = function() {
+				let answerelement = lastanswered+1
+				document.getElementById("vastausA"+answeredelement).checked = true;
+				// push answer to array
+			}
+			var choose_vastausB = function() {
+				let answerelement = lastanswered+1
+				document.getElementById("vastausB"+answeredelement).checked = true;
+				// push answer to array
+			}
+			var choose_vastausC = function() {
+				let answerelement = lastanswered+1
+				document.getElementById("vastausC"+answeredelement).checked = true;
+				// push answer to array
+			}
+			var choose_vastausD = function() {
+				let answerelement = lastanswered+1
+				document.getElementById("vastausD"+answeredelement).checked = true;
+				// push answer to array
 			}
 
-			var choose_suhteellinen = function() {
-				document.getElementById("suhteellinen").checked = true;
-			}
+
 
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
         			'hei': hello,
 				'nimi on *hear_org':  get_org,
 				'nimi oikein': got_name_right,
-				'arvolupaus': choose_arvolupaus,
+				'vastaus A': choose_vastausA,
+	      			'vastaus B': choose_vastausB,
+				'vastaus C': choose_vastausC,
+				'vastaus D': choose_vastausD,
 				'suhteellinen *what_ever': choose_suhteellinen,
 	      			'seuraava kysymys': next_question
       };
@@ -146,47 +166,6 @@
       });
     }
 			
-function example()
-{
-    var response = "";
-	
-    $.ajax({
-        type: "GET", 
-        url: "/api/simpleget?companyname="+ companyname, 
-        success: function(response)
-        {
-            /*response = {
-    "needs": [
-           {
-            "trait_id": "need_curiosity",
-            "name": "Curiosity",
-            "percentile": 0.5373686337663708,
-            "raw_score": 0.8191191361274531
-        },
-        {
-            "trait_id": "need_excitement",
-            "name": "Excitement",
-            "percentile": 0.09803489645368363,
-            "raw_score": 0.5825083820482316
-        }
-    ]
-}*/
-            console.log(response);
-            
-	    var json_obj = $.parseJSON(response);//parse JSON
-            
-            var output="<ul>";
-            for (var i in json_obj) 
-            {
-                output+="<li>" + json_obj.needs[i].name + ",  " + json_obj.needs[i].percentile + "</li>";
-            }
-            output+="</ul>";
-            
-            $('span').html(output);
-        },
-        dataType: "json"//set to JSON    
-    })    
-}
 
     </script>
 	</head>
@@ -229,32 +208,84 @@ function example()
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
 			</p>
 			<div id="p_options" class="hidden aino-speech">
-				Valitse paras vaihtoehto lukemalla vaihtoehdon teksti.
+				Valitse paras vaihtoehto sanomalla "Vastaus" ja vatauksen kirjain.
+				Tärkein syy digitalisaatioon organisaatiosamme on:
 				<ul>
 					<li>
-						<input type="radio" name="question1" id="arvolupaus">
-						<label for="f-option">arvolupaus</label>
+						<input type="radio" name="question1" id="vastausA1">
+						<label for="f-option">A) Organisaationi saa digitaalisuudesta suhteellista etua muihin nähden, olemme jo diginatiiveja</label>
 						<div class="check"></div>
 					</li>
 					<li>
-						<input type="radio" name="question1" id="suhteellinen">
-						<label for="f-option">suhteellinen etumatka</label>
+						<input type="radio" name="question1" id="vastausB1">
+						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
+						<div class="check"></div>
+					</li>
+					
+					<li>
+						<input type="radio" name="question1" id="vastausC1">
+						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question1" id="vastausD1">
+						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
 						<div class="check"></div>
 					</li>
 				</ul>
 			</div>
 
 			<div id="p_question2" class="hidden aino-speech">
-				Tämä on toinen kysymys.
+				Kysymys 2. Yhteiskehittely asiakkaiden kanssa ja valmius kumppanuuksiin:
+	
 				<ul>
 					<li>
-						<input type="radio" name="question1" id="arvolupaus">
-						<label for="f-option">arvolupaus</label>
+						<input type="radio" name="question2" id="vastausA2">
+						<label for="f-option">A) Organisaationi saa digitaalisuudesta suhteellista etua muihin nähden, olemme jo diginatiiveja</label>
 						<div class="check"></div>
 					</li>
 					<li>
-						<input type="radio" name="question1" id="suhteellinen">
-						<label for="f-option">suhteellinen etumatka</label>
+						<input type="radio" name="question2" id="vastausB2">
+						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
+						<div class="check"></div>
+					</li>
+					
+					<li>
+						<input type="radio" name="question2" id="vastausC2">
+						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question2" id="vastausD2">
+						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
+						<div class="check"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="p_question3" class="hidden aino-speech">
+				Kysymys 3. Digitalisaation esteet:
+	
+				<ul>
+					<li>
+						<input type="radio" name="question3" id="vastausA3">
+						<label for="f-option">A) Emme näe mitään isoja esteitä</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question3" id="vastausB3">
+						<label for="f-option">B) Organisaation on iso ja muutos on suuri ja tulee viemään pitkään</label>
+						<div class="check"></div>
+					</li>
+					
+					<li>
+						<input type="radio" name="question3" id="vastausC3">
+						<label for="f-option">C) Digitalisaatioon liittyy turvallisuusuhkia ja muita suuria kustannuksia aiheuttavia muutoksia</label>
+						<div class="check"></div>
+					</li>
+					<li>
+						<input type="radio" name="question3" id="vastausD3">
+						<label for="f-option">D) Emme tunne vielä tarpeeksi digitalisaation tarvittavia teknologioita ja niiden mahdollisuuksia</label>
 						<div class="check"></div>
 					</li>
 				</ul>
