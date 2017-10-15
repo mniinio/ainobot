@@ -308,8 +308,8 @@
       			 };
 	    
 	    		var get_email = function(heard_email1,heard_email2,heard_domain) {
-				document.getElementById("recipient_email").value = heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain().toString;
-				speak_aino('Kuulinko oikein, sanoitko '+heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain().toString);
+				document.getElementById("recipient_email").value = heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain.toString();
+				speak_aino('Kuulinko oikein, sanoitko '+heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain.toString());
       			 };
 
 	    	    	var send_form = function() {
