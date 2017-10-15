@@ -89,7 +89,7 @@
 
 			var got_name_right = function() {
 				$("#p_org").slideUp("slow");
-				$("#p_options").slideDown("slow");
+				$("#p_question1").slideDown("slow");
 				speak_aino('Valitse paras vaihtoehto sanomalla vaihtoehdon teksti');
 			}
 			
@@ -100,6 +100,7 @@
 				console.log(lastanswered);
 				let next = lastanswered+1;
 				let qname = '#p_question'+next;
+				$("#p_question+lastanswered").slideUp("slow");
 				$(qname).slideDown("slow");
 				speak_aino('Kysymys numero'+next);
 			}
@@ -205,9 +206,9 @@
 				</br>
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
 			</p>
-			<div id="p_options" class="hidden aino-speech">
+			<div id="p_question1" class="hidden aino-speech">
 				Valitse paras vaihtoehto sanomalla "Vastaus" ja vatauksen kirjain.
-				Tärkein syy digitalisaatioon organisaatiosamme on:
+				Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
 				<ul>
 					<li>
 						<input type="radio" name="question1" id="vastausA1">
