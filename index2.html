@@ -175,9 +175,11 @@
 		
 		function speak_aino(speechtext) {
 			// meSpeak.speak calls the pause3D as callback when finished
+			annyang.abort();
 			hideIdle();
 			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
 			setTimeout(enterIdle, 6500);
+			annyang.start();
 		}
 		
 		function enterIdle() {
@@ -356,8 +358,8 @@
       // https://github.com/TalAter/annyang/blob/master/docs/FAQ.md#what-languages-are-supported
       annyang.setLanguage('fi');
 
-      // Start listening. You can call this here, or attach this call to an event, button, etc.
-      annyang.start();
+	// Start listening, don't restart automatically, stop recognition after first phrase recognized
+	annyang.start({ autoRestart: false, continuous: false });
 
 			var scrollTo = function(identifier, speed) {
 		    $('html, body').animate({
