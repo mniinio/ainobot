@@ -254,7 +254,7 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
-						if (isNaN(data.filename) != 'url not found') {
+						if (data.filename != 'url not found') {
 							imageRetrieved = true;
 						}
 					}
