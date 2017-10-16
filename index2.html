@@ -259,7 +259,9 @@
 						}
 					}
 				});
-				if (imageRetrieved) {
+				if (imageRetrieved == false) {
+					speak_aino('Organisaatiota ei löydy tai sille ei löydy nettisivuja, tarkista nimi ja sano tai kirjoita se uudelleen.');
+				} else 	{
 				  
 					var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
 
@@ -301,9 +303,8 @@
 						}
 					});
 
-				} else {
-				 	speak_aino('Organisaatiota ei löydy tai sille ei löydy nettisivuja, tarkista nimi ja sano tai kirjoita se uudelleen '+heard_org.toString());
 				}
+
       			 };
 
 			var got_name_right = function() {
