@@ -269,6 +269,11 @@
 						//alert(data.message);
 						answers[4] = data.needs[0].percentile;
 						answers_score[4] = data.needs[0].percentile;
+						if( answers[4] ) {
+						} else {
+ 							answers[4]=0;
+							answers_score[4];
+						}
 						console.log('percentile '+answers_score[4]);
 					}
 				});
@@ -284,6 +289,11 @@
 						//alert(data.message);
 						answers[5] = data.images[0].classifiers[0].classes[0].score[0];
 						answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
+						if( answers[5] ) {
+						} else {
+ 							answers[5]=0;
+							answers_score[5];
+						}
 						console.log('image '+answers_score[4]);
 					}
 				});
@@ -300,6 +310,11 @@
 			var next_question = function() {
 				// calculate score
 				// if lastanswered == 3 then present total and show form
+				if( answers[lastanswered] ) {
+				} else {
+					answers[lastanswered]=0;
+					answers_score[lastanswered]=0;
+				}
 				lastanswered++;
 				console.log(lastanswered);
 				let next = lastanswered+1;
