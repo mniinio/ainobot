@@ -11,18 +11,18 @@
 		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 	</head>
 	<body>
-		
+
 		<p align="right" class="">
 			<button onclick="speak_aino('Welcome to the Responsive Voice website');">Start</button>
 		</p>
-		
+
 	<!-- DRAW 3D CHARACTERS -->
 		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
 		<p align="right" class="hidden">
 			<button id="_play" type="button" title="play">play</button>
 			<button id="_stop" type="button" title="stop">stop</button>
 		</p>
-		
+
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
 		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
@@ -31,16 +31,16 @@
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
-			
+
 		ainoIdle();
 	    	ainoDancing();
 		ainoTalking();
 
 
     </script>
-		
-	<!-- START SPEACH -->	
-	
+
+	<!-- START SPEACH -->
+
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
@@ -67,7 +67,7 @@
 						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
 						<div class="check"></div>
 					</li>
-					
+
 					<li>
 						<input type="radio" name="question1" id="vastausC1">
 						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
@@ -83,7 +83,7 @@
 
 			<div id="p_question2" class="hidden aino-speech">
 				Kysymys 2. Yhteiskehittely asiakkaiden kanssa ja valmius kumppanuuksiin:
-	
+
 				<ul>
 					<li>
 						<input type="radio" name="question2" id="vastausA2">
@@ -95,7 +95,7 @@
 						<label for="f-option">B) Digitaalisuuden saavuttamiseksi nykyisiä toimintamalleja tai tietojärjestelmiä ei tarvitse muuttaa kovin paljon</label>
 						<div class="check"></div>
 					</li>
-					
+
 					<li>
 						<input type="radio" name="question2" id="vastausC2">
 						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
@@ -111,7 +111,7 @@
 
 			<div id="p_question3" class="hidden aino-speech">
 				Kysymys 3. Digitalisaation esteet:
-	
+
 				<ul>
 					<li>
 						<input type="radio" name="question3" id="vastausA3">
@@ -123,7 +123,7 @@
 						<label for="f-option">B) Organisaation on iso ja muutos on suuri ja tulee viemään pitkään</label>
 						<div class="check"></div>
 					</li>
-					
+
 					<li>
 						<input type="radio" name="question3" id="vastausC3">
 						<label for="f-option">C) Digitalisaatioon liittyy turvallisuusuhkia ja muita suuria kustannuksia aiheuttavia muutoksia</label>
@@ -166,13 +166,13 @@
     "use strict";
 		var digipoints_raw = 0; //these points are added everytime user answers question or analysis is ready
 		var digipoints_percentile = 0; // categorized digipoints with scale of 1-5
-		
+
 		var answers = []; //array of all answers as they are. First answer is the company name
 		var answers_score = []; //array of each answer's score. First answer is company name which has score 0.
 		var lastanswered = 0; //sequence number of the last already answered question to follow where user is
-		
+
 		var companyname = "";
-		
+
 		function speak_aino(speechtext) {
 			// meSpeak.speak calls the pause3D as callback when finished
 			annyang.abort();
@@ -181,13 +181,13 @@
 			setTimeout(enterIdle, 6500);
 			annyang.start();
 		}
-		
+
 		function enterIdle() {
 			$("#aino-talking").addClass("hidden");
 			$("#aino-idle").removeClass("hidden");
-			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");			
+			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");
 		}
-			
+
 		function hideIdle() {
 			$("#aino-talking").removeClass("hidden");
 			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
@@ -209,7 +209,7 @@
 		var f_AIno_initialize = function () {
 			$("#intro").slideDown("slow");
 			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
-			
+
 		};
 
 		// This function is called when the AIno 3D-model iframe is loaded
@@ -220,13 +220,13 @@
 				hideIdle();
 				setTimeout(f_AIno_initialize, 2000);
 			});
-			play3D();			
+			play3D();
 		}
 
-			
+
     if (annyang) {
 
-	    
+
       // define the functions our commands will run.
      			 var hello = function() {
 				$("#intro").slideUp("slow");
@@ -245,6 +245,46 @@
 				answers[lastanswered] = companyname;
 				answers_score[lastanswered] = 0;
 				//käynnistä kuva- ja personallisuushaut askynkronisesti
+				var url = 'http://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/url2png?companyname=' + companyname;
+				var imageRetrieved = false;
+				$.ajax({
+					type: 'GET',
+					url: url,
+					async: false,
+					dataType: 'json',
+					success: function (data) {
+						//alert(data.message);
+						imageRetrieved = true;
+					}
+				});
+
+				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
+
+				$.ajax({
+					type: 'GET',
+					url: url,
+					async: false,
+					dataType: 'json',
+					success: function (data) {
+						//alert(data.message);
+						answers_score[4] = data.needs[1].percentile;
+					}
+				});
+
+				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname;
+
+				$.ajax({
+					type: 'GET',
+					url: url,
+					async: false,
+					dataType: 'json',
+					success: function (data) {
+						//alert(data.message);
+						answers_score[5] = 0;
+					}
+				});
+
+
       			 };
 
 			var got_name_right = function() {
@@ -252,7 +292,7 @@
 				$("#p_question1").slideDown("slow");
 				speak_aino('Valitse paras vaihtoehto sanomalla vaihtoehdon teksti');
 			}
-			
+
 			var next_question = function() {
 				// calculate score
 				// if lastanswered == 3 then present total and show form
@@ -282,7 +322,7 @@
 				let answeredelement = lastanswered+1
 				document.getElementById("vastausC"+answeredelement).checked = true;
 				answers[lastanswered+1] = "C";
-				answers_score[lastanswered+1] = 0.50;				
+				answers_score[lastanswered+1] = 0.50;
 			}
 			var choose_vastausD = function() {
 				let answeredelement = lastanswered+1
@@ -290,7 +330,7 @@
 				answers[lastanswered+1] = "D";
 				answers_score[lastanswered+1] = 0;
 			}
-			
+
 			var results = function() {
 				//tulosta viestiä parin sekunnin välein että haku on käynnissä
 				//hae website kuvan arvio
@@ -335,7 +375,7 @@
 				document.getElementById("recipient_name").value = heard_name.toString();
 				speak_aino('Kuulinko oikein, sanoitko '+heard_name.toString());
       			 };
-	    
+
 	    		var get_email = function(heard_email1,heard_email2,heard_domain) {
 				document.getElementById("recipient_email").value = heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain.toString();
 				speak_aino('Kuulinko oikein, sanoitko '+heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain.toString());
@@ -389,7 +429,7 @@
         $('#unsupported').fadeIn('fast');
       });
     }
-			
+
 
     </script>
 
