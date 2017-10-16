@@ -254,7 +254,9 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
-						imageRetrieved = true;
+						if !(data.message) {
+							imageRetrieved = true;
+						}
 					}
 				});
 				if (imageRetrieved) {
