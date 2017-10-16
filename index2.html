@@ -267,7 +267,8 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
-						answers_score[4] = data.needs[1].percentile;
+						answers_score[4] = data.needs[0].percentile;
+						console.log('percentile '+answers_score[4]);
 					}
 				});
 
