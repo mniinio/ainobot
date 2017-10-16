@@ -267,6 +267,7 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
+						answers[4] = data.needs[0].percentile;
 						answers_score[4] = data.needs[0].percentile;
 						console.log('percentile '+answers_score[4]);
 					}
@@ -281,7 +282,9 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
-						answers_score[5] = 0;
+						answers[5] = 0;
+						answers_score[5] = data.images[0].classifiers[0].classes[0].score;
+						console.log('image '+answers_score[4]);
 					}
 				});
 
@@ -337,7 +340,7 @@
 				//hae website kuvan arvio
 				//hae personallisuusarvio
 				lastanswered++;
-				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]; //täydennä loput
+				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
 				if (digipoints_raw <= 1) {
 				    digipoints_percentile = 1;
 				} else if (digipoints_raw > 1 && digipoints_raw <= 2) {
