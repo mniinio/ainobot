@@ -172,6 +172,7 @@
 		var lastanswered = 0; //sequence number of the last already answered question to follow where user is
 
 		var companyname = "";
+		var imageRetrieved = false;
 
 		function speak_aino(speechtext) {
 			// meSpeak.speak calls the pause3D as callback when finished
@@ -242,11 +243,10 @@
 				document.getElementById("aino_org").value = heard_org.toString();
 				speak_aino('Kuulinko oikein, sanoitko '+heard_org.toString());
 				companyname = heard_org.toString();
-				answers[lastanswered] = companyname;
-				answers_score[lastanswered] = 0;
+				answers[0] = companyname;
+				answers_score[0] = 0;
 				//käynnistä kuva- ja personallisuushaut askynkronisesti
 				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/url2png?companyname=' + companyname;
-				var imageRetrieved = false;
 				$.ajax({
 					type: 'GET',
 					url: url,
@@ -257,48 +257,50 @@
 						imageRetrieved = true;
 					}
 				});
+				if (imageRetrieved) {
+				  
+					var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
 
-				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
-
-				$.ajax({
-					type: 'GET',
-					url: url,
-					async: false,
-					dataType: 'json',
-					success: function (data) {
-						//alert(data.message);
-						answers[4] = data.needs[0].percentile;
-						answers_score[4] = data.needs[0].percentile;
-						if( answers[4] ) {
-						} else {
- 							answers[4]=0;
-							answers_score[4];
+					$.ajax({
+						type: 'GET',
+						url: url,
+						async: false,
+						dataType: 'json',
+						success: function (data) {
+							//alert(data.message);
+							answers[4] = data.needs[0].percentile;
+							answers_score[4] = data.needs[0].percentile;
+							if( answers[4] ) {
+							} else {
+								answers[4]=0;
+								answers_score[4];
+							}
+							console.log('percentile '+answers_score[4]);
 						}
-						console.log('percentile '+answers_score[4]);
-					}
-				});
+					});
 
-				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname;
+					var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname;
 
-				$.ajax({
-					type: 'GET',
-					url: url,
-					async: false,
-					dataType: 'json',
-					success: function (data) {
-						//alert(data.message);
-						answers[5] = data.images[0].classifiers[0].classes[0].score[0];
-						answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
-						if( answers[5] ) {
-						} else {
- 							answers[5]=0;
-							answers_score[5];
+					$.ajax({
+						type: 'GET',
+						url: url,
+						async: false,
+						dataType: 'json',
+						success: function (data) {
+							//alert(data.message);
+							answers[5] = data.images[0].classifiers[0].classes[0].score[0];
+							answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
+							if( answers[5] ) {
+							} else {
+								answers[5]=0;
+								answers_score[5];
+							}
+							console.log('image '+answers_score[5]);
 						}
-						console.log('image '+answers_score[4]);
-					}
-				});
+					});
 
-
+				} else {
+				 	speak_aino('Organisaatiota ei löydy tai sille ei löydy nettisivuja, tarkista nimi ja sano tai kirjoita se uudelleen '+heard_org.toString());
       			 };
 
 			var got_name_right = function() {
