@@ -282,8 +282,8 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
-						answers[5] = 0;
-						answers_score[5] = data.images[0].classifiers[0].classes[0].score;
+						answers[5] = data.images[0].classifiers[0].classes[0].score[0];
+						answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
 						console.log('image '+answers_score[4]);
 					}
 				});
@@ -363,14 +363,14 @@
 				console.log(answers[1]);
 				console.log(answers[2]);
 				console.log(answers[3]);
-				//console.log(answers[4]);
-				//console.log(answers[5]);
+				console.log(answers[4]);
+				console.log(answers[5]);
 				console.log(answers_score[0]);
 				console.log(answers_score[1]);
 				console.log(answers_score[2]);
 				console.log(answers_score[3]);
-				//console.log(answers_score[4]);
-				//console.log(answers_score[5]);
+				console.log(answers_score[4]);
+				console.log(answers_score[5]);
 				console.log(digipoints_raw);
 				console.log(digipoints_percentile);
 			}
