@@ -25,6 +25,9 @@
 		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		<iframe src="" id="aino-idle" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		<iframe src="" id="aino-talking" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+		<audio source="" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false">
+		Your browser does not support the audio element.
+		</audio>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
@@ -463,8 +466,9 @@
       };
 
 	    var send_form = function() {
-				$( '#result_form' ).trigger('click');
 				speak_aino('Lomake lähetetty');
+		    		$( '#result_form' ).trigger('click');
+
       };
 
 			var get_mirror = function() {
@@ -473,6 +477,7 @@
 	    		var dance = function() {
 					hideAinoIdle();
 					showAinoDancing();
+					sound.play();
 					setTimeout(hideAinoDancing, 184800);
 					setTimeout(sound.pause,184800);
 					showAinoIdle();
