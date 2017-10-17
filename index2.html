@@ -39,16 +39,14 @@
 	<!-- START SPEACH -->
 
     <section id="section_hei" class="sec">
-      <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
-      <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "<b>Nimi on</b>..."</p>
+      <p id="intro" class="hidden voice_instructions aino-speech">Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
+      <p id="hei" class="hidden aino-speech">Aloita sanomalla "<b>Nimi on</b>... (yrityksesi tai organisaatiosi nimi)"</p>
 			<p id="p_org" class="hidden aino-speech">
-				Kuulinko oikein: <input id="aino_org" type="text" class="aino-speech" />? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
-				</br>
-				</br>
-				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
+				Kuulinko oikein? <input id="aino_org" type="text" class="aino-speech" /> </br>
+				Ole hyvä ja vahvista nimi sanomalla "<b>Nimi oikein</b>".
 			</p>
 			<div id="p_question1" class="hidden aino-speech">
-				Valitse paras vaihtoehto sanomalla "Vastaus" ja vastauksen kirjain.
+				Valitse vaihtoehto sanomalla esimerkiksi "Vastaus A". </br>
 				Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
 				<ul>
 					<li>
@@ -73,6 +71,7 @@
 						<div class="check"></div>
 					</li>
 				</ul>
+				<p>Sano "Seuraava kysymys" kun olet vastannut</p>
 			</div>
 
 			<div id="p_question2" class="hidden aino-speech">
@@ -101,6 +100,7 @@
 						<div class="check"></div>
 					</li>
 				</ul>
+				<p>Sano "Seuraava kysymys" kun olet vastannut</p>
 			</div>
 
 			<div id="p_question3" class="hidden aino-speech">
@@ -129,30 +129,31 @@
 						<div class="check"></div>
 					</li>
 				</ul>
+				<p>Tämä oli viimeinen kysymys. Sano "Tulos" kun olet vastannut.</p>
 			</div>
 			<div id="section_email" class="hidden aino-speech">
+				<p> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Sinulle lähtee sähköpostilla tulokset. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen. 
 				<form name="ainoform" action="index2.html" netlify-honeypot="bot-field" netlify>
 					<p class="hidden">
 					    <label>Don’t fill this out: <input name="bot-field"></label>
 					</p>
 					<p>
-						<label>Nimeni on: <input type="text" name="name" id="recipient_name"></label>
+						<label>Nimeni on: <input class="aino-speech" type="text" name="name" id="recipient_name"></label>
 					</p>
 					<p>
-						<label>Sähköpostiosoitteeni on: <input type="email" name="email" id="recipient_email"></label>
+						<label>Sähköpostiosoitteeni on: <input class="aino-speech" type="email" name="email" id="recipient_email"></label>
 					</p>
 					<p class="">
-						<label> Sait eniten pisteitä vastauksesta: <input type="text" name="number" id="recipient_message"></label>
+						<label> Sait eniten pisteitä vastauksesta: <input class="aino-speech" type="text" name="number" id="recipient_message"></label>
 					</p>
 					<p class="">
-					    <label> Analyysin tulos: <textarea name="message" id="message_text"></textarea></label>
+					    <label> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="width: 100%; height: 100px; margin-left: 0px;"></textarea></label>
 					  </p>
 					<p>
-						Sano: <button type="submit" id="result_form">"Lähetä lomake"</button>
+						Sano: <button class="aino-speeceh" type="submit" id="result_form">"Lähetä lomake"</button>
 					</p>
+					<p style="font-size: smaller">Sähköpostiosoitetta voidaan käyttää Digia Oyj:n ja Digia Finland Oy:n markkinointitarkoituksiin.</p>
 				</form>
-				<p><img style="width:50%; height:auto;" src="1.png" id="result_img" />
-				</p>
 
 			</div>
 		</section>
@@ -234,7 +235,7 @@
 				$("#hei").slideDown("slow");
 				scrollTo("#section_hei");
 				//tarkista kuuleeko käyttäjä, jos ei kuule, vaihda pois responsivevoicesta
-				speak_aino('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"');
+				speak_aino('Hei, hauska tutustua! Kerro yrityksesi tai organisaatiosi nimi? Aloita sanomalla "Nimi on"');
     	};
 
 			var get_org = function(heard_org) {
@@ -324,7 +325,7 @@
 					}
 				});
 
-				speak_aino('Valitse paras vaihtoehto sanomalla vaihtoehdon teksti');
+				speak_aino('Valitse vaihtoehto sanomalla "Vastaus A"');
 			}
 
 			var next_question = function() {
@@ -408,13 +409,13 @@
 				    message = "Liidät digitalisaation tasolla 3: Seikkaile, avaa kumppaneille rajapintasi ja kehitä palveluita asiakkaidesi kanssa.";
 				} else if (digipoints_raw > 3 && digipoints_raw <= 4) {
 				    digipoints_percentile = 4;
-				    message = "Kukoistat digitalisaation tasolla 4: Aktivoidu! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella";
+				    message = "Kukoistat digitalisaation tasolla 4: Aktivoidu ekosysteemiin! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella.";
 				} else if (digipoints_raw > 4 && digipoints_raw <= 5) {
 				    digipoints_percentile = 5;
-				    message = "Transendentiaalisella tasolla 5, digitalisaation mallioppilas. Rajapinnat auki, estetiikka kukkii ja diginatiivit, asiakaslähtöiset ratkaisut liitävät.";
+				    message = "Transendentiaalinen taso 5: Rajapinnat auki, estetiikka kukkii, diginatiivit asiakaslähtöiset ratkaisut liitävät.";
 				} else {
 				    digipoints_percentile = 0;
-				   message = "Aino ei valitettavasti pystynyt arvioimaan digitalisaatiosi tasoa. Ehdotamme nettisivujen hankkimista / kääntämistä englanniksi Watsonille.";
+				   message = "Aino on tosi pahoillaan, mutta tällä kertaa ainon hakutaidot eivät riittäneet nettisivujesi löytämiseen.";
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				document.getElementById("result_img").src = hi_score.toString()+'.png';
