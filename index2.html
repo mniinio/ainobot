@@ -48,7 +48,7 @@
       <p id="intro" class="hidden voice_instructions aino-speech">Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
       <p id="hei" class="hidden aino-speech">Heipä hei! Hauska tutustua. Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "<b>Nimi on</b>..."</p>
 			<p id="p_org" class="hidden aino-speech">
-				Kuulinko oikein: <input id="aino_org" type="text" size="20" class="aino-speech" />? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
+				Kuulinko oikein: <input id="aino_org" type="text" class="aino-speech" />? Jos nimi ei ollut ihan oikein, kokeile sanoa oy tai oyj sanan perään tai ääntää englanninkielinen nimi suomalaisittain.
 				</br>
 				</br>
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
@@ -137,7 +137,10 @@
 				</ul>
 			</div>
 			<div id="section_email" class="hidden aino-speech">
-				<p>Tuloksesi on <input id="aino_tulos" type="text" size="20" class="aino-speech" /></p>
+				<p>Tuloksesi on <input id="aino_tulos" type="text" class="aino-speech" />
+					<img src="1.png" id="result_img" />
+				</p>
+				
 				<form name="ainoform" action="index2.html" netlify-honeypot="bot-field" netlify>
 					<p class="hidden">
 					    <label>Don’t fill this out: <input name="bot-field"></label>
@@ -390,6 +393,7 @@
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				document.getElementById("aino_tulos").value = digipoints_percentile.toString();
+				document.getElementById("result_img").src = digipoints_percentile.toString()+'.png';
 				$("#recipient_message").val(digipoints_percentile.toString());
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
