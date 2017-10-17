@@ -229,20 +229,40 @@
 
 
       // define the functions our commands will run.
-     			 var hello = function() {
+     	var hello = function() {
 				$("#intro").slideUp("slow");
 				$("#hei").slideDown("slow");
 				scrollTo("#section_hei");
 				//tarkista kuuleeko käyttäjä, jos ei kuule, vaihda pois responsivevoicesta
 				speak_aino('Heipä hei! Hauska tutustua! Sanotko ensiksi yrityksesi tai organisaatiosi nimen mahdollisimman selkeästi? Aloita sanomalla "Nimi on"');
-    			  };
+    	};
 
 			var get_org = function(heard_org) {
 				$("#hei").slideUp("slow");
         			$("#p_org").slideDown("slow");
 				document.getElementById("aino_org").value = heard_org.toString();
-				speak_aino('Kuulinko oikein, sanoitko '+heard_org.toString());
+				speak_aino('Kuulinko oikein, sanoitko '+ heard_org.toString());
 				companyname = heard_org.toString();
+				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/searchcomp?companyname=' + companyname;
+				$.ajax({
+					type: 'GET',
+					url: url,
+					async: true,
+					dataType: 'json',
+					success: function (data) {
+						//alert(data.message);
+						if (data.filename != 'url not found') {
+							imageRetrieved = true;
+							speak_aino('Yritin etsiä yritystä mutta en löytänyt tiedoistani.');
+						}
+					}
+				});
+
+      };
+
+			var got_name_right = function() {
+				$("#p_org").slideUp("slow");
+				$("#p_question1").slideDown("slow");
 				answers[0] = companyname;
 				answers_score[0] = 0;
 				//käynnistä kuva- ja personallisuushaut askynkronisesti
@@ -259,57 +279,47 @@
 						}
 					}
 				});
-				if (imageRetrieved == false) {
-					speak_aino('Organisaatiota ei löydy tai sille ei löydy nettisivuja, tarkista nimi ja sano tai kirjoita se uudelleen.');
-				} else 	{
-				  
-					var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
 
-					$.ajax({
-						type: 'GET',
-						url: url,
-						async: false,
-						dataType: 'json',
-						success: function (data) {
-							//alert(data.message);
-							answers[4] = data.needs[0].percentile;
-							answers_score[4] = data.needs[0].percentile;
-							if( answers[4] ) {
-							} else {
-								answers[4]=0;
-								answers_score[4];
-							}
-							console.log('percentile '+answers_score[4]);
+				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
+
+				$.ajax({
+					type: 'GET',
+					url: url,
+					async: false,
+					dataType: 'json',
+					success: function (data) {
+						//alert(data.message);
+						answers[4] = data.needs[0].percentile;
+						answers_score[4] = data.needs[0].percentile;
+						if( answers[4] ) {
+						} else {
+							answers[4]=0;
+							answers_score[4];
 						}
-					});
+						console.log('percentile '+answers_score[4]);
+					}
+				});
 
-					var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname;
+				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname;
 
-					$.ajax({
-						type: 'GET',
-						url: url,
-						async: false,
-						dataType: 'json',
-						success: function (data) {
-							//alert(data.message);
-							answers[5] = data.images[0].classifiers[0].classes[0].score[0];
-							answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
-							if( answers[5] ) {
-							} else {
-								answers[5]=0;
-								answers_score[5];
-							}
-							console.log('image '+answers_score[5]);
+				$.ajax({
+					type: 'GET',
+					url: url,
+					async: false,
+					dataType: 'json',
+					success: function (data) {
+						//alert(data.message);
+						answers[5] = data.images[0].classifiers[0].classes[0].score[0];
+						answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
+						if( answers[5] ) {
+						} else {
+							answers[5]=0;
+							answers_score[5];
 						}
-					});
+						console.log('image '+answers_score[5]);
+					}
+				});
 
-				}
-
-      			 };
-
-			var got_name_right = function() {
-				$("#p_org").slideUp("slow");
-				$("#p_question1").slideDown("slow");
 				speak_aino('Valitse paras vaihtoehto sanomalla vaihtoehdon teksti');
 			}
 
@@ -409,7 +419,7 @@
 	    	    	var send_form = function() {
 				$( '#result_form' ).trigger('click');
 				speak_aino('Lomake lähetetty');
-      			 };
+      };
 
 
 
