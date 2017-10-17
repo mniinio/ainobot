@@ -386,8 +386,8 @@
 				    digipoints_percentile = 0;
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
-				document.getElementById("aino_tulos").value = digipoints_raw.toString();
-				$("#recipient_message").val(digipoints_raw.toString());
+				document.getElementById("aino_tulos").value = digipoints_percentile.toString();
+				$("#recipient_message").val(digipoints_percentile.toString());
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
 				console.log(answers[0]);
