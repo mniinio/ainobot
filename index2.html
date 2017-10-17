@@ -371,7 +371,7 @@
 				answers_score[lastanswered+1] = 0;
 			}
 			
-			function indexOfMax(arr) {
+			var high_score = function indexOfMax(arr) {
 				    if (arr.length === 0) {
 					return -1;
 				    }
@@ -395,7 +395,7 @@
 				//hae personallisuusarvio
 				lastanswered++;
 				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
-				var high_score = indexofMax(answers_score);
+				high_score;
 				var message = "";
 				console.log("Max "+high_score);
 				if (digipoints_raw <= 1) {
