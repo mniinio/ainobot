@@ -34,6 +34,7 @@
     <script type="text/javascript">
 
 		ainoIdle();
+	       	aino Dancing();
 		ainoTalking();
 
 
@@ -146,13 +147,16 @@
 					    <label>Don’t fill this out: <input name="bot-field"></label>
 					</p>
 					<p>
-						<label>Your Name: <input type="text" name="name" id="recipient_name"></label>
+						<label>Nimeni on: <input type="text" name="name" id="recipient_name"></label>
 					</p>
 					<p>
-						<label>Your Email: <input type="email" name="email" id="recipient_email"></label>
+						<label>Sähköpostiosoitteeni on: <input type="email" name="email" id="recipient_email"></label>
 					</p>
-					<p>
-					    <label>Message: <textarea name="message" id="recipient_message"></textarea></label>
+					<p class="hidden">
+						<input type="text" name="number" id="recipient_message"></label>
+					</p>
+					<p class="hidden">
+					    <label>Message: <textarea name="message" id="message_text"></textarea></label>
 					  </p>
 					<p>
 						<button type="submit" id="result_form">Send</button>
