@@ -134,7 +134,7 @@
 				<p>Tuloksesi on <input id="aino_tulos" type="text" class="aino-speech" />
 					<img style="width:25%; height:auto;" src="1.png" id="result_img" />
 				</p>
-				
+
 				<form name="ainoform" action="index2.html" netlify-honeypot="bot-field" netlify>
 					<p class="hidden">
 					    <label>Don’t fill this out: <input name="bot-field"></label>
@@ -321,7 +321,7 @@
 							answers_score[5];
 						}
 						console.log('image '+answers_score[5]);
-						answers_score[5] = answers_score[5] * 2; 
+						answers_score[5] = answers_score[5] * 2;
 					}
 				});
 
@@ -370,7 +370,7 @@
 				answers[lastanswered+1] = "D";
 				answers_score[lastanswered+1] = 0;
 			}
-			
+
 			var high_score = function indexOfMax(arr) {
 				    if (arr.length === 0) {
 					return -1;
@@ -395,9 +395,9 @@
 				//hae personallisuusarvio
 				lastanswered++;
 				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
-				high_score;
+				var hi_score = high_score(answers_score);
 				var message = "";
-				console.log("Max "+high_score);
+				console.log("Max "+hi_score);
 				if (digipoints_raw <= 1) {
 				    digipoints_percentile = 1;
 				    var message = "Tukevasti jalat digitalisaation tasolla 1: Älä kutsu digitalisaatiota unelmaksi. Sano että se on suunnitelma";
@@ -419,8 +419,8 @@
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				document.getElementById("aino_tulos").value = digipoints_percentile.toString();
-				document.getElementById("result_img").src = high_score.toString()+'.png';
-				$("#recipient_message").val(high_score.toString());
+				document.getElementById("result_img").src = hi_score.toString()+'.png';
+				$("#recipient_message").val(hi_score.toString());
 				$("#message_text").val(message.toString());
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
