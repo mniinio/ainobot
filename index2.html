@@ -411,6 +411,11 @@
 				//hae website kuvan arvio
 				//hae personallisuusarvio
 				lastanswered++;
+				if (answers_score[5]*2 > 1) {
+		   			answers_score[5] = 1;
+				} else {
+					answers_score[5] = answers_score[5]*2;
+				}
 				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
 				var hi_score = high_score(answers_score);
 				var message = "";
@@ -419,7 +424,7 @@
 				message_details = message_details+ "Yhteistyö asiakkaiden ja kumppaneiden kanssa: "+answers_score[2].toFixed(2) +", ";
 				message_details = message_details+ "Osaaminen : "+answers_score[3].toFixed(2) +", ";
 				message_details = message_details+ "Uteliaisuuden osuus organisaatiokulttuurissa: "+answers_score[4].toFixed(2)+", ";
-				message_details = message_details+ "Verkkosivujen modernius: "+(answers_score[5].toFixed(2))*2;
+				message_details = message_details+ "Verkkosivujen modernius: "+answers_score[5].toFixed(2);
 				console.log("Max "+hi_score);
 				if (digipoints_raw <= 1) {
 				    digipoints_percentile = 1;
