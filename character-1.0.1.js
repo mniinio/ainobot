@@ -41,7 +41,7 @@ function ainoTalking() {
 function ainoIdle() {
     var iframe = document.getElementById( 'aino-idle' );
     var version = '1.0.0';
-    var urlid = 'aef3cd9633a74224bea74cccf0d28ca1';
+    var urlid = 'c6f5458181314752bfdc39d153920cee';
     var client = new Sketchfab( version, iframe );
 
     client.init( urlid, {
