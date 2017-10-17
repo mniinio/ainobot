@@ -244,7 +244,7 @@
 				document.getElementById("aino_org").value = heard_org.toString();
 				speak_aino('Kuulinko oikein, sanoitko '+ heard_org.toString());
 				companyname = heard_org.toString();
-				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/searchcomp?companyname=' + companyname;
+				var url = encodeURI('https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/searchcomp?companyname=' + companyname);
 				$.ajax({
 					type: 'GET',
 					url: url,
@@ -270,7 +270,7 @@
 				answers[0] = companyname;
 				answers_score[0] = 0;
 				//käynnistä kuva- ja personallisuushaut askynkronisesti
-				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/url2png?companyname=' + companyname;
+				var url = encodeURI('https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/url2png?companyname=' + companyname);
 				$.ajax({
 					type: 'GET',
 					url: url,
@@ -284,7 +284,7 @@
 					}
 				});
 
-				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname;
+				var url = encodeURI('https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/simpleget?companyname=' + companyname);
 
 				$.ajax({
 					type: 'GET',
