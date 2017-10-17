@@ -425,7 +425,9 @@
 				speak_aino('Lomake lähetetty');
       };
 
-
+			var get_mirror = function() {
+				speak_aino('O Lady Queen, though fair ye be, Snow-White is fairer far to see');
+			}
 
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
@@ -440,7 +442,8 @@
 	      			'tulos': results,
 	      			'nimeni on *hear_name': get_name,
 	      			'sähköpostiosoitteeni on *hear_email': get_email,
-	      			'lähetä lomake': send_form
+	      			'lähetä lomake': send_form,
+							'kerro kerro *hear_kerro': get_mirror
 
       };
 
