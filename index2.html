@@ -310,8 +310,8 @@
 					dataType: 'json',
 					success: function (data) {
 						//alert(data.message);
-						answers[5] = data.images[0].classifiers[0].classes[0].score[0];
-						answers_score[5] = data.images[0].classifiers[0].classes[0].score[0];
+						answers[5] = data.result;
+						answers_score[5] = data.result;
 						if( answers[5] ) {
 						} else {
 							answers[5]=0;
