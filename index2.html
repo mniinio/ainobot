@@ -33,7 +33,6 @@
     <script type="text/javascript">
 
 		ainoIdle();
-	    	ainoDancing();
 		ainoTalking();
 
 
@@ -54,7 +53,7 @@
 				Ole hyvä ja vahvista nimi oikeaksi sanomalla "<b>Nimi oikein</b>".
 			</p>
 			<div id="p_question1" class="hidden aino-speech">
-				Valitse paras vaihtoehto sanomalla "Vastaus" ja vatauksen kirjain.
+				Valitse paras vaihtoehto sanomalla "Vastaus" ja vastauksen kirjain.
 				Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
 				<ul>
 					<li>
@@ -436,7 +435,7 @@
 	      			'seuraava kysymys': next_question,
 	      			'tulos': results,
 	      			'nimeni on *hear_name': get_name,
-	      			'sähköpostiosoitteeni on *hear_email1 piste *hear_email2 at *hear_domain': get_email,
+	      			'sähköpostiosoitteeni on *hear_email1.*hear_email2 ät *hear_domain': get_email,
 	      			'lähetä lomake': send_form
 
       };
