@@ -25,7 +25,7 @@
 		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		<iframe src="" id="aino-idle" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		<iframe src="" id="aino-talking" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		<audio source="" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false">
+		<audio id="ainobailaa" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false">
 		Your browser does not support the audio element.
 		</audio>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
@@ -213,6 +213,16 @@
 			//$( '#_play' ).prop('checked', fal<se);
 			$( '#_stop' ).trigger('click');
 			//$( '#_stop' ).click(function() {console.log("stop.click")});
+		}
+		
+		var sound = document.getElementById("ainobailaa"); 
+
+		function playSound() { 
+		    sound.play(); 
+		} 
+
+		function pauseSound() { 
+		    sound.pause(); 
 		}
 
 		var f_AIno_initialize = function () {
@@ -431,7 +441,6 @@
 				   message = "Aino on tosi pahoillaan, mutta tällä kertaa ainon hakutaidot eivät riittäneet nettisivujesi löytämiseen.";
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
-				document.getElementById("result_img").src = hi_score.toString()+'.png';
 				$("#recipient_message").val(hi_score.toString());
 				$("#message_text").val(message);
 				$("#message_details").val(message_details);
@@ -477,9 +486,9 @@
 	    		var dance = function() {
 					hideAinoIdle();
 					showAinoDancing();
-					sound.play();
-					setTimeout(hideAinoDancing, 184800);
-					setTimeout(sound.pause,184800);
+					soundPlay();
+					setTimeout(hideAinoDancing, 1000);
+					setTimeout(soundPause,1000);
 					showAinoIdle();
 			};
 
