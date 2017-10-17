@@ -166,6 +166,7 @@
     "use strict";
 		var digipoints_raw = 0; //these points are added everytime user answers question or analysis is ready
 		var digipoints_percentile = 0; // categorized digipoints with scale of 1-5
+		var digipoints_analysis = "";
 
 		var answers = []; //array of all answers as they are. First answer is the company name
 		var answers_score = []; //array of each answer's score. First answer is company name which has score 0.
@@ -369,6 +370,24 @@
 				answers[lastanswered+1] = "D";
 				answers_score[lastanswered+1] = 0;
 			}
+			
+			function indexOfMax(arr) {
+				    if (arr.length === 0) {
+					return -1;
+				    }
+
+				    var max = arr[0];
+				    var maxIndex = 0;
+
+				    for (var i = 1; i < arr.length; i++) {
+					if (arr[i] > max) {
+					    maxIndex = i;
+					    max = arr[i];
+					}
+				    }
+
+				    return maxIndex;
+				}
 
 			var results = function() {
 				//tulosta viestiä parin sekunnin välein että haku on käynnissä
@@ -376,23 +395,33 @@
 				//hae personallisuusarvio
 				lastanswered++;
 				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
+				var high_score = indexofMax(answers_score);
+				var message = "";
+				console.log("Max "+high_score);
 				if (digipoints_raw <= 1) {
 				    digipoints_percentile = 1;
+				    var message = "Tukevasti jalat digitalisaation tasolla 1: Älä kutsu digitalisaatiota unelmaksi. Sano että se on suunnitelma";
 				} else if (digipoints_raw > 1 && digipoints_raw <= 2) {
 				    digipoints_percentile = 2;
+				    var message = "Ponnistelet digitalisaation tasolla 2: Ole utelias. Digitalisaatiota voi tehdä pienin askelin.";
 				} else if (digipoints_raw > 2 && digipoints_raw <= 3) {
 				    digipoints_percentile = 3;
+				    var message = "Liidät digitalisaation tasolla 3: Seikkaile, avaa kumppaneille rajapintasi ja kehitä palveluita asiakkaidesi kanssa.";
 				} else if (digipoints_raw > 3 && digipoints_raw <= 4) {
 				    digipoints_percentile = 4;
+				    var message = "Kukoistat digitalisaation tasolla 4: Aktivoidu! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella";
 				} else if (digipoints_raw > 4 && digipoints_raw <= 5) {
 				    digipoints_percentile = 5;
+				    var message = "Transendentiaalisella tasolla 5, digitalisaation mallioppilas. Rajapinnat auki, estetiikka kukkii ja diginatiivit, asiakaslähtöiset ratkaisut liitävät.";
 				} else {
 				    digipoints_percentile = 0;
+				   var message = "Aino ei valitettavasti pystynyt arvioimaan digitalisaatiosi tasoa. Ehdotamme nettisivujen hankkimista / kääntämistä englanniksi Watsonille.";
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				document.getElementById("aino_tulos").value = digipoints_percentile.toString();
-				document.getElementById("result_img").src = digipoints_percentile.toString()+'.png';
-				$("#recipient_message").val(digipoints_percentile.toString());
+				document.getElementById("result_img").src = high_score.toString()+'.png';
+				$("#recipient_message").val(high_score.toString());
+				$("#message_text").val(message.toString());
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
 				console.log(answers[0]);
@@ -409,6 +438,7 @@
 				console.log(answers_score[5]);
 				console.log(digipoints_raw);
 				console.log(digipoints_percentile);
+				console.log(message);
 			}
 
 			var get_name = function(heard_name) {
