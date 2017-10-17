@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="ainobot.css">
 		<link rel="stylesheet" href="main.min.css">
 		<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.1.js"></script>
-		<script type="text/javascript" src="character-1.0.0.js"></script>
+		<script type="text/javascript" src="character-1.0.1.js"></script>
 		<script src="annyang.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
@@ -14,29 +14,29 @@
 		<audio source="" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false" autoplay>
 		Your browser does not support the audio element.
 		</audio>
-				
+
 	<!-- DRAW 3D CHARACTERS -->
 		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
 		<p align="right" class="hidden">
 			<button id="_play" type="button" title="play">play</button>
 			<button id="_stop" type="button" title="stop">stop</button>
 		</p>
-		
+
 
 		<!-- Insert an empty iframe for AIno 3D animation -->
 		<iframe src="" id="aino-dancing" style="z-index: 1; height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
 		 <!-- Insert an empty iframe, hidden by default using a class-->
 		<!-- Initialize the viewer -->
     <script type="text/javascript">
-			
+
 		ainoDancing();
     		showAinoDancing();
 		setTimeout(hideAinoDancing, 184800);
 
     </script>
-		
-	<!-- START SPEACH -->	
-	
+
+	<!-- START SPEACH -->
+
 		<section id="section_header" class="sec">
 			<h1>AIno bot</h1>
 		</section>
@@ -54,13 +54,13 @@
 			setTimeout(enterIdle, 6500);
 			annyang.start();
 		}
-		
+
 		function enterIdle() {
 			$("#aino-talking").addClass("hidden");
 			$("#aino-idle").removeClass("hidden");
-			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");			
+			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");
 		}
-			
+
 		function hideIdle() {
 			$("#aino-talking").removeClass("hidden");
 			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
@@ -85,10 +85,10 @@
 			$('#aino-dancing').ready(function () {
 				//setTimeout(f_AIno_initialize, 2000);
 			});
-			play3D();			
+			play3D();
 		}
 
-			
+
     if (annyang) {
 
 	    			var startover = function () {
@@ -97,8 +97,8 @@
 						return false;
 					});
 				}
-    
-      annyang.start();				
+
+      annyang.start();
       // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
         			'aloita': startover
@@ -128,7 +128,7 @@
         $('#unsupported').fadeIn('fast');
       });
     }
-			
+
 
     </script>
 
