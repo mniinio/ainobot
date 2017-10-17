@@ -253,7 +253,8 @@
 						//alert(data.message);
 						if (data.filename != 'url not found') {
 							imageRetrieved = true;
-							speak_aino('Yritin etsiä yritystä mutta en löytänyt tiedoistani.');
+						} else {
+						speak_aino('Yritin etsiä yritystä mutta en löytänyt tiedoistani.');
 						}
 					}
 				});
