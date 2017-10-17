@@ -411,6 +411,7 @@
 
 			var get_name = function(heard_name) {
 				document.getElementById("recipient_name").value = heard_name.toString();
+				document.getElementById("recipient_email").value = document.getElementById("recipient_name").value.replace(" ",".") + "@" + companyname + ".com";
 				speak_aino('Kuulinko oikein, sanoitko '+heard_name.toString());
       			 };
 
