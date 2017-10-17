@@ -263,6 +263,8 @@
 			var got_name_right = function() {
 				$("#p_org").slideUp("slow");
 				$("#p_question1").slideDown("slow");
+				companyname = document.getElementById("aino_org").value;
+				
 				answers[0] = companyname;
 				answers_score[0] = 0;
 				//käynnistä kuva- ja personallisuushaut askynkronisesti
