@@ -264,7 +264,7 @@
 				$("#p_org").slideUp("slow");
 				$("#p_question1").slideDown("slow");
 				companyname = document.getElementById("aino_org").value;
-				
+
 				answers[0] = companyname;
 				answers_score[0] = 0;
 				//käynnistä kuva- ja personallisuushaut askynkronisesti
@@ -413,12 +413,12 @@
 				speak_aino('Kuulinko oikein, sanoitko '+heard_name.toString());
       			 };
 
-	    		var get_email = function(heard_email1,heard_email2,heard_domain) {
-				document.getElementById("recipient_email").value = heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain.toString();
-				speak_aino('Kuulinko oikein, sanoitko '+heard_email1.toString()+'.'+heard_email2.toString()+'@'+heard_domain.toString());
-      			 };
+	    var get_email = function(heard_email1,heard_email2,heard_domain) {
+				document.getElementById("recipient_email").value = heard_email.toString();
+				speak_aino('Kuulinko oikein, sanoitko '+heard_email.toString());
+      };
 
-	    	    	var send_form = function() {
+	    var send_form = function() {
 				$( '#result_form' ).trigger('click');
 				speak_aino('Lomake lähetetty');
       };
@@ -437,7 +437,7 @@
 	      			'seuraava kysymys': next_question,
 	      			'tulos': results,
 	      			'nimeni on *hear_name': get_name,
-	      			'sähköpostiosoitteeni on *hear_email1.*hear_email2 ät *hear_domain': get_email,
+	      			'sähköpostiosoitteeni on *hear_email': get_email,
 	      			'lähetä lomake': send_form
 
       };
