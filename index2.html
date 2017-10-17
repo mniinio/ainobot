@@ -400,28 +400,28 @@
 				console.log("Max "+hi_score);
 				if (digipoints_raw <= 1) {
 				    digipoints_percentile = 1;
-				    var message = "Tukevasti jalat digitalisaation tasolla 1: Älä kutsu digitalisaatiota unelmaksi. Sano että se on suunnitelma";
+				    message = "Tukevasti jalat digitalisaation tasolla 1: Älä kutsu digitalisaatiota unelmaksi. Sano että se on suunnitelma";
 				} else if (digipoints_raw > 1 && digipoints_raw <= 2) {
 				    digipoints_percentile = 2;
-				    var message = "Ponnistelet digitalisaation tasolla 2: Ole utelias. Digitalisaatiota voi tehdä pienin askelin.";
+				    message = "Ponnistelet digitalisaation tasolla 2: Ole utelias. Digitalisaatiota voi tehdä pienin askelin.";
 				} else if (digipoints_raw > 2 && digipoints_raw <= 3) {
 				    digipoints_percentile = 3;
-				    var message = "Liidät digitalisaation tasolla 3: Seikkaile, avaa kumppaneille rajapintasi ja kehitä palveluita asiakkaidesi kanssa.";
+				    message = "Liidät digitalisaation tasolla 3: Seikkaile, avaa kumppaneille rajapintasi ja kehitä palveluita asiakkaidesi kanssa.";
 				} else if (digipoints_raw > 3 && digipoints_raw <= 4) {
 				    digipoints_percentile = 4;
-				    var message = "Kukoistat digitalisaation tasolla 4: Aktivoidu! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella";
+				    message = "Kukoistat digitalisaation tasolla 4: Aktivoidu! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella";
 				} else if (digipoints_raw > 4 && digipoints_raw <= 5) {
 				    digipoints_percentile = 5;
-				    var message = "Transendentiaalisella tasolla 5, digitalisaation mallioppilas. Rajapinnat auki, estetiikka kukkii ja diginatiivit, asiakaslähtöiset ratkaisut liitävät.";
+				    message = "Transendentiaalisella tasolla 5, digitalisaation mallioppilas. Rajapinnat auki, estetiikka kukkii ja diginatiivit, asiakaslähtöiset ratkaisut liitävät.";
 				} else {
 				    digipoints_percentile = 0;
-				   var message = "Aino ei valitettavasti pystynyt arvioimaan digitalisaatiosi tasoa. Ehdotamme nettisivujen hankkimista / kääntämistä englanniksi Watsonille.";
+				   message = "Aino ei valitettavasti pystynyt arvioimaan digitalisaatiosi tasoa. Ehdotamme nettisivujen hankkimista / kääntämistä englanniksi Watsonille.";
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				document.getElementById("aino_tulos").value = digipoints_percentile.toString();
 				document.getElementById("result_img").src = hi_score.toString()+'.png';
 				$("#recipient_message").val(hi_score.toString());
-				$("#message_text").val(message.toString());
+				$("#message_text").val(message);
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
 				console.log(answers[0]);
