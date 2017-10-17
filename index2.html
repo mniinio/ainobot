@@ -135,29 +135,26 @@
 				<p>Tämä oli viimeinen kysymys. Sano "Tulos" kun olet vastannut.</p>
 			</div>
 			<div id="section_email" class="hidden aino-speech">
-				<p> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Sinulle lähtee sähköpostilla tulokset. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen. 
+				<p style="font-size:smaller;"> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen. 
 				<form name="ainoform" action="index2.html" netlify-honeypot="bot-field" netlify>
 					<p class="hidden">
-					    <label>Don’t fill this out: <input name="bot-field"></label>
+					    <label style="font-size:smaller;">Don’t fill this out: <input name="bot-field"></label>
 					</p>
 					<p>
-						<label>Nimeni on: <input class="aino-speech" type="text" name="name" id="recipient_name"></label>
+						<label style="font-size:smaller;">Nimeni on: <input class="aino-speech" type="text" name="name" id="recipient_name"></label>
 					</p>
 					<p>
-						<label>Sähköpostiosoitteeni on: <input class="aino-speech" type="email" name="email" id="recipient_email"></label>
+						<label style="font-size:smaller;">Sähköpostiosoitteeni on: <input class="aino-speech" type="email" name="email" id="recipient_email"></label>
 					</p>
 					<p class="">
-						<label> Sait eniten pisteitä vastauksesta: <input class="aino-speech" type="text" name="number" id="recipient_message"></label>
-					</p>
-					<p class="">
-					    <label> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="width: 100%; height: 100px; margin-left: 0px;"></textarea></label>
+					    <label style="font-size:smaller;"> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
 					  </p>
 					
 					<p class="">
-					    <label> Tulokset vastauksittain: <textarea class="aino-speech" name="message_details" id="message_details" style="width: 100%; height: 100px; margin-left: 0px;"></textarea></label>
+					    <label style="font-size:smaller;" > Tulokset vastauksittain: <textarea class="aino-speech" name="message_details" id="message_details" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
 					  </p>
 					<p>
-						Sano: <button class="aino-speech" type="submit" id="result_form">"Lähetä lomake"</button>
+						Sano: <button style="font-size:smaller;" class="aino-speech" type="submit" id="result_form">"Lähetä lomake"</button>
 					</p>
 					<p style="font-size: smaller">Sähköpostiosoitetta voidaan käyttää Digia Oyj:n ja Digia Finland Oy:n markkinointitarkoituksiin.</p>
 				</form>
@@ -446,7 +443,7 @@
 				   message = "Aino on tosi pahoillaan, mutta tällä kertaa ainon hakutaidot eivät riittäneet nettisivujesi löytämiseen.";
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
-				$("#recipient_message").val(hi_score.toString());
+				//$("#recipient_message").val(hi_score.toString());
 				$("#message_text").val(message);
 				$("#message_details").val(message_details);
 				$("#p_question"+lastanswered).slideUp("slow");
