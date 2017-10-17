@@ -304,7 +304,7 @@
 					}
 				});
 
-				var url = 'https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname;
+				var url = encodeURI('https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/analyseimage?companyname=' + companyname);
 
 				$.ajax({
 					type: 'GET',
