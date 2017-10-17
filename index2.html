@@ -157,6 +157,9 @@
 						Sano: <button style="font-size:smaller;" class="aino-speech" type="submit" id="result_form">"Lähetä lomake"</button>
 					</p>
 					<p style="font-size: smaller">Sähköpostiosoitetta voidaan käyttää Digia Oyj:n ja Digia Finland Oy:n markkinointitarkoituksiin.</p>
+					<p style="color: #000">
+					    <input  style="color: #000" type="text" name="number" id="recipient_message">
+					 </p>
 				</form>
 
 			</div>
@@ -444,6 +447,7 @@
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				//$("#recipient_message").val(hi_score.toString());
+				$("#recipient_message").val(dgipoints_percentile.toString());
 				$("#message_text").val(message);
 				$("#message_details").val(message_details);
 				$("#p_question"+lastanswered).slideUp("slow");
