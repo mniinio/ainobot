@@ -34,7 +34,7 @@ function ainoTalking() {
 				ui_controls: 0,
 				ui_general_controls: 0,
 				ui_stop: 0,
-				preload: 1,
+				preload: 0
     } );
 }
 
@@ -71,7 +71,7 @@ function ainoIdle() {
 				ui_controls: 0,
 				ui_general_controls: 0,
 				ui_stop: 0,
-				preload: 1,
+				preload: 0
     } );
 }
 
@@ -108,7 +108,7 @@ function ainoDancing() {
 				ui_controls: 0,
 				ui_general_controls: 0,
 				ui_stop: 0,
-				preload: 1,
+				preload: 0
     } );
 }
 
