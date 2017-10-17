@@ -149,6 +149,10 @@
 					<p class="">
 					    <label> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="width: 100%; height: 100px; margin-left: 0px;"></textarea></label>
 					  </p>
+					
+					<p class="">
+					    <label> Tulokset vastauksittain: <textarea class="aino-speech" name="message_details" id="message_details" style="width: 100%; height: 100px; margin-left: 0px;"></textarea></label>
+					  </p>
 					<p>
 						Sano: <button class="aino-speeceh" type="submit" id="result_form">"Lähetä lomake"</button>
 					</p>
@@ -397,6 +401,12 @@
 				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
 				var hi_score = high_score(answers_score);
 				var message = "";
+				var message_details = "";
+				message_details = message_details+ "Motivaatiomme digitalisaatioon: "+ answers_score[2].toFixed(2) +", ";
+				message_details = message_details+ "Yhteistyö asiakkaiden ja kumppaneiden kanssa: "+answers_score[2].toFixed(2) +", ";
+				message_details = message_details+ "Osaaminen : "+answers_score[3].toFixed(2) +", ";
+				message_details = message_details+ "Uteliaisuuden osuus organisaatiokulttuurissa: "+answers_score[4].toFixed(2)+", ";
+				message_details = message_details+ "Verkkosivujen modernius: "+(answers_score[5].toFixed(2))*2;
 				console.log("Max "+hi_score);
 				if (digipoints_raw <= 1) {
 				    digipoints_percentile = 1;
@@ -421,6 +431,7 @@
 				document.getElementById("result_img").src = hi_score.toString()+'.png';
 				$("#recipient_message").val(hi_score.toString());
 				$("#message_text").val(message);
+				$("#message_details").val(message_details);
 				$("#p_question"+lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
 				console.log(answers[0]);
