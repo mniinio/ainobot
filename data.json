@@ -1,4777 +1,4778 @@
-[
+{
+  "companies": [
   {
-    "Company": "2nd Opinion",
-    "Url": "http://2ndopinion.com/",
+    "name": "2nd Opinion",
+    "url": "http://2ndopinion.com/",
     "url2": ""
   },
   {
-    "Company": "3 Step IT Oy",
-    "Url": "https://www.3stepit.com/",
+    "name": "3 Step IT Oy",
+    "url": "https://www.3stepit.com/",
     "url2": ""
   },
   {
-    "Company": "3D BI Oy",
-    "Url": "",
+    "name": "3D BI Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "7N",
-    "Url": "https://www.7n.com/",
+    "name": "7N",
+    "url": "https://www.7n.com/",
     "url2": ""
   },
   {
-    "Company": "7N Finland Oy",
-    "Url": "https://www.7n.com/",
+    "name": "7N Finland Oy",
+    "url": "https://www.7n.com/",
     "url2": ""
   },
   {
-    "Company": "Aalto Executive Education",
-    "Url": "https://www.aaltoee.com/",
+    "name": "Aalto Executive Education",
+    "url": "https://www.aaltoee.com/",
     "url2": "https://www.aaltoee.com/about-us"
   },
   {
-    "Company": "Aalto University",
-    "Url": "http://www.aalto.fi/en/",
+    "name": "Aalto University",
+    "url": "http://www.aalto.fi/en/",
     "url2": "http://www.aalto.fi/en/about/careers/"
   },
   {
-    "Company": "Aalto University Executive Education",
-    "Url": "https://www.aaltoee.com/",
+    "name": "Aalto University Executive Education",
+    "url": "https://www.aaltoee.com/",
     "url2": "https://www.aaltoee.com/about-us"
   },
   {
-    "Company": "Aalto yliopisto",
-    "Url": "http://www.aalto.fi/en/",
+    "name": "Aalto yliopisto",
+    "url": "http://www.aalto.fi/en/",
     "url2": "http://www.aalto.fi/en/about/careers/"
   },
   {
-    "Company": "Aalto-yliopisto",
-    "Url": "http://www.aalto.fi/en/",
+    "name": "Aalto-yliopisto",
+    "url": "http://www.aalto.fi/en/",
     "url2": "http://www.aalto.fi/en/about/careers/"
   },
   {
-    "Company": "AAPA-verkosto (AMK:ien tietohallintojohtajat) / c/o Haaga-Helia AMK",
-    "Url": "https://tt.eduuni.fi/sites/aapa/public/SitePages/Home.aspx",
+    "name": "AAPA-verkosto (AMK:ien tietohallintojohtajat) / c/o Haaga-Helia AMK",
+    "url": "https://tt.eduuni.fi/sites/aapa/public/SitePages/Home.aspx",
     "url2": ""
   },
   {
-    "Company": "Aava Ohjelmistot Oy",
-    "Url": "http://www.aavaohjelmistot.fi/",
+    "name": "Aava Ohjelmistot Oy",
+    "url": "http://www.aavaohjelmistot.fi/",
     "url2": "http://www.aavasoftware.com/"
   },
   {
-    "Company": "AB24 Oy",
-    "Url": "https://www.ab24.fi/",
+    "name": "AB24 Oy",
+    "url": "https://www.ab24.fi/",
     "url2": ""
   },
   {
-    "Company": "abb",
-    "Url": "http://new.abb.com/",
+    "name": "abb",
+    "url": "http://new.abb.com/",
     "url2": "http://new.abb.com/about/integrity/standards/abb-code-of-conduct"
   },
   {
-    "Company": "ABB Oy",
-    "Url": "http://new.abb.com/",
+    "name": "ABB Oy",
+    "url": "http://new.abb.com/",
     "url2": "http://new.abb.com/about/integrity/standards/abb-code-of-conduct"
   },
   {
-    "Company": "AbbVie Oy",
-    "Url": "https://www.abbvie.com/",
+    "name": "AbbVie Oy",
+    "url": "https://www.abbvie.com/",
     "url2": ""
   },
   {
-    "Company": "AbicorFin Oy",
-    "Url": "",
+    "name": "AbicorFin Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ACC Orlando Oy",
-    "Url": "http://www.accorlando.fi/english/",
+    "name": "ACC Orlando Oy",
+    "url": "http://www.accorlando.fi/english/",
     "url2": "http://www.accorlando.fi/english/"
   },
   {
-    "Company": "Accenture",
-    "Url": "https://www.accenture.com/fi-en/new-applied-now",
+    "name": "Accenture",
+    "url": "https://www.accenture.com/fi-en/new-applied-now",
     "url2": "https://www.accenture.com/fi-en/careers/team-culture-values"
   },
   {
-    "Company": "Accenture Oyj",
-    "Url": "https://www.accenture.com/fi-en/new-applied-now",
+    "name": "Accenture Oyj",
+    "url": "https://www.accenture.com/fi-en/new-applied-now",
     "url2": "https://www.accenture.com/fi-en/careers/team-culture-values"
   },
   {
-    "Company": "Accounting Company",
-    "Url": "",
+    "name": "Accounting Company",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ACD Consulting",
-    "Url": "",
+    "name": "ACD Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ACME Limo Service",
-    "Url": "http://acmelimoservice.com/",
+    "name": "ACME Limo Service",
+    "url": "http://acmelimoservice.com/",
     "url2": ""
   },
   {
-    "Company": "Actility",
-    "Url": "https://www.actility.com/",
+    "name": "Actility",
+    "url": "https://www.actility.com/",
     "url2": ""
   },
   {
-    "Company": "Action-E-Machines Oy",
-    "Url": "",
+    "name": "Action-E-Machines Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Aditro Shared Services Oy",
-    "Url": "http://www.aditro.com/",
+    "name": "Aditro Shared Services Oy",
+    "url": "http://www.aditro.com/",
     "url2": ""
   },
   {
-    "Company": "Admares Group Oy",
-    "Url": "http://admares.com/",
+    "name": "Admares Group Oy",
+    "url": "http://admares.com/",
     "url2": ""
   },
   {
-    "Company": "Advance B2B",
-    "Url": "https://www.advanceb2b.com/",
+    "name": "Advance B2B",
+    "url": "https://www.advanceb2b.com/",
     "url2": ""
   },
   {
-    "Company": "Advance IT Solutions Oy",
-    "Url": "http://www.advance.fi/",
+    "name": "Advance IT Solutions Oy",
+    "url": "http://www.advance.fi/",
     "url2": ""
   },
   {
-    "Company": "Advocorp Oy",
-    "Url": "http://advocorp.fi/",
+    "name": "Advocorp Oy",
+    "url": "http://advocorp.fi/",
     "url2": ""
   },
   {
-    "Company": "Affecto",
-    "Url": "https://www.cgi.com/en",
+    "name": "Affecto",
+    "url": "https://www.cgi.com/en",
     "url2": ""
   },
   {
-    "Company": "Affecto Finland",
-    "Url": "https://www.cgi.com/en",
+    "name": "Affecto Finland",
+    "url": "https://www.cgi.com/en",
     "url2": "https://www.cgi.com/en/careers/CGI-culture"
   },
   {
-    "Company": "Affecto Finland Oy",
-    "Url": "https://www.cgi.com/en",
+    "name": "Affecto Finland Oy",
+    "url": "https://www.cgi.com/en",
     "url2": "https://www.cgi.com/en/careers/CGI-culture"
   },
   {
-    "Company": "Affecto Oy",
-    "Url": "https://www.cgi.com/en",
+    "name": "Affecto Oy",
+    "url": "https://www.cgi.com/en",
     "url2": "https://www.cgi.com/en/careers/CGI-culture"
   },
   {
-    "Company": "Affecto Oyj",
-    "Url": "https://www.cgi.com/en",
+    "name": "Affecto Oyj",
+    "url": "https://www.cgi.com/en",
     "url2": "https://www.cgi.com/en/careers/CGI-culture"
   },
   {
-    "Company": "AI Robots Oy",
-    "Url": "",
+    "name": "AI Robots Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ain1",
-    "Url": "",
+    "name": "Ain1",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ain1 Oy",
-    "Url": "",
+    "name": "Ain1 Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Air Navigation Services Finland Oy",
-    "Url": "https://ansfinland.fi/en",
+    "name": "Air Navigation Services Finland Oy",
+    "url": "https://ansfinland.fi/en",
     "url2": "https://ansfinland.fi/en"
   },
   {
-    "Company": "Aitosoft Oy",
-    "Url": "http://www.aitosoft.com/",
+    "name": "Aitosoft Oy",
+    "url": "http://www.aitosoft.com/",
     "url2": "http://www.aitosoft.com/"
   },
   {
-    "Company": "AJAN Consulting Oy & Serres Group Oy",
-    "Url": "http://www.ajanconsulting.com/",
+    "name": "AJAN Consulting Oy & Serres Group Oy",
+    "url": "http://www.ajanconsulting.com/",
     "url2": "http://www.ajanconsulting.com/who-we-are/player-profiles"
   },
   {
-    "Company": "Aku Meriläinen",
-    "Url": "http://www.akumerilainen.com/",
+    "name": "Aku Meriläinen",
+    "url": "http://www.akumerilainen.com/",
     "url2": "http://www.akumerilainen.com/"
   },
   {
-    "Company": "ALD Automotive",
-    "Url": "http://www.aldautomotive.com/",
+    "name": "ALD Automotive",
+    "url": "http://www.aldautomotive.com/",
     "url2": "http://www.aldautomotive.com/about-ald-automotive/ald-at-a-glance/our-identity"
   },
   {
-    "Company": "Algol Oy",
-    "Url": "http://www.algol.fi/en/",
+    "name": "Algol Oy",
+    "url": "http://www.algol.fi/en/",
     "url2": "http://www.algol.fi/en/algol-group/values/"
   },
   {
-    "Company": "AlphaSense",
-    "Url": "https://www.alpha-sense.com/",
+    "name": "AlphaSense",
+    "url": "https://www.alpha-sense.com/",
     "url2": "https://www.alpha-sense.com/about/"
   },
   {
-    "Company": "Alpo Koskivirta Oy",
-    "Url": "",
+    "name": "Alpo Koskivirta Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Altoros",
-    "Url": "https://www.altoros.com/",
+    "name": "Altoros",
+    "url": "https://www.altoros.com/",
     "url2": "https://www.altoros.com/about_summary.html"
   },
   {
-    "Company": "Ambientia",
-    "Url": "http://www.ambientia.net/",
+    "name": "Ambientia",
+    "url": "http://www.ambientia.net/",
     "url2": "http://www.kasvuryhma.fi/en/rekrytointi/ambientia"
   },
   {
-    "Company": "Ambientia Group",
-    "Url": "http://www.ambientia.net/",
+    "name": "Ambientia Group",
+    "url": "http://www.ambientia.net/",
     "url2": "http://www.kasvuryhma.fi/en/rekrytointi/ambientia"
   },
   {
-    "Company": "Ambientia Group Oy",
-    "Url": "http://www.ambientia.net/",
+    "name": "Ambientia Group Oy",
+    "url": "http://www.ambientia.net/",
     "url2": "http://www.kasvuryhma.fi/en/rekrytointi/ambientia"
   },
   {
-    "Company": "Amcham Finland",
-    "Url": "https://amcham.fi/",
+    "name": "Amcham Finland",
+    "url": "https://amcham.fi/",
     "url2": "https://amcham.fi/about/"
   },
   {
-    "Company": "Amer Sports",
-    "Url": "https://www.amersports.com/",
+    "name": "Amer Sports",
+    "url": "https://www.amersports.com/",
     "url2": "https://www.amersports.com/about-us/"
   },
   {
-    "Company": "Amer Sports Oyj",
-    "Url": "https://www.amersports.com/",
+    "name": "Amer Sports Oyj",
+    "url": "https://www.amersports.com/",
     "url2": "https://www.amersports.com/about-us/"
   },
   {
-    "Company": "Amersports Oy",
-    "Url": "https://www.amersports.com/",
+    "name": "Amersports Oy",
+    "url": "https://www.amersports.com/",
     "url2": "https://www.amersports.com/about-us/"
   },
   {
-    "Company": "Amersports Oyj",
-    "Url": "https://www.amersports.com/",
+    "name": "Amersports Oyj",
+    "url": "https://www.amersports.com/",
     "url2": "https://www.amersports.com/about-us/"
   },
   {
-    "Company": "ANDRITZ",
-    "Url": "https://www.andritz.com/group-en",
+    "name": "ANDRITZ",
+    "url": "https://www.andritz.com/group-en",
     "url2": "https://www.andritz.com/group-en/about-us/gr-profile-vision-strategy-goals"
   },
   {
-    "Company": "Annalect",
-    "Url": "https://www.annalect.com/",
+    "name": "Annalect",
+    "url": "https://www.annalect.com/",
     "url2": "https://www.annalect.com/innovation/"
   },
   {
-    "Company": "Antti Suominen Oy / MAFY-Valmennus",
-    "Url": "http://www.mafyvalmennus.fi/",
+    "name": "Antti Suominen Oy / MAFY-Valmennus",
+    "url": "http://www.mafyvalmennus.fi/",
     "url2": ""
   },
   {
-    "Company": "APLcomp Oy",
-    "Url": "http://www.aplcomp.com/",
+    "name": "APLcomp Oy",
+    "url": "http://www.aplcomp.com/",
     "url2": "http://www.aplcomp.com/"
   },
   {
-    "Company": "Apotti Oy",
-    "Url": "http://www.apotti.fi/en/",
+    "name": "Apotti Oy",
+    "url": "http://www.apotti.fi/en/",
     "url2": "http://www.apotti.fi/en/what-is-apotti/"
   },
   {
-    "Company": "AppGyver",
-    "Url": "https://www.appgyver.fi/",
+    "name": "AppGyver",
+    "url": "https://www.appgyver.fi/",
     "url2": "https://www.appgyver.fi/about/"
   },
   {
-    "Company": "AppGyver Oy",
-    "Url": "https://www.appgyver.fi/",
+    "name": "AppGyver Oy",
+    "url": "https://www.appgyver.fi/",
     "url2": "https://www.appgyver.fi/about/"
   },
   {
-    "Company": "Apple",
-    "Url": "https://www.apple.com/",
+    "name": "Apple",
+    "url": "https://www.apple.com/",
     "url2": "https://www.apple.com/diversity/"
   },
   {
-    "Company": "Arconnet Business solutions Oy",
-    "Url": "https://arconnet.fi/",
+    "name": "Arconnet Business solutions Oy",
+    "url": "https://arconnet.fi/",
     "url2": "https://arconnet.fi/arconnet-business-solutions-en/services/"
   },
   {
-    "Company": "Arcusys Oy",
-    "Url": "https://www.arcusys.com/web/fi",
+    "name": "Arcusys Oy",
+    "url": "https://www.arcusys.com/web/fi",
     "url2": "https://www.arcusys.com/careers/arcusys-as-a-workplace"
   },
   {
-    "Company": "Arek",
-    "Url": "http://www.arek.fi/",
+    "name": "Arek",
+    "url": "http://www.arek.fi/",
     "url2": ""
   },
   {
-    "Company": "Arja-Liisa Linnakangas",
-    "Url": "http://www.arek.fi/",
+    "name": "Arja-Liisa Linnakangas",
+    "url": "http://www.arek.fi/",
     "url2": ""
   },
   {
-    "Company": "Arkkitehtitoimisto Ensio Takalainen",
-    "Url": "",
+    "name": "Arkkitehtitoimisto Ensio Takalainen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Arnon Oy",
-    "Url": "http://www.arnon.fi/en/",
+    "name": "Arnon Oy",
+    "url": "http://www.arnon.fi/en/",
     "url2": "http://www.arnon.fi/en/about-us/"
   },
   {
-    "Company": "Arrow ECS Finland",
-    "Url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
+    "name": "Arrow ECS Finland",
+    "url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
     "url2": "https://www.arrow.com/en/about-arrow/overview"
   },
   {
-    "Company": "Arrow ECS Finland Oy",
-    "Url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
+    "name": "Arrow ECS Finland Oy",
+    "url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
     "url2": "https://www.arrow.com/en/about-arrow/overview"
   },
   {
-    "Company": "Arrow Electronics",
-    "Url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
+    "name": "Arrow Electronics",
+    "url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
     "url2": "https://www.arrow.com/en/about-arrow/overview"
   },
   {
-    "Company": "ArrowECS Finland oy",
-    "Url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
+    "name": "ArrowECS Finland oy",
+    "url": "https://ecs-fi.arrow.com/Sivut/default.aspx",
     "url2": "https://www.arrow.com/en/about-arrow/overview"
   },
   {
-    "Company": "Arter Oy",
-    "Url": "https://www.arter.fi/",
+    "name": "Arter Oy",
+    "url": "https://www.arter.fi/",
     "url2": ""
   },
   {
-    "Company": "As Oy Niemenmäentie 3-5",
-    "Url": "",
+    "name": "As Oy Niemenmäentie 3-5",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Asianajotoimisto Castrén & Snellman Oy",
-    "Url": "http://www.castren.fi/",
+    "name": "Asianajotoimisto Castrén & Snellman Oy",
+    "url": "http://www.castren.fi/",
     "url2": "http://www.castren.fi/the-firm/"
   },
   {
-    "Company": "Asianajotoimisto Hedman Partners Oy",
-    "Url": "http://www.hedman-attorneys.com/fi/",
+    "name": "Asianajotoimisto Hedman Partners Oy",
+    "url": "http://www.hedman-attorneys.com/fi/",
     "url2": "http://www.hedman-attorneys.com/company/"
   },
   {
-    "Company": "ASML",
-    "Url": "https://www.asml.com/asml/en/s427",
+    "name": "ASML",
+    "url": "https://www.asml.com/asml/en/s427",
     "url2": "https://www.asml.com/company/vision-and-mission/en/s277?rid=51983"
   },
   {
-    "Company": "Atea",
-    "Url": "https://www.atea.fi/",
+    "name": "Atea",
+    "url": "https://www.atea.fi/",
     "url2": "https://www.atea.com/about-atea/"
   },
   {
-    "Company": "Atea Finland Ou",
-    "Url": "https://www.atea.fi/",
+    "name": "Atea Finland Ou",
+    "url": "https://www.atea.fi/",
     "url2": "https://www.atea.com/about-atea/"
   },
   {
-    "Company": "Atea Finland Oy",
-    "Url": "https://www.atea.fi/",
+    "name": "Atea Finland Oy",
+    "url": "https://www.atea.fi/",
     "url2": "https://www.atea.com/about-atea/"
   },
   {
-    "Company": "ATK Helsinki Oy",
-    "Url": "",
+    "name": "ATK Helsinki Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Attido Oy",
-    "Url": "https://www.attido.com/en/",
+    "name": "Attido Oy",
+    "url": "https://www.attido.com/en/",
     "url2": "https://www.attido.com/en/company/"
   },
   {
-    "Company": "Atwork oy",
-    "Url": "http://www.atwork.fi/",
+    "name": "Atwork oy",
+    "url": "http://www.atwork.fi/",
     "url2": "http://www.atwork.fi/presentation/"
   },
   {
-    "Company": "August Associates",
-    "Url": "http://www.august.fi/",
+    "name": "August Associates",
+    "url": "http://www.august.fi/",
     "url2": "http://www.august.fi/about-us/core-values/"
   },
   {
-    "Company": "Aureolis Oy",
-    "Url": "http://www.aureolis.com/",
+    "name": "Aureolis Oy",
+    "url": "http://www.aureolis.com/",
     "url2": "http://www.aureolis.com/about-us/values?lang=en"
   },
   {
-    "Company": "Avarea Oy",
-    "Url": "http://www.avarea.fi/",
+    "name": "Avarea Oy",
+    "url": "http://www.avarea.fi/",
     "url2": "http://www.avarea.fi/about/"
   },
   {
-    "Company": "Badenoch & Clark Suomi",
-    "Url": "http://www.badenochandclark.fi/",
+    "name": "Badenoch & Clark Suomi",
+    "url": "http://www.badenochandclark.fi/",
     "url2": "http://www.badenochandclark.fi/en-gb/"
   },
   {
-    "Company": "Balentor",
-    "Url": "http://www.balentor.fi/en",
+    "name": "Balentor",
+    "url": "http://www.balentor.fi/en",
     "url2": "http://www.balentor.fi/en/company"
   },
   {
-    "Company": "Balentor Oy",
-    "Url": "http://www.balentor.fi/en",
+    "name": "Balentor Oy",
+    "url": "http://www.balentor.fi/en",
     "url2": "http://www.balentor.fi/en/company"
   },
   {
-    "Company": "Barona",
-    "Url": "https://www.barona.fi/en/",
+    "name": "Barona",
+    "url": "https://www.barona.fi/en/",
     "url2": "https://www.barona.fi/en/barona/"
   },
   {
-    "Company": "Barona Technologies",
-    "Url": "https://www.barona.fi/en/",
+    "name": "Barona Technologies",
+    "url": "https://www.barona.fi/en/",
     "url2": "https://www.barona.fi/en/barona/"
   },
   {
-    "Company": "BaseN Oy",
-    "Url": "https://www.basen.net/",
+    "name": "BaseN Oy",
+    "url": "https://www.basen.net/",
     "url2": "http://careers.basen.net/"
   },
   {
-    "Company": "Basware",
-    "Url": "https://www.basware.com/fi-fi",
+    "name": "Basware",
+    "url": "https://www.basware.com/fi-fi",
     "url2": "https://www.basware.com/en-gb/about-basware"
   },
   {
-    "Company": "Basware Oyj",
-    "Url": "https://www.basware.com/fi-fi",
+    "name": "Basware Oyj",
+    "url": "https://www.basware.com/fi-fi",
     "url2": "https://www.basware.com/en-gb/about-basware"
   },
   {
-    "Company": "BBO",
-    "Url": "http://bbo.fi/",
+    "name": "BBO",
+    "url": "http://bbo.fi/",
     "url2": ""
   },
   {
-    "Company": "BDO",
-    "Url": "https://www.bdo.fi/fi-fi/koti",
+    "name": "BDO",
+    "url": "https://www.bdo.fi/fi-fi/koti",
     "url2": "https://www.bdo.com/careers/professionals/why-bdo/our-culture"
   },
   {
-    "Company": "Beaufort Marketing Procurement",
-    "Url": "",
+    "name": "Beaufort Marketing Procurement",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Beckhoff Automation Oy",
-    "Url": "https://www.beckhoff.fi/",
+    "name": "Beckhoff Automation Oy",
+    "url": "https://www.beckhoff.fi/",
     "url2": "https://www.beckhoff.com/english.asp?press/news0412.htm"
   },
   {
-    "Company": "Benete Oy",
-    "Url": "http://www.benete.com/",
+    "name": "Benete Oy",
+    "url": "http://www.benete.com/",
     "url2": "http://www.benete.com/"
   },
   {
-    "Company": "Big data scoring",
-    "Url": "http://bigdatascoring.com/",
+    "name": "Big data scoring",
+    "url": "http://bigdatascoring.com/",
     "url2": "http://bigdatascoring.com/"
   },
   {
-    "Company": "Big Data Solutions Oy",
-    "Url": "http://www.bigdatasolutions.fi/",
+    "name": "Big Data Solutions Oy",
+    "url": "http://www.bigdatasolutions.fi/",
     "url2": "http://www.bigdatasolutions.fi/"
   },
   {
-    "Company": "Bilendi OY",
-    "Url": "http://www.bilendi.fi/",
+    "name": "Bilendi OY",
+    "url": "http://www.bilendi.fi/",
     "url2": "http://www.bilendi.co.uk/static/technology"
   },
   {
-    "Company": "Bilot Consulting Oy",
-    "Url": "http://www.bilot.fi/en/",
+    "name": "Bilot Consulting Oy",
+    "url": "http://www.bilot.fi/en/",
     "url2": "https://careers.bilot.fi/"
   },
   {
-    "Company": "Bittium Wireless Oy",
-    "Url": "https://www.bittium.com/",
+    "name": "Bittium Wireless Oy",
+    "url": "https://www.bittium.com/",
     "url2": "https://www.bittium.com/about_bittium/guiding_principles/strategy"
   },
   {
-    "Company": "Bizmind Oy",
-    "Url": "http://www.bizmind.com/",
+    "name": "Bizmind Oy",
+    "url": "http://www.bizmind.com/",
     "url2": "http://www.bizmind.com/#story-behind"
   },
   {
-    "Company": "Biztech",
-    "Url": "http://www.biztech.pro/",
+    "name": "Biztech",
+    "url": "http://www.biztech.pro/",
     "url2": "http://www.biztech.pro/"
   },
   {
-    "Company": "BLC",
-    "Url": "http://www.blc.fi/",
+    "name": "BLC",
+    "url": "http://www.blc.fi/",
     "url2": ""
   },
   {
-    "Company": "BLC Oy",
-    "Url": "http://www.blc.fi/",
+    "name": "BLC Oy",
+    "url": "http://www.blc.fi/",
     "url2": ""
   },
   {
-    "Company": "BLC Taito",
-    "Url": "http://www.blc.fi/",
+    "name": "BLC Taito",
+    "url": "http://www.blc.fi/",
     "url2": ""
   },
   {
-    "Company": "BLC Taito Oy",
-    "Url": "http://www.blc.fi/",
+    "name": "BLC Taito Oy",
+    "url": "http://www.blc.fi/",
     "url2": ""
   },
   {
-    "Company": "Boardman Oy",
-    "Url": "http://www.boardman.fi/fi/etusivu/",
+    "name": "Boardman Oy",
+    "url": "http://www.boardman.fi/fi/etusivu/",
     "url2": "http://www.boardman.fi/en/front+page/how+we+operate/"
   },
   {
-    "Company": "Boliden Harjavalta",
-    "Url": "https://www.boliden.com/operations/smelters/boliden-harjavalta/",
+    "name": "Boliden Harjavalta",
+    "url": "https://www.boliden.com/operations/smelters/boliden-harjavalta/",
     "url2": "https://www.boliden.com/career/"
   },
   {
-    "Company": "Bottega Verde",
-    "Url": "https://www.bottegaverde.fi/",
+    "name": "Bottega Verde",
+    "url": "https://www.bottegaverde.fi/",
     "url2": ""
   },
   {
-    "Company": "BPS Consulting Finland OY",
-    "Url": "http://www.bps.fi/en/",
+    "name": "BPS Consulting Finland OY",
+    "url": "http://www.bps.fi/en/",
     "url2": ""
   },
   {
-    "Company": "Bright Finland Oy",
-    "Url": "http://www.brightgroup.fi/",
+    "name": "Bright Finland Oy",
+    "url": "http://www.brightgroup.fi/",
     "url2": "http://www.brightgroup.com/about-us"
   },
   {
-    "Company": "Buildercom Oy",
-    "Url": "http://buildercom.fi/en/frontpage/",
+    "name": "Buildercom Oy",
+    "url": "http://buildercom.fi/en/frontpage/",
     "url2": "http://buildercom.fi/en/frontpage/"
   },
   {
-    "Company": "Button Program",
-    "Url": "",
+    "name": "Button Program",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "BådeOch",
-    "Url": "http://www.badeoch.fi/",
+    "name": "BådeOch",
+    "url": "http://www.badeoch.fi/",
     "url2": ""
   },
   {
-    "Company": "Caj Eklund",
-    "Url": "",
+    "name": "Caj Eklund",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Cap Gemini",
-    "Url": "https://www.capgemini.com/se-en/",
+    "name": "Cap Gemini",
+    "url": "https://www.capgemini.com/se-en/",
     "url2": "https://www.capgemini.com/se-en/company-profile-key-figures/our-vision-and-mission/"
   },
   {
-    "Company": "CAPEARC Finland Oy",
-    "Url": "http://capearc.fi/",
+    "name": "CAPEARC Finland Oy",
+    "url": "http://capearc.fi/",
     "url2": "http://capearc.fi/"
   },
   {
-    "Company": "Capgemini",
-    "Url": "https://www.capgemini.com/se-en/",
+    "name": "Capgemini",
+    "url": "https://www.capgemini.com/se-en/",
     "url2": "https://www.capgemini.com/se-en/company-profile-key-figures/our-vision-and-mission/"
   },
   {
-    "Company": "Carea",
-    "Url": "http://www.carea.fi/en/",
+    "name": "Carea",
+    "url": "http://www.carea.fi/en/",
     "url2": "http://www.carea.fi/en/"
   },
   {
-    "Company": "Catella property oy",
-    "Url": "http://www.catella.com/fi/Suomi/",
+    "name": "Catella property oy",
+    "url": "http://www.catella.com/fi/Suomi/",
     "url2": "http://www.catella.com/en/Finland/CorporateFinance/About-us/"
   },
   {
-    "Company": "Caverion",
-    "Url": "http://www.caverion.com/",
+    "name": "Caverion",
+    "url": "http://www.caverion.com/",
     "url2": "http://www.caverion.com/about-us/careers"
   },
   {
-    "Company": "Caverion Oyj",
-    "Url": "http://www.caverion.com/",
+    "name": "Caverion Oyj",
+    "url": "http://www.caverion.com/",
     "url2": "http://www.caverion.com/about-us/careers"
   },
   {
-    "Company": "CBOSS Oy",
-    "Url": "http://cbossgroup.com/",
+    "name": "CBOSS Oy",
+    "url": "http://cbossgroup.com/",
     "url2": "http://cbossgroup.com/company/about-cboss/company-overview/"
   },
   {
-    "Company": "Centry Oy",
-    "Url": "https://centry.global/",
+    "name": "Centry Oy",
+    "url": "https://centry.global/",
     "url2": "https://centry.global/"
   },
   {
-    "Company": "Cgi",
-    "Url": "https://www.cgi.fi/",
+    "name": "Cgi",
+    "url": "https://www.cgi.fi/",
     "url2": "https://www.cgi.com/en/overview"
   },
   {
-    "Company": "CGI Finland",
-    "Url": "https://www.cgi.fi/",
+    "name": "CGI Finland",
+    "url": "https://www.cgi.fi/",
     "url2": "https://www.cgi.com/en/overview"
   },
   {
-    "Company": "CGI Suomi Oy",
-    "Url": "https://www.cgi.fi/",
+    "name": "CGI Suomi Oy",
+    "url": "https://www.cgi.fi/",
     "url2": "https://www.cgi.com/en/overview"
   },
   {
-    "Company": "Chainfrog Oy",
-    "Url": "http://www.chainfrog.com/",
+    "name": "Chainfrog Oy",
+    "url": "http://www.chainfrog.com/",
     "url2": "http://www.chainfrog.com/recruitment/"
   },
   {
-    "Company": "Cinia Group Oy",
-    "Url": "https://www.cinia.fi/",
+    "name": "Cinia Group Oy",
+    "url": "https://www.cinia.fi/",
     "url2": "https://www.cinia.fi/en/careers.html"
   },
   {
-    "Company": "Cisco Systems Finland",
-    "Url": "https://www.cisco.com/",
+    "name": "Cisco Systems Finland",
+    "url": "https://www.cisco.com/",
     "url2": "https://www.cisco.com/c/en/us/about/careers/we-are-cisco.html"
   },
   {
-    "Company": "Citrus Solutions",
-    "Url": "http://www.citrus.fi/en",
+    "name": "Citrus Solutions",
+    "url": "http://www.citrus.fi/en",
     "url2": ""
   },
   {
-    "Company": "Citrus Solutions Oy",
-    "Url": "http://www.citrus.fi/en",
+    "name": "Citrus Solutions Oy",
+    "url": "http://www.citrus.fi/en",
     "url2": ""
   },
   {
-    "Company": "Cloud Solutions CS Oy",
-    "Url": "https://www.cloudsolutions.fi/",
+    "name": "Cloud Solutions CS Oy",
+    "url": "https://www.cloudsolutions.fi/",
     "url2": ""
   },
   {
-    "Company": "Cloud Solutions Oy",
-    "Url": "https://www.cloudsolutions.fi/",
+    "name": "Cloud Solutions Oy",
+    "url": "https://www.cloudsolutions.fi/",
     "url2": ""
   },
   {
-    "Company": "Cloud2 Oy",
-    "Url": "https://www.cloud2.fi/",
+    "name": "Cloud2 Oy",
+    "url": "https://www.cloud2.fi/",
     "url2": ""
   },
   {
-    "Company": "Cocomms",
-    "Url": "http://cocomms.com/en/",
+    "name": "Cocomms",
+    "url": "http://cocomms.com/en/",
     "url2": "http://cocomms.com/en/recruiting/"
   },
   {
-    "Company": "Cocomms Oy",
-    "Url": "http://cocomms.com/en/",
+    "name": "Cocomms Oy",
+    "url": "http://cocomms.com/en/",
     "url2": "http://cocomms.com/en/recruiting/"
   },
   {
-    "Company": "Cognizant",
-    "Url": "https://www.cognizant.com/",
+    "name": "Cognizant",
+    "url": "https://www.cognizant.com/",
     "url2": "https://www.cognizant.com/about-cognizant"
   },
   {
-    "Company": "Combitech Oy",
-    "Url": "http://combitech.fi/",
+    "name": "Combitech Oy",
+    "url": "http://combitech.fi/",
     "url2": "http://combitech.com/about-us/"
   },
   {
-    "Company": "Comprendum Oy",
-    "Url": "https://www.comprendum.com/",
+    "name": "Comprendum Oy",
+    "url": "https://www.comprendum.com/",
     "url2": "https://www.comprendum.com/business-areas"
   },
   {
-    "Company": "Comptel",
-    "Url": "http://www.comptel.com/",
+    "name": "Comptel",
+    "url": "http://www.comptel.com/",
     "url2": ""
   },
   {
-    "Company": "Comptel Oy",
-    "Url": "http://www.comptel.com/",
+    "name": "Comptel Oy",
+    "url": "http://www.comptel.com/",
     "url2": "http://www.comptel.com/comptel-company/careers/careers/"
   },
   {
-    "Company": "Comptel Oyj",
-    "Url": "http://www.comptel.com/",
+    "name": "Comptel Oyj",
+    "url": "http://www.comptel.com/",
     "url2": "http://www.comptel.com/comptel-company/careers/careers/"
   },
   {
-    "Company": "Confidex",
-    "Url": "https://www.confidex.com/",
+    "name": "Confidex",
+    "url": "https://www.confidex.com/",
     "url2": "https://www.confidex.com/about-confidex"
   },
   {
-    "Company": "Consultant",
-    "Url": "",
+    "name": "Consultant",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Containerships Oyj",
-    "Url": "http://www.containershipsgroup.com/",
+    "name": "Containerships Oyj",
+    "url": "http://www.containershipsgroup.com/",
     "url2": "http://www.containershipsgroup.com/about/history/mission-vision-values"
   },
   {
-    "Company": "ConTe Oy",
-    "Url": "http://www.conteoy.fi/",
+    "name": "ConTe Oy",
+    "url": "http://www.conteoy.fi/",
     "url2": ""
   },
   {
-    "Company": "Coor Service Management Oy",
-    "Url": "http://www.coor.fi/",
+    "name": "Coor Service Management Oy",
+    "url": "http://www.coor.fi/",
     "url2": "http://www.coor.com/working-at-coor/culture-and-values/"
   },
   {
-    "Company": "Corefiner Oy",
-    "Url": "http://www.corefiner.com/?lang=en",
+    "name": "Corefiner Oy",
+    "url": "http://www.corefiner.com/?lang=en",
     "url2": "http://www.corefiner.com/?lang=en"
   },
   {
-    "Company": "Coriant Oy",
-    "Url": "http://www.coriant.com/",
+    "name": "Coriant Oy",
+    "url": "http://www.coriant.com/",
     "url2": "http://www.coriant.com/company/index.asp"
   },
   {
-    "Company": "Cramo Oyj",
-    "Url": "https://www.cramo.com/",
+    "name": "Cramo Oyj",
+    "url": "https://www.cramo.com/",
     "url2": "https://www.cramogroup.com/en/category/about-us/"
   },
   {
-    "Company": "Crayon",
-    "Url": "https://www.crayon.com/en/",
+    "name": "Crayon",
+    "url": "https://www.crayon.com/en/",
     "url2": "https://www.crayon.com/en/about-us/"
   },
   {
-    "Company": "Crayon Oy",
-    "Url": "https://www.crayon.com/en/",
+    "name": "Crayon Oy",
+    "url": "https://www.crayon.com/en/",
     "url2": "https://www.crayon.com/en/about-us/"
   },
   {
-    "Company": "Crecco Oy",
-    "Url": "https://crecco.fi/english/",
+    "name": "Crecco Oy",
+    "url": "https://crecco.fi/english/",
     "url2": "https://crecco.fi/english/"
   },
   {
-    "Company": "Csolutor Oy",
-    "Url": "https://csolutor.fi/",
+    "name": "Csolutor Oy",
+    "url": "https://csolutor.fi/",
     "url2": ""
   },
   {
-    "Company": "Cuppla Technology Oy",
-    "Url": "http://cuppla.co/",
+    "name": "Cuppla Technology Oy",
+    "url": "http://cuppla.co/",
     "url2": "http://cuppla.co/blog/"
   },
   {
-    "Company": "Curato Partners Oy",
-    "Url": "http://curatopartners.fi/",
+    "name": "Curato Partners Oy",
+    "url": "http://curatopartners.fi/",
     "url2": ""
   },
   {
-    "Company": "Cursor Oy",
-    "Url": "https://www.cursor.fi/",
+    "name": "Cursor Oy",
+    "url": "https://www.cursor.fi/",
     "url2": "https://www.cursor.fi/en/cursor/cursor-in-brief"
   },
   {
-    "Company": "Cybercom",
-    "Url": "https://www.cybercom.com/",
+    "name": "Cybercom",
+    "url": "https://www.cybercom.com/",
     "url2": "https://www.cybercom.com/About-Cybercom/About-the-Group/"
   },
   {
-    "Company": "Cygate Oy",
-    "Url": "http://www.cygate.fi/fi/etusivu",
+    "name": "Cygate Oy",
+    "url": "http://www.cygate.fi/fi/etusivu",
     "url2": "http://www.cygate.fi/en/welcome"
   },
   {
-    "Company": "Danske Bank",
-    "Url": "https://danskebank.fi/sinulle",
+    "name": "Danske Bank",
+    "url": "https://danskebank.fi/sinulle",
     "url2": "https://www.danskebank.fi/en-fi/About/Jobcareer/Pages/Jobandcareer.aspx"
   },
   {
-    "Company": "Danske Bank A/S",
-    "Url": "https://danskebank.fi/sinulle",
+    "name": "Danske Bank A/S",
+    "url": "https://danskebank.fi/sinulle",
     "url2": "https://www.danskebank.fi/en-fi/About/Jobcareer/Pages/Jobandcareer.aspx"
   },
   {
-    "Company": "Danske Bank Oyj",
-    "Url": "https://danskebank.fi/sinulle",
+    "name": "Danske Bank Oyj",
+    "url": "https://danskebank.fi/sinulle",
     "url2": "https://www.danskebank.fi/en-fi/About/Jobcareer/Pages/Jobandcareer.aspx"
   },
   {
-    "Company": "Danske Bank Plc",
-    "Url": "https://danskebank.fi/sinulle",
+    "name": "Danske Bank Plc",
+    "url": "https://danskebank.fi/sinulle",
     "url2": "https://www.danskebank.fi/en-fi/About/Jobcareer/Pages/Jobandcareer.aspx"
   },
   {
-    "Company": "Dassault Systemes",
-    "Url": "https://www.3ds.com/",
+    "name": "Dassault Systemes",
+    "url": "https://www.3ds.com/",
     "url2": "https://www.3ds.com/about-3ds/vision/"
   },
   {
-    "Company": "Datacenter Finland",
-    "Url": "https://www.datacenter.fi/en",
+    "name": "Datacenter Finland",
+    "url": "https://www.datacenter.fi/en",
     "url2": "https://www.datacenter.fi/en/company"
   },
   {
-    "Company": "Dataprof Oy",
-    "Url": "http://dataprof.fi/",
+    "name": "Dataprof Oy",
+    "url": "http://dataprof.fi/",
     "url2": ""
   },
   {
-    "Company": "Delipap Oy",
-    "Url": "http://www.delipap.fi/",
+    "name": "Delipap Oy",
+    "url": "http://www.delipap.fi/",
     "url2": "http://www.delipap.com/company.asp"
   },
   {
-    "Company": "Deloitte",
-    "Url": "https://www2.deloitte.com/fi/en.html",
+    "name": "Deloitte",
+    "url": "https://www2.deloitte.com/fi/en.html",
     "url2": "https://www2.deloitte.com/fi/en/pages/about-deloitte/articles/about-deloitte.html"
   },
   {
-    "Company": "Deloitte Oy",
-    "Url": "https://www2.deloitte.com/fi/en.html",
+    "name": "Deloitte Oy",
+    "url": "https://www2.deloitte.com/fi/en.html",
     "url2": "https://www2.deloitte.com/fi/en/pages/about-deloitte/articles/about-deloitte.html"
   },
   {
-    "Company": "Demos Effect",
-    "Url": "https://demoseffect.com/",
+    "name": "Demos Effect",
+    "url": "https://demoseffect.com/",
     "url2": "https://demoseffect.com/about-us/"
   },
   {
-    "Company": "Dentsu",
-    "Url": "http://www.dentsu.com/",
+    "name": "Dentsu",
+    "url": "http://www.dentsu.com/",
     "url2": "http://www.dentsu.com/whoweare/philosophy.html"
   },
   {
-    "Company": "Dentsu Aegis Network",
-    "Url": "http://www.dentsuaegisnetwork.com/",
+    "name": "Dentsu Aegis Network",
+    "url": "http://www.dentsuaegisnetwork.com/",
     "url2": "http://www.dentsuaegisnetwork.com/whoweare"
   },
   {
-    "Company": "Dentsu Aegis Network Oy",
-    "Url": "http://www.dentsuaegisnetwork.com/",
+    "name": "Dentsu Aegis Network Oy",
+    "url": "http://www.dentsuaegisnetwork.com/",
     "url2": "http://www.dentsuaegisnetwork.com/whoweare"
   },
   {
-    "Company": "Devaten",
-    "Url": "http://devaten.com/",
+    "name": "Devaten",
+    "url": "http://devaten.com/",
     "url2": "http://devaten.com/"
   },
   {
-    "Company": "Digia",
-    "Url": "http://www.digia.fi/en",
+    "name": "Digia",
+    "url": "http://www.digia.fi/en",
     "url2": "http://digia.com/en/careers/"
   },
   {
-    "Company": "Digia Finland",
-    "Url": "http://www.digia.fi/en",
+    "name": "Digia Finland",
+    "url": "http://www.digia.fi/en",
     "url2": "http://digia.com/en/careers/"
   },
   {
-    "Company": "Digia Finland Oy",
-    "Url": "http://www.digia.fi/en",
+    "name": "Digia Finland Oy",
+    "url": "http://www.digia.fi/en",
     "url2": "http://digia.com/en/careers/"
   },
   {
-    "Company": "Digia Finland Oyj",
-    "Url": "http://www.digia.fi/en",
+    "name": "Digia Finland Oyj",
+    "url": "http://www.digia.fi/en",
     "url2": "http://digia.com/en/careers/"
   },
   {
-    "Company": "Digia Oyj",
-    "Url": "http://www.digia.fi/en",
+    "name": "Digia Oyj",
+    "url": "http://www.digia.fi/en",
     "url2": "http://digia.com/en/careers/"
   },
   {
-    "Company": "Digita",
-    "Url": "https://www.digita.fi/yrityksille",
+    "name": "Digita",
+    "url": "https://www.digita.fi/yrityksille",
     "url2": "https://www.digita.fi/in_english/company"
   },
   {
-    "Company": "Digita Oy",
-    "Url": "https://www.digita.fi/yrityksille",
+    "name": "Digita Oy",
+    "url": "https://www.digita.fi/yrityksille",
     "url2": "https://www.digita.fi/in_english/company"
   },
   {
-    "Company": "Digital Media Finland",
-    "Url": "http://www.digitalmedia.fi/",
+    "name": "Digital Media Finland",
+    "url": "http://www.digitalmedia.fi/",
     "url2": "http://www.digitalmedia.fi/in-english/digital-media-finland/"
   },
   {
-    "Company": "Digitalist",
-    "Url": "http://digitalistnetwork.com/",
+    "name": "Digitalist",
+    "url": "http://digitalistnetwork.com/",
     "url2": ""
   },
   {
-    "Company": "Digitalist Group",
-    "Url": "https://digitalistgroup.com/",
+    "name": "Digitalist Group",
+    "url": "https://digitalistgroup.com/",
     "url2": "https://digitalistgroup.com/aboutus"
   },
   {
-    "Company": "Dingle",
-    "Url": "http://dingle.fi/en/",
+    "name": "Dingle",
+    "url": "http://dingle.fi/en/",
     "url2": "http://dingle.fi/en/about-us/"
   },
   {
-    "Company": "Dingle Oy",
-    "Url": "http://dingle.fi/en/",
+    "name": "Dingle Oy",
+    "url": "http://dingle.fi/en/",
     "url2": "http://dingle.fi/en/about-us/"
   },
   {
-    "Company": "Discovery Networks Finland",
-    "Url": "http://discoverynetworks.fi/",
+    "name": "Discovery Networks Finland",
+    "url": "http://discoverynetworks.fi/",
     "url2": "http://discoverynetworks.fi/briefly-in-english/"
   },
   {
-    "Company": "Dittmar & Indrenius",
-    "Url": "http://www.dittmar.fi/",
+    "name": "Dittmar & Indrenius",
+    "url": "http://www.dittmar.fi/",
     "url2": "http://www.dittmar.fi/careers"
   },
   {
-    "Company": "DNA",
-    "Url": "https://corporate.dna.fi/",
+    "name": "DNA",
+    "url": "https://corporate.dna.fi/",
     "url2": "https://corporate.dna.fi/working-at-dna"
   },
   {
-    "Company": "DNA Oyj",
-    "Url": "https://corporate.dna.fi/",
+    "name": "DNA Oyj",
+    "url": "https://corporate.dna.fi/",
     "url2": "https://corporate.dna.fi/working-at-dna"
   },
   {
-    "Company": "Docrates Cancer Center",
-    "Url": "https://www.docrates.com/en/",
+    "name": "Docrates Cancer Center",
+    "url": "https://www.docrates.com/en/",
     "url2": "https://www.docrates.com/en/about-docrates/mission-and-values/"
   },
   {
-    "Company": "Dustin Finland Oy",
-    "Url": "http://www.dustingroup.com/en",
+    "name": "Dustin Finland Oy",
+    "url": "http://www.dustingroup.com/en",
     "url2": "http://www.dustingroup.com/en"
   },
   {
-    "Company": "Eaton",
-    "Url": "http://www.eaton.com/Eaton/index.htm",
+    "name": "Eaton",
+    "url": "http://www.eaton.com/Eaton/index.htm",
     "url2": "http://www.eaton.com/Eaton/OurCompany/AboutUs/index.htm"
   },
   {
-    "Company": "Eaton Power Quality Oy",
-    "Url": "http://www.eaton.com/Eaton/index.htm",
+    "name": "Eaton Power Quality Oy",
+    "url": "http://www.eaton.com/Eaton/index.htm",
     "url2": "http://www.eaton.com/Eaton/OurCompany/AboutUs/index.htm"
   },
   {
-    "Company": "Eckerö Line Ab Oy",
-    "Url": "https://www.eckeroline.fi/en/",
+    "name": "Eckerö Line Ab Oy",
+    "url": "https://www.eckeroline.fi/en/",
     "url2": ""
   },
   {
-    "Company": "Edimaster Oy",
-    "Url": "http://www.edimaster.fi/",
+    "name": "Edimaster Oy",
+    "url": "http://www.edimaster.fi/",
     "url2": "http://www.edimaster.fi/en/company/"
   },
   {
-    "Company": "Eduhouse Oy",
-    "Url": "https://www.eduhouse.fi/",
+    "name": "Eduhouse Oy",
+    "url": "https://www.eduhouse.fi/",
     "url2": ""
   },
   {
-    "Company": "Eduskunnan kanslia",
-    "Url": "https://www.eduskunta.fi/FI/tietoaeduskunnasta/Organisaatio/Sivut/default.aspx",
+    "name": "Eduskunnan kanslia",
+    "url": "https://www.eduskunta.fi/FI/tietoaeduskunnasta/Organisaatio/Sivut/default.aspx",
     "url2": "https://www.eduskunta.fi/EN/tietoaeduskunnasta/organisaatio/Pages/default.aspx"
   },
   {
-    "Company": "Eduskunta",
-    "Url": "https://www.eduskunta.fi/FI/tietoaeduskunnasta/Organisaatio/Sivut/default.aspx",
+    "name": "Eduskunta",
+    "url": "https://www.eduskunta.fi/FI/tietoaeduskunnasta/Organisaatio/Sivut/default.aspx",
     "url2": "https://www.eduskunta.fi/EN/tietoaeduskunnasta/organisaatio/Pages/default.aspx"
   },
   {
-    "Company": "Eera Oy",
-    "Url": "https://www.eera.fi/en/frontpage/",
+    "name": "Eera Oy",
+    "url": "https://www.eera.fi/en/frontpage/",
     "url2": "https://www.eera.fi/en/company/"
   },
   {
-    "Company": "Eficode",
-    "Url": "https://www.eficode.com/home",
+    "name": "Eficode",
+    "url": "https://www.eficode.com/home",
     "url2": "https://www.eficode.com/careers"
   },
   {
-    "Company": "Eilakaisla oy",
-    "Url": "https://www.eilakaisla.fi/",
+    "name": "Eilakaisla oy",
+    "url": "https://www.eilakaisla.fi/",
     "url2": ""
   },
   {
-    "Company": "Elandz",
-    "Url": "http://elandz.fi/",
+    "name": "Elandz",
+    "url": "http://elandz.fi/",
     "url2": "http://elandz.fi/about-us.php"
   },
   {
-    "Company": "Electria, Metropolia / Vantaan tietohallinto",
-    "Url": "",
+    "name": "Electria, Metropolia / Vantaan tietohallinto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Elinar",
-    "Url": "https://www.elinar.com/",
+    "name": "Elinar",
+    "url": "https://www.elinar.com/",
     "url2": "https://www.elinar.com/company/"
   },
   {
-    "Company": "Elinar Oy",
-    "Url": "https://www.elinar.com/",
+    "name": "Elinar Oy",
+    "url": "https://www.elinar.com/",
     "url2": "https://www.elinar.com/company/"
   },
   {
-    "Company": "Elinar Oy Ltd",
-    "Url": "https://www.elinar.com/",
+    "name": "Elinar Oy Ltd",
+    "url": "https://www.elinar.com/",
     "url2": "https://www.elinar.com/company/"
   },
   {
-    "Company": "Elinkeinoelämän keskusliitto EK",
-    "Url": "https://ek.fi/en/",
+    "name": "Elinkeinoelämän keskusliitto EK",
+    "url": "https://ek.fi/en/",
     "url2": "https://ek.fi/en/about-us/"
   },
   {
-    "Company": "Elintarviketurvallisuusvirasto Evira",
-    "Url": "https://www.evira.fi/en/",
+    "name": "Elintarviketurvallisuusvirasto Evira",
+    "url": "https://www.evira.fi/en/",
     "url2": "https://www.evira.fi/en/about-evira/"
   },
   {
-    "Company": "Elisa",
-    "Url": "https://elisa.fi/",
+    "name": "Elisa",
+    "url": "https://elisa.fi/",
     "url2": "http://corporate.elisa.com/"
   },
   {
-    "Company": "Elisa Appelsiini",
-    "Url": "https://elisa.fi/",
+    "name": "Elisa Appelsiini",
+    "url": "https://elisa.fi/",
     "url2": "http://corporate.elisa.com/"
   },
   {
-    "Company": "Elisa Oyj",
-    "Url": "https://elisa.fi/",
+    "name": "Elisa Oyj",
+    "url": "https://elisa.fi/",
     "url2": "http://corporate.elisa.com/"
   },
   {
-    "Company": "Elisa Oyj",
-    "Url": "https://elisa.fi/",
+    "name": "Elisa Oyj",
+    "url": "https://elisa.fi/",
     "url2": "http://corporate.elisa.com/"
   },
   {
-    "Company": "Elomatic Oy",
-    "Url": "https://www.elomatic.com/en/",
+    "name": "Elomatic Oy",
+    "url": "https://www.elomatic.com/en/",
     "url2": "https://www.elomatic.com/en/company/elomatic-in-brief.html"
   },
   {
-    "Company": "Eläkeyhtiö Etera",
-    "Url": "http://www.etera.fi/",
+    "name": "Eläkeyhtiö Etera",
+    "url": "http://www.etera.fi/",
     "url2": "http://www.etera.fi/en/etera-about/comp-pres/mission-vision-values"
   },
   {
-    "Company": "EM Group Oy",
-    "Url": "http://www.emgroup.fi/fi/",
+    "name": "EM Group Oy",
+    "url": "http://www.emgroup.fi/fi/",
     "url2": "http://www.emgroup.fi/en/em-group/values/"
   },
   {
-    "Company": "EMINKO OY",
-    "Url": "http://www.eminko.com/",
+    "name": "EMINKO OY",
+    "url": "http://www.eminko.com/",
     "url2": "http://www.eminko.com/"
   },
   {
-    "Company": "Enersense Solutions Oy",
-    "Url": "http://www.enersense.eu/",
+    "name": "Enersense Solutions Oy",
+    "url": "http://www.enersense.eu/",
     "url2": "http://www.enersense.jobs/enersense-jobs#.WeUad2iCxPY"
   },
   {
-    "Company": "Enfo",
-    "Url": "https://www.enfogroup.com/",
+    "name": "Enfo",
+    "url": "https://www.enfogroup.com/",
     "url2": "https://www.enfogroup.com/Careers"
   },
   {
-    "Company": "Enfo OYJ",
-    "Url": "https://www.enfogroup.com/",
+    "name": "Enfo OYJ",
+    "url": "https://www.enfogroup.com/",
     "url2": "https://www.enfogroup.com/Careers"
   },
   {
-    "Company": "Enfo Rongo",
-    "Url": "https://www.enfogroup.com/",
+    "name": "Enfo Rongo",
+    "url": "https://www.enfogroup.com/",
     "url2": "https://www.enfogroup.com/Careers"
   },
   {
-    "Company": "Enfo Rongo Oy",
-    "Url": "https://www.enfogroup.com/",
+    "name": "Enfo Rongo Oy",
+    "url": "https://www.enfogroup.com/",
     "url2": "https://www.enfogroup.com/Careers"
   },
   {
-    "Company": "Enfuce",
-    "Url": "https://enfuce.com/",
+    "name": "Enfuce",
+    "url": "https://enfuce.com/",
     "url2": "https://enfuce.com/who-we-are/"
   },
   {
-    "Company": "Enics Group",
-    "Url": "http://enics.com/",
+    "name": "Enics Group",
+    "url": "http://enics.com/",
     "url2": "http://enics.com/careers/careers-content/"
   },
   {
-    "Company": "Enkom Active Oy",
-    "Url": "http://www.enkom-active.fi/",
+    "name": "Enkom Active Oy",
+    "url": "http://www.enkom-active.fi/",
     "url2": "http://www.enkom-active.fi/in-english/"
   },
   {
-    "Company": "Enne Analytics",
-    "Url": "",
+    "name": "Enne Analytics",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "EP-Engineering Oy",
-    "Url": "http://www.ep-engineering.fi/",
+    "name": "EP-Engineering Oy",
+    "url": "http://www.ep-engineering.fi/",
     "url2": "http://www.ep-engineering.fi/english.html"
   },
   {
-    "Company": "Erikkila oy",
-    "Url": "http://www.erikkila.com/",
+    "name": "Erikkila oy",
+    "url": "http://www.erikkila.com/",
     "url2": "http://www.erikkila.com/company"
   },
   {
-    "Company": "Erillisverkot Oy",
-    "Url": "https://www.erillisverkot.fi/",
+    "name": "Erillisverkot Oy",
+    "url": "https://www.erillisverkot.fi/",
     "url2": "https://www.erillisverkot.fi/en"
   },
   {
-    "Company": "Esa Laulajainen Consulting Oy",
-    "Url": "",
+    "name": "Esa Laulajainen Consulting Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Espoon kaupunki",
-    "Url": "http://www.espoo.fi/fi-FI",
+    "name": "Espoon kaupunki",
+    "url": "http://www.espoo.fi/fi-FI",
     "url2": "http://www.espoo.fi/en-US/City_of_Espoo"
   },
   {
-    "Company": "Espoon kaupunki, konserniesikunta, palvelukehitys",
-    "Url": "http://www.espoo.fi/fi-FI",
+    "name": "Espoon kaupunki, konserniesikunta, palvelukehitys",
+    "url": "http://www.espoo.fi/fi-FI",
     "url2": "http://www.espoo.fi/en-US/City_of_Espoo"
   },
   {
-    "Company": "Esri Finland",
-    "Url": "http://www.esri.fi/",
+    "name": "Esri Finland",
+    "url": "http://www.esri.fi/",
     "url2": ""
   },
   {
-    "Company": "Esri Finland Oy",
-    "Url": "http://www.esri.fi/",
+    "name": "Esri Finland Oy",
+    "url": "http://www.esri.fi/",
     "url2": ""
   },
   {
-    "Company": "Etelä-Savon sosiaali-ja terveyspalvelujen ky",
-    "Url": "https://www.essote.fi/",
+    "name": "Etelä-Savon sosiaali-ja terveyspalvelujen ky",
+    "url": "https://www.essote.fi/",
     "url2": ""
   },
   {
-    "Company": "Etera",
-    "Url": "http://www.etera.fi/",
+    "name": "Etera",
+    "url": "http://www.etera.fi/",
     "url2": "http://www.etera.fi/en/etera-about/comp-pres"
   },
   {
-    "Company": "Etteplan Oyj",
-    "Url": "http://www.etteplan.com/",
+    "name": "Etteplan Oyj",
+    "url": "http://www.etteplan.com/",
     "url2": "http://www.etteplan.com/careers"
   },
   {
-    "Company": "Euroloan oyj",
-    "Url": "http://www.euroloan.com/",
+    "name": "Euroloan oyj",
+    "url": "http://www.euroloan.com/",
     "url2": "http://www.euroloan.com/company/"
   },
   {
-    "Company": "European Alliance for Innovation",
-    "Url": "http://eai.eu/",
+    "name": "European Alliance for Innovation",
+    "url": "http://eai.eu/",
     "url2": "http://eai.eu/about-us/organisational-model"
   },
   {
-    "Company": "EXIO Capital Partners Ltd.",
-    "Url": "http://www.exio.fi/",
+    "name": "EXIO Capital Partners Ltd.",
+    "url": "http://www.exio.fi/",
     "url2": ""
   },
   {
-    "Company": "Exio Capital Partners Oy",
-    "Url": "http://www.exio.fi/",
+    "name": "Exio Capital Partners Oy",
+    "url": "http://www.exio.fi/",
     "url2": ""
   },
   {
-    "Company": "Extreme Networks",
-    "Url": "http://www.extremenetworks.com/",
+    "name": "Extreme Networks",
+    "url": "http://www.extremenetworks.com/",
     "url2": "http://www.extremenetworks.com/company/"
   },
   {
-    "Company": "EY",
-    "Url": "http://www.ey.com/",
+    "name": "EY",
+    "url": "http://www.ey.com/",
     "url2": "http://www.ey.com/about-us"
   },
   {
-    "Company": "Factor Nova Oy",
-    "Url": "http://factornova.fi/en/",
+    "name": "Factor Nova Oy",
+    "url": "http://factornova.fi/en/",
     "url2": "http://factornova.fi/en/us/"
   },
   {
-    "Company": "Fast Development Company",
-    "Url": "http://fdc17.fastdevco.com/",
+    "name": "Fast Development Company",
+    "url": "http://fdc17.fastdevco.com/",
     "url2": "http://fdc17.fastdevco.com/"
   },
   {
-    "Company": "Fastems Oy Ab",
-    "Url": "https://www.fastems.com/",
+    "name": "Fastems Oy Ab",
+    "url": "https://www.fastems.com/",
     "url2": "https://www.fastems.com/company/"
   },
   {
-    "Company": "Fazer",
-    "Url": "http://www.fazer.com/",
+    "name": "Fazer",
+    "url": "http://www.fazer.com/",
     "url2": "http://www.fazergroup.com/about-us/"
   },
   {
-    "Company": "Fazer Food Services",
-    "Url": "http://www.fazerfoodservices.com/",
+    "name": "Fazer Food Services",
+    "url": "http://www.fazerfoodservices.com/",
     "url2": "http://www.fazerfoodservices.com/about-us/why-choose-us/"
   },
   {
-    "Company": "Fazer Food Services Oy",
-    "Url": "http://www.fazerfoodservices.com/",
+    "name": "Fazer Food Services Oy",
+    "url": "http://www.fazerfoodservices.com/",
     "url2": "http://www.fazerfoodservices.com/about-us/why-choose-us/"
   },
   {
-    "Company": "Fazer Group",
-    "Url": "http://www.fazer.com/",
+    "name": "Fazer Group",
+    "url": "http://www.fazer.com/",
     "url2": "http://www.fazergroup.com/about-us/"
   },
   {
-    "Company": "Fennia",
-    "Url": "https://www.fennia.fi/",
+    "name": "Fennia",
+    "url": "https://www.fennia.fi/",
     "url2": "https://www.fennia.fi/en/fennia-group/about-fennia-group/"
   },
   {
-    "Company": "Fibion Oy",
-    "Url": "https://fibion.com/",
+    "name": "Fibion Oy",
+    "url": "https://fibion.com/",
     "url2": "https://fibion.com/en/about/"
   },
   {
-    "Company": "FIM",
-    "Url": "https://www.fim.com/",
+    "name": "FIM",
+    "url": "https://www.fim.com/",
     "url2": "https://www.fim.se/en/about-us/"
   },
   {
-    "Company": "Finanssiala Ry",
-    "Url": "http://www.finanssiala.fi/",
+    "name": "Finanssiala Ry",
+    "url": "http://www.finanssiala.fi/",
     "url2": "http://www.finanssiala.fi/en"
   },
   {
-    "Company": "Finavia Oyj",
-    "Url": "https://www.finavia.fi/fi/tietoa-finaviasta/",
+    "name": "Finavia Oyj",
+    "url": "https://www.finavia.fi/fi/tietoa-finaviasta/",
     "url2": "https://www.finavia.fi/en/finavia-corporation/"
   },
   {
-    "Company": "Finceptum Oy",
-    "Url": "https://finceptum.fi/",
+    "name": "Finceptum Oy",
+    "url": "https://finceptum.fi/",
     "url2": ""
   },
   {
-    "Company": "Finch Finland",
-    "Url": "https://www.finch.com/fi/",
+    "name": "Finch Finland",
+    "url": "https://www.finch.com/fi/",
     "url2": "https://www.finch.com/en/company"
   },
   {
-    "Company": "Fingrid Oyj",
-    "Url": "http://www.fingrid.fi/en/Pages/default.aspx",
+    "name": "Fingrid Oyj",
+    "url": "http://www.fingrid.fi/en/Pages/default.aspx",
     "url2": "http://www.fingrid.fi/en/company/Pages/default.aspx"
   },
   {
-    "Company": "Finlandia-talo",
-    "Url": "https://www.finlandiatalo.fi/en",
+    "name": "Finlandia-talo",
+    "url": "https://www.finlandiatalo.fi/en",
     "url2": "https://www.finlandiatalo.fi/en"
   },
   {
-    "Company": "Finnair",
-    "Url": "https://www.finnair.com/fi/fi/",
+    "name": "Finnair",
+    "url": "https://www.finnair.com/fi/fi/",
     "url2": "https://company.finnair.com/en/about"
   },
   {
-    "Company": "Finnair Oyj",
-    "Url": "https://www.finnair.com/fi/fi/",
+    "name": "Finnair Oyj",
+    "url": "https://www.finnair.com/fi/fi/",
     "url2": "https://company.finnair.com/en/about"
   },
   {
-    "Company": "Finnair Plc",
-    "Url": "https://www.finnair.com/fi/fi/",
+    "name": "Finnair Plc",
+    "url": "https://www.finnair.com/fi/fi/",
     "url2": "https://company.finnair.com/en/about"
   },
   {
-    "Company": "Finncontainers Oy",
-    "Url": "http://www.kontti.fi/",
+    "name": "Finncontainers Oy",
+    "url": "http://www.kontti.fi/",
     "url2": "http://www.kontti.fi/articles/342/"
   },
   {
-    "Company": "Finnish Transport Agency (Liikennevirasto)",
-    "Url": "https://www.liikennevirasto.fi/web/en",
+    "name": "Finnish Transport Agency (Liikennevirasto)",
+    "url": "https://www.liikennevirasto.fi/web/en",
     "url2": "https://www.liikennevirasto.fi/web/en/about"
   },
   {
-    "Company": "Fira Group Oy",
-    "Url": "https://www.fira.fi/en/",
+    "name": "Fira Group Oy",
+    "url": "https://www.fira.fi/en/",
     "url2": "https://www.fira.fi/en/meista/"
   },
   {
-    "Company": "Fira Oy",
-    "Url": "https://www.fira.fi/en/",
+    "name": "Fira Oy",
+    "url": "https://www.fira.fi/en/",
     "url2": "https://www.fira.fi/en/meista/"
   },
   {
-    "Company": "Fiskars",
-    "Url": "http://www.fiskars.fi/",
+    "name": "Fiskars",
+    "url": "http://www.fiskars.fi/",
     "url2": "https://www.fiskarsgroup.com/about-us/introducing-fiskars"
   },
   {
-    "Company": "FISKARS CORPORATION",
-    "Url": "http://www.fiskars.fi/",
+    "name": "FISKARS CORPORATION",
+    "url": "http://www.fiskars.fi/",
     "url2": "https://www.fiskarsgroup.com/about-us/introducing-fiskars"
   },
   {
-    "Company": "Fiskars Oyj",
-    "Url": "http://www.fiskars.fi/",
+    "name": "Fiskars Oyj",
+    "url": "http://www.fiskars.fi/",
     "url2": "https://www.fiskarsgroup.com/about-us/introducing-fiskars"
   },
   {
-    "Company": "Fluente Kumppanit Oy",
-    "Url": "https://fluente.fi/",
+    "name": "Fluente Kumppanit Oy",
+    "url": "https://fluente.fi/",
     "url2": ""
   },
   {
-    "Company": "Fluido oy",
-    "Url": "http://www.fluido.fi/",
+    "name": "Fluido oy",
+    "url": "http://www.fluido.fi/",
     "url2": "http://www.fluidogroup.com/about-us.html"
   },
   {
-    "Company": "ForeC Advisors",
-    "Url": "",
+    "name": "ForeC Advisors",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "forenom",
-    "Url": "https://www.forenom.com/",
+    "name": "forenom",
+    "url": "https://www.forenom.com/",
     "url2": "https://www.forenom.com/about/"
   },
   {
-    "Company": "Fortum",
-    "Url": "https://www.fortum.com/frontpage/fi/?from=irene",
+    "name": "Fortum",
+    "url": "https://www.fortum.com/frontpage/fi/?from=irene",
     "url2": "https://www.fortum.com/en/careers-and-students/10-reasons-to-work-for-us/pages/default.aspx"
   },
   {
-    "Company": "Fortum Oyj",
-    "Url": "",
+    "name": "Fortum Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fortum Power and Heat Oy",
-    "Url": "",
+    "name": "Fortum Power and Heat Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Forum Virium Helsinki",
-    "Url": "",
+    "name": "Forum Virium Helsinki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fountain Park",
-    "Url": "",
+    "name": "Fountain Park",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fountain Park Oy",
-    "Url": "",
+    "name": "Fountain Park Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Freelancer",
-    "Url": "",
+    "name": "Freelancer",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "F-Secure",
-    "Url": "",
+    "name": "F-Secure",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "F-Secure Cyber Security Services Oy",
-    "Url": "",
+    "name": "F-Secure Cyber Security Services Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fujitsu",
-    "Url": "",
+    "name": "Fujitsu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fujitsu Finland",
-    "Url": "",
+    "name": "Fujitsu Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fujitsu Finland Oy",
-    "Url": "",
+    "name": "Fujitsu Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Futurice Oy",
-    "Url": "",
+    "name": "Futurice Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fuusio Labs Oy",
-    "Url": "",
+    "name": "Fuusio Labs Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Fuusiolabs",
-    "Url": "",
+    "name": "Fuusiolabs",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Gaia Consulting Oy",
-    "Url": "",
+    "name": "Gaia Consulting Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Gaia Leadership",
-    "Url": "",
+    "name": "Gaia Leadership",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Glaston Finland Oy",
-    "Url": "",
+    "name": "Glaston Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Glome",
-    "Url": "",
+    "name": "Glome",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Goliath oy",
-    "Url": "",
+    "name": "Goliath oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Gottberg Services Gmbh",
-    "Url": "",
+    "name": "Gottberg Services Gmbh",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "GPJ",
-    "Url": "",
+    "name": "GPJ",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Granlund OY",
-    "Url": "",
+    "name": "Granlund OY",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "GreenPeak Oy",
-    "Url": "",
+    "name": "GreenPeak Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Gtsoft",
-    "Url": "",
+    "name": "Gtsoft",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Haaga-Helia amk",
-    "Url": "",
+    "name": "Haaga-Helia amk",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Haaga-Helia UAS",
-    "Url": "",
+    "name": "Haaga-Helia UAS",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hahle Group Oy",
-    "Url": "",
+    "name": "Hahle Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HAMK",
-    "Url": "",
+    "name": "HAMK",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Handelsbanken Rahoitus",
-    "Url": "",
+    "name": "Handelsbanken Rahoitus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hanken & SSE Executive Education",
-    "Url": "",
+    "name": "Hanken & SSE Executive Education",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hankkija Oy",
-    "Url": "",
+    "name": "Hankkija Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hannu Kokko",
-    "Url": "",
+    "name": "Hannu Kokko",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hans Karlsson",
-    "Url": "",
+    "name": "Hans Karlsson",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hansel Oy",
-    "Url": "",
+    "name": "Hansel Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HardCoreIT Oy",
-    "Url": "",
+    "name": "HardCoreIT Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hartman",
-    "Url": "",
+    "name": "Hartman",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "hasan & partners",
-    "Url": "",
+    "name": "hasan & partners",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "hasan & partners oy",
-    "Url": "",
+    "name": "hasan & partners oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HAUS oy",
-    "Url": "",
+    "name": "HAUS oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Havas Finland",
-    "Url": "",
+    "name": "Havas Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Havas Helsinki",
-    "Url": "",
+    "name": "Havas Helsinki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HCI Productions Oy",
-    "Url": "",
+    "name": "HCI Productions Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Healthia Oy Ab",
-    "Url": "",
+    "name": "Healthia Oy Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hearts & Science Finland",
-    "Url": "",
+    "name": "Hearts & Science Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helium Finland Oy",
-    "Url": "",
+    "name": "Helium Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin ja uudenmaan sairaanhoitopiiri",
-    "Url": "",
+    "name": "Helsingin ja uudenmaan sairaanhoitopiiri",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin kaupungin Taloushallintopalvelu",
-    "Url": "",
+    "name": "Helsingin kaupungin Taloushallintopalvelu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin kaupunki",
-    "Url": "",
+    "name": "Helsingin kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin kaupunki, Kasvatuksen ja koulutuksen toimiala",
-    "Url": "",
+    "name": "Helsingin kaupunki, Kasvatuksen ja koulutuksen toimiala",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin kaupunki, Kaupungin kanslia",
-    "Url": "",
+    "name": "Helsingin kaupunki, Kaupungin kanslia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin opetusvirasto",
-    "Url": "",
+    "name": "Helsingin opetusvirasto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin Satama Oy",
-    "Url": "",
+    "name": "Helsingin Satama Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin seudun kauppakamari/Helsingin Kamari Oy",
-    "Url": "",
+    "name": "Helsingin seudun kauppakamari/Helsingin Kamari Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin Sosiaali- ja terveystoimi",
-    "Url": "",
+    "name": "Helsingin Sosiaali- ja terveystoimi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin yliopisto",
-    "Url": "",
+    "name": "Helsingin yliopisto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsingin yliopisto, Lääketieteellinen tiedekunta",
-    "Url": "",
+    "name": "Helsingin yliopisto, Lääketieteellinen tiedekunta",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsinki Analytics Oy",
-    "Url": "",
+    "name": "Helsinki Analytics Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsinki Business Hub Ltd Oy",
-    "Url": "",
+    "name": "Helsinki Business Hub Ltd Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helsinki Metropolitan Smart & Clean Foundation",
-    "Url": "",
+    "name": "Helsinki Metropolitan Smart & Clean Foundation",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Helvar Oy Ab",
-    "Url": "",
+    "name": "Helvar Oy Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Henki-Fennia",
-    "Url": "",
+    "name": "Henki-Fennia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Herman IT",
-    "Url": "",
+    "name": "Herman IT",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Herman IT Oy",
-    "Url": "",
+    "name": "Herman IT Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "High information systems oy",
-    "Url": "",
+    "name": "High information systems oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hightec MM",
-    "Url": "",
+    "name": "Hightec MM",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hintsa Performance",
-    "Url": "",
+    "name": "Hintsa Performance",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hjp Consulting-Trading Oy",
-    "Url": "",
+    "name": "Hjp Consulting-Trading Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HJS Advisory / Aalto University",
-    "Url": "",
+    "name": "HJS Advisory / Aalto University",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hoiva Mehiläinen Oy",
-    "Url": "",
+    "name": "Hoiva Mehiläinen Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HOK-Elanto",
-    "Url": "",
+    "name": "HOK-Elanto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hollming Oy",
-    "Url": "",
+    "name": "Hollming Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Honeywell Oy",
-    "Url": "",
+    "name": "Honeywell Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Houston Analytics",
-    "Url": "",
+    "name": "Houston Analytics",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Houston Analytics Ltd.",
-    "Url": "",
+    "name": "Houston Analytics Ltd.",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Houston Analytics Oy",
-    "Url": "",
+    "name": "Houston Analytics Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Houston Inc.",
-    "Url": "",
+    "name": "Houston Inc.",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HSL",
-    "Url": "",
+    "name": "HSL",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HSY",
-    "Url": "",
+    "name": "HSY",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HUS",
-    "Url": "",
+    "name": "HUS",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HUS Kuntayhtymä",
-    "Url": "",
+    "name": "HUS Kuntayhtymä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HUS Tietohallinto",
-    "Url": "",
+    "name": "HUS Tietohallinto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HUS-Tietohallinto",
-    "Url": "",
+    "name": "HUS-Tietohallinto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "HUS-Tukipalvelut",
-    "Url": "",
+    "name": "HUS-Tukipalvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Häme University of Applied Sciences",
-    "Url": "",
+    "name": "Häme University of Applied Sciences",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hämeen ammattikorkeakoulu",
-    "Url": "",
+    "name": "Hämeen ammattikorkeakoulu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Hämeen ammattikorkeakoulu Oy",
-    "Url": "",
+    "name": "Hämeen ammattikorkeakoulu Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Högskolan Arcada",
-    "Url": "",
+    "name": "Högskolan Arcada",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "IBM",
-    "Url": "",
+    "name": "IBM",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Iceye",
-    "Url": "",
+    "name": "Iceye",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Iceye Oy",
-    "Url": "",
+    "name": "Iceye Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Idean",
-    "Url": "",
+    "name": "Idean",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Idem",
-    "Url": "",
+    "name": "Idem",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Idependent Consultant",
-    "Url": "",
+    "name": "Idependent Consultant",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "If",
-    "Url": "",
+    "name": "If",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "If IT Services",
-    "Url": "",
+    "name": "If IT Services",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "If Vahinkovakuutus Oyj, Suomen sivuliike",
-    "Url": "",
+    "name": "If Vahinkovakuutus Oyj, Suomen sivuliike",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "If Vahinkovakuutusyhtiö Oy",
-    "Url": "",
+    "name": "If Vahinkovakuutusyhtiö Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "If Vakuutus",
-    "Url": "",
+    "name": "If Vakuutus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "IGT",
-    "Url": "",
+    "name": "IGT",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ilmarinen",
-    "Url": "",
+    "name": "Ilmarinen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Indeo Oy",
-    "Url": "",
+    "name": "Indeo Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Index Information Technologies Oy",
-    "Url": "",
+    "name": "Index Information Technologies Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Industryhack",
-    "Url": "",
+    "name": "Industryhack",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ingram Micro Oy",
-    "Url": "",
+    "name": "Ingram Micro Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Innoca group",
-    "Url": "",
+    "name": "Innoca group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Innofactor",
-    "Url": "",
+    "name": "Innofactor",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Innofactor Oyj",
-    "Url": "",
+    "name": "Innofactor Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Innofactor Plc",
-    "Url": "",
+    "name": "Innofactor Plc",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Innostusvoima Oy",
-    "Url": "",
+    "name": "Innostusvoima Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Innovaatiorahoituskeskus Tekes",
-    "Url": "",
+    "name": "Innovaatiorahoituskeskus Tekes",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Insight360 Oy",
-    "Url": "",
+    "name": "Insight360 Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Insta DefSec",
-    "Url": "",
+    "name": "Insta DefSec",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Intelligent Services",
-    "Url": "",
+    "name": "Intelligent Services",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Intersport Finland Oy",
-    "Url": "",
+    "name": "Intersport Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Invalidisäätiö",
-    "Url": "",
+    "name": "Invalidisäätiö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Invenco Oy",
-    "Url": "",
+    "name": "Invenco Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "IP-only Qbrick oy",
-    "Url": "",
+    "name": "IP-only Qbrick oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "iProspect",
-    "Url": "",
+    "name": "iProspect",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "iProspect Finland",
-    "Url": "",
+    "name": "iProspect Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "IRONMAN 70.3 Finland / Ironcoaching Oy / Finntriathlon",
-    "Url": "",
+    "name": "IRONMAN 70.3 Finland / Ironcoaching Oy / Finntriathlon",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ISS Facility services",
-    "Url": "",
+    "name": "ISS Facility services",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ISS Palvelut",
-    "Url": "",
+    "name": "ISS Palvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ISS Palvelut Oy",
-    "Url": "",
+    "name": "ISS Palvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Istekki Oy",
-    "Url": "",
+    "name": "Istekki Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "IT Voimala Oy",
-    "Url": "",
+    "name": "IT Voimala Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "itslearning Oy",
-    "Url": "",
+    "name": "itslearning Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Itä-Suomen yliopisto, Sosiaali- ja terveysjohtamisen laitos",
-    "Url": "",
+    "name": "Itä-Suomen yliopisto, Sosiaali- ja terveysjohtamisen laitos",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "IWA",
-    "Url": "",
+    "name": "IWA",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "JAMK",
-    "Url": "",
+    "name": "JAMK",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "JIBI Oy",
-    "Url": "",
+    "name": "JIBI Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Joppl Oy",
-    "Url": "",
+    "name": "Joppl Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "JPS Management",
-    "Url": "",
+    "name": "JPS Management",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "JT works",
-    "Url": "",
+    "name": "JT works",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "JukkaNet",
-    "Url": "",
+    "name": "JukkaNet",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Julkishallinto: Helsingin kaupungin kasvatuksen ja koulutuksen toimiala / City of Helsinki, Daycare and Education",
-    "Url": "",
+    "name": "Julkishallinto: Helsingin kaupungin kasvatuksen ja koulutuksen toimiala / City of Helsinki, Daycare and Education",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Jy",
-    "Url": "",
+    "name": "Jy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Jyu",
-    "Url": "",
+    "name": "Jyu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Jyväskylän yliopisto",
-    "Url": "",
+    "name": "Jyväskylän yliopisto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Järvenpään kaupunki",
-    "Url": "",
+    "name": "Järvenpään kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Järvinet Oy",
-    "Url": "",
+    "name": "Järvinet Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kaita Finland",
-    "Url": "",
+    "name": "Kaita Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kaita Finland Oy",
-    "Url": "",
+    "name": "Kaita Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kansaneläkelaitos",
-    "Url": "",
+    "name": "Kansaneläkelaitos",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kari Tahvanainen",
-    "Url": "",
+    "name": "Kari Tahvanainen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kaseva Consulting",
-    "Url": "",
+    "name": "Kaseva Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kauniaisten kaupunki",
-    "Url": "",
+    "name": "Kauniaisten kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "K-Citymarket Iso Omena",
-    "Url": "",
+    "name": "K-Citymarket Iso Omena",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "K-Citymarket Sello",
-    "Url": "",
+    "name": "K-Citymarket Sello",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kela",
-    "Url": "",
+    "name": "Kela",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kela/Kanta-palvelut",
-    "Url": "",
+    "name": "Kela/Kanta-palvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kemira",
-    "Url": "",
+    "name": "Kemira",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kemira Oyj",
-    "Url": "",
+    "name": "Kemira Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kemppi Oy",
-    "Url": "",
+    "name": "Kemppi Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskinäinen Eläkevakuutusyhtiö Etera",
-    "Url": "",
+    "name": "Keskinäinen Eläkevakuutusyhtiö Etera",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskinäinen Eläkevakuutusyhtiö Ilmarinen",
-    "Url": "",
+    "name": "Keskinäinen Eläkevakuutusyhtiö Ilmarinen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskinäinen työeläkevakuutusyhtiö Varma",
-    "Url": "",
+    "name": "Keskinäinen työeläkevakuutusyhtiö Varma",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskinäinen Työeläkeyhtiö Varma",
-    "Url": "",
+    "name": "Keskinäinen Työeläkeyhtiö Varma",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskinäinen Vakuutusyhtiö Fennia",
-    "Url": "",
+    "name": "Keskinäinen Vakuutusyhtiö Fennia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskinäinen Vakuutusyhtiö Kaleva",
-    "Url": "",
+    "name": "Keskinäinen Vakuutusyhtiö Kaleva",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kesko",
-    "Url": "",
+    "name": "Kesko",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kesko Oyj",
-    "Url": "",
+    "name": "Kesko Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kesko Oyj / K Digital",
-    "Url": "",
+    "name": "Kesko Oyj / K Digital",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kesko Oyj / K-Digital",
-    "Url": "",
+    "name": "Kesko Oyj / K-Digital",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keskusrikospoliisi",
-    "Url": "",
+    "name": "Keskusrikospoliisi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Keva",
-    "Url": "",
+    "name": "Keva",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KHSHP",
-    "Url": "",
+    "name": "KHSHP",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kielibaari",
-    "Url": "",
+    "name": "Kielibaari",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kilpailu- ja kuluttajavirasto",
-    "Url": "",
+    "name": "Kilpailu- ja kuluttajavirasto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kirkon Keskusrahasto",
-    "Url": "",
+    "name": "Kirkon Keskusrahasto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Klinik Healthcare Solutions Oy",
-    "Url": "",
+    "name": "Klinik Healthcare Solutions Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Knowit Oy",
-    "Url": "",
+    "name": "Knowit Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kojamo Oy",
-    "Url": "",
+    "name": "Kojamo Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kojamo Oyj",
-    "Url": "",
+    "name": "Kojamo Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KONE",
-    "Url": "",
+    "name": "KONE",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KONE Corporation",
-    "Url": "",
+    "name": "KONE Corporation",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KONE Hissit Oy",
-    "Url": "",
+    "name": "KONE Hissit Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KONE Oyj",
-    "Url": "",
+    "name": "KONE Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KONE Suomi",
-    "Url": "",
+    "name": "KONE Suomi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Konecranes",
-    "Url": "",
+    "name": "Konecranes",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Konecranes Global Corporation",
-    "Url": "",
+    "name": "Konecranes Global Corporation",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Konecranes Oyj",
-    "Url": "",
+    "name": "Konecranes Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Konehuone",
-    "Url": "",
+    "name": "Konehuone",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kopio Niini Oy",
-    "Url": "",
+    "name": "Kopio Niini Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kouta Media Oy",
-    "Url": "",
+    "name": "Kouta Media Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kouvola Innovation Oy",
-    "Url": "",
+    "name": "Kouvola Innovation Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KPGM Oy Ab",
-    "Url": "",
+    "name": "KPGM Oy Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KPMG",
-    "Url": "",
+    "name": "KPMG",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KPMG Oy",
-    "Url": "",
+    "name": "KPMG Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KPMG Oy Ab",
-    "Url": "",
+    "name": "KPMG Oy Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "KSS Verkko Oy",
-    "Url": "",
+    "name": "KSS Verkko Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kunnan Taitoa Oy",
-    "Url": "",
+    "name": "Kunnan Taitoa Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kuntien Tiera Oy",
-    "Url": "",
+    "name": "Kuntien Tiera Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kuopion kaupunki",
-    "Url": "",
+    "name": "Kuopion kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Kymenlaakson sairaanhoito ja sosiaalipalvelujen kuntayhtymä",
-    "Url": "",
+    "name": "Kymenlaakson sairaanhoito ja sosiaalipalvelujen kuntayhtymä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Labquality Oy",
-    "Url": "",
+    "name": "Labquality Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lakiasiaintoimisto Asiakasturva Oy",
-    "Url": "",
+    "name": "Lakiasiaintoimisto Asiakasturva Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Landis+Gyr Oy",
-    "Url": "",
+    "name": "Landis+Gyr Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lassila & Tikanoja Oyj",
-    "Url": "",
+    "name": "Lassila & Tikanoja Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Laurea amk",
-    "Url": "",
+    "name": "Laurea amk",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Laurea-ammattikorkeakoulu",
-    "Url": "",
+    "name": "Laurea-ammattikorkeakoulu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LeasePlan Finland Oy",
-    "Url": "",
+    "name": "LeasePlan Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Leiki",
-    "Url": "",
+    "name": "Leiki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Leiki Oy",
-    "Url": "",
+    "name": "Leiki Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lekab Communication Systems AB",
-    "Url": "",
+    "name": "Lekab Communication Systems AB",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lemminkäinen Infra Oy",
-    "Url": "",
+    "name": "Lemminkäinen Infra Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lemminkäinen Oyj",
-    "Url": "",
+    "name": "Lemminkäinen Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lenovo",
-    "Url": "",
+    "name": "Lenovo",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lenovo Finland",
-    "Url": "",
+    "name": "Lenovo Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lenovo Technology B.V. sivuliike Suomessa",
-    "Url": "",
+    "name": "Lenovo Technology B.V. sivuliike Suomessa",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Liikenne- ja viestintäministeriö",
-    "Url": "",
+    "name": "Liikenne- ja viestintäministeriö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Liikenne-ja viestintäministeriö",
-    "Url": "",
+    "name": "Liikenne-ja viestintäministeriö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Liikennevirasto",
-    "Url": "",
+    "name": "Liikennevirasto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Liikkeenjohdon Asiantuntijakeskus",
-    "Url": "",
+    "name": "Liikkeenjohdon Asiantuntijakeskus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lindorff",
-    "Url": "",
+    "name": "Lindorff",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lindström Oy",
-    "Url": "",
+    "name": "Lindström Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lingsoft Language Services Oy",
-    "Url": "",
+    "name": "Lingsoft Language Services Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LM Ericsson Oy",
-    "Url": "",
+    "name": "LM Ericsson Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Louhia",
-    "Url": "",
+    "name": "Louhia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LVI-WaBeK OY",
-    "Url": "",
+    "name": "LVI-WaBeK OY",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LähiTapiola",
-    "Url": "",
+    "name": "LähiTapiola",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LähiTapiola Palvelut",
-    "Url": "",
+    "name": "LähiTapiola Palvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LähiTapiola Palvelut Oy",
-    "Url": "",
+    "name": "LähiTapiola Palvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LähiTapiola Pääkaupunkiseutu",
-    "Url": "",
+    "name": "LähiTapiola Pääkaupunkiseutu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "LähiTapiola-ryhmä",
-    "Url": "",
+    "name": "LähiTapiola-ryhmä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Lääketietokeskus Oy",
-    "Url": "",
+    "name": "Lääketietokeskus Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Maatalousyrittäjien eläkelaitos",
-    "Url": "",
+    "name": "Maatalousyrittäjien eläkelaitos",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MacGregor Finland Oy",
-    "Url": "",
+    "name": "MacGregor Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Management Events",
-    "Url": "",
+    "name": "Management Events",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mandatum Life",
-    "Url": "",
+    "name": "Mandatum Life",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mandatum Life palvelut Oy",
-    "Url": "",
+    "name": "Mandatum Life palvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mapvision Oy",
-    "Url": "",
+    "name": "Mapvision Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Martela",
-    "Url": "",
+    "name": "Martela",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MaxiPoint Oy",
-    "Url": "",
+    "name": "MaxiPoint Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MB Rahastot Oy",
-    "Url": "",
+    "name": "MB Rahastot Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "M-Brain",
-    "Url": "",
+    "name": "M-Brain",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "McCann Helsinki Oy",
-    "Url": "",
+    "name": "McCann Helsinki Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MealLogger",
-    "Url": "",
+    "name": "MealLogger",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mediakasvatuskeskus Metka",
-    "Url": "",
+    "name": "Mediakasvatuskeskus Metka",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mediataivas Oy",
-    "Url": "",
+    "name": "Mediataivas Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mediatalo Keskisuomalainen",
-    "Url": "",
+    "name": "Mediatalo Keskisuomalainen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Medi-IT Oy",
-    "Url": "",
+    "name": "Medi-IT Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mediuutiset",
-    "Url": "",
+    "name": "Mediuutiset",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Medixine Oy",
-    "Url": "",
+    "name": "Medixine Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mehiläinen",
-    "Url": "",
+    "name": "Mehiläinen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mehiläinen Oy",
-    "Url": "",
+    "name": "Mehiläinen Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MelbaGroup Oy",
-    "Url": "",
+    "name": "MelbaGroup Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Membook Oy",
-    "Url": "",
+    "name": "Membook Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mercuri Urval",
-    "Url": "",
+    "name": "Mercuri Urval",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Merilkon Oy",
-    "Url": "",
+    "name": "Merilkon Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mervin Consulting Oy",
-    "Url": "",
+    "name": "Mervin Consulting Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Metropolia Ammattikorkeakoulu",
-    "Url": "",
+    "name": "Metropolia Ammattikorkeakoulu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Metso",
-    "Url": "",
+    "name": "Metso",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Metso Oyj",
-    "Url": "",
+    "name": "Metso Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Metso Shared Services Oy",
-    "Url": "",
+    "name": "Metso Shared Services Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Metsä Group",
-    "Url": "",
+    "name": "Metsä Group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MHOY",
-    "Url": "",
+    "name": "MHOY",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Midanos Oy",
-    "Url": "",
+    "name": "Midanos Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mika Seppälä tmi",
-    "Url": "",
+    "name": "Mika Seppälä tmi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mikko Ilari Laakkonen",
-    "Url": "",
+    "name": "Mikko Ilari Laakkonen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MIndcom Oy",
-    "Url": "",
+    "name": "MIndcom Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MLP Modular Learning Processes Oy",
-    "Url": "",
+    "name": "MLP Modular Learning Processes Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Momentous Oy",
-    "Url": "",
+    "name": "Momentous Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MPY Palvelut Oy",
-    "Url": "",
+    "name": "MPY Palvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MPY Palvelut Oyj",
-    "Url": "",
+    "name": "MPY Palvelut Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MSD",
-    "Url": "",
+    "name": "MSD",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MSD Finland",
-    "Url": "",
+    "name": "MSD Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MSD Finland Oy",
-    "Url": "",
+    "name": "MSD Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MTV",
-    "Url": "",
+    "name": "MTV",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MTV Oy",
-    "Url": "",
+    "name": "MTV Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "muutostieto oy",
-    "Url": "",
+    "name": "muutostieto oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "MX Electrix Oy",
-    "Url": "",
+    "name": "MX Electrix Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "My6dimensions Oy Ltd.",
-    "Url": "",
+    "name": "My6dimensions Oy Ltd.",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mylab Oy",
-    "Url": "",
+    "name": "Mylab Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Mäntsälän kunta",
-    "Url": "",
+    "name": "Mäntsälän kunta",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Natasha Design Ky",
-    "Url": "",
+    "name": "Natasha Design Ky",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Naturmax Oy",
-    "Url": "",
+    "name": "Naturmax Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nauha ry",
-    "Url": "",
+    "name": "Nauha ry",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Necorpoint Oy",
-    "Url": "",
+    "name": "Necorpoint Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Negen Oy",
-    "Url": "",
+    "name": "Negen Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Neste",
-    "Url": "",
+    "name": "Neste",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Neste Corporation",
-    "Url": "",
+    "name": "Neste Corporation",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Neste Oyj",
-    "Url": "",
+    "name": "Neste Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nestholma Oy",
-    "Url": "",
+    "name": "Nestholma Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Netorek Oy",
-    "Url": "",
+    "name": "Netorek Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nets Oy",
-    "Url": "",
+    "name": "Nets Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Neuromi Oy",
-    "Url": "",
+    "name": "Neuromi Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "NewCo",
-    "Url": "",
+    "name": "NewCo",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "NewCo Yritys Helsinki",
-    "Url": "",
+    "name": "NewCo Yritys Helsinki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Newelo Oy",
-    "Url": "",
+    "name": "Newelo Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nitor",
-    "Url": "",
+    "name": "Nitor",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nitro",
-    "Url": "",
+    "name": "Nitro",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "NITRO GROUP",
-    "Url": "",
+    "name": "NITRO GROUP",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nitro Group Oy",
-    "Url": "",
+    "name": "Nitro Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nixu",
-    "Url": "",
+    "name": "Nixu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nixu Oyj",
-    "Url": "",
+    "name": "Nixu Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "NL Consulting",
-    "Url": "",
+    "name": "NL Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nokia",
-    "Url": "",
+    "name": "Nokia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nokia Networks and Solutions GmbH & Co KG",
-    "Url": "",
+    "name": "Nokia Networks and Solutions GmbH & Co KG",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nokia Oyj",
-    "Url": "",
+    "name": "Nokia Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nokia Oyj (Nokia Solutions and Networks)",
-    "Url": "",
+    "name": "Nokia Oyj (Nokia Solutions and Networks)",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nokian Tyres plc",
-    "Url": "",
+    "name": "Nokian Tyres plc",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nomad Solutions",
-    "Url": "",
+    "name": "Nomad Solutions",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "None",
-    "Url": "",
+    "name": "None",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordcloud",
-    "Url": "",
+    "name": "Nordcloud",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordcloud Oy",
-    "Url": "",
+    "name": "Nordcloud Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordea",
-    "Url": "",
+    "name": "Nordea",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordea Bank",
-    "Url": "",
+    "name": "Nordea Bank",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordea Bank AB",
-    "Url": "",
+    "name": "Nordea Bank AB",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordea Bank AB (publ), Finnish Branch,",
-    "Url": "",
+    "name": "Nordea Bank AB (publ), Finnish Branch,",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordic Morning",
-    "Url": "",
+    "name": "Nordic Morning",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordicmind",
-    "Url": "",
+    "name": "Nordicmind",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nordisk Kellogg Finland",
-    "Url": "",
+    "name": "Nordisk Kellogg Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Norian",
-    "Url": "",
+    "name": "Norian",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Norian Accounting Oy",
-    "Url": "",
+    "name": "Norian Accounting Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Not Innovated Here",
-    "Url": "",
+    "name": "Not Innovated Here",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Novartis Finland Oy",
-    "Url": "",
+    "name": "Novartis Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Novasano",
-    "Url": "",
+    "name": "Novasano",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Nut Ideas Oy",
-    "Url": "",
+    "name": "Nut Ideas Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Näkövammaisten liitto ry.",
-    "Url": "",
+    "name": "Näkövammaisten liitto ry.",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oikeusrekisterikeskus",
-    "Url": "",
+    "name": "Oikeusrekisterikeskus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OmaKuljettaja",
-    "Url": "",
+    "name": "OmaKuljettaja",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OmaKuljettaja Chaffeur Service",
-    "Url": "",
+    "name": "OmaKuljettaja Chaffeur Service",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OnChannel / Expandi Group",
-    "Url": "",
+    "name": "OnChannel / Expandi Group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OnChannel Finland",
-    "Url": "",
+    "name": "OnChannel Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OneMed Oy",
-    "Url": "",
+    "name": "OneMed Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Onninen Oy",
-    "Url": "",
+    "name": "Onninen Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Onrego Oy",
-    "Url": "",
+    "name": "Onrego Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP",
-    "Url": "",
+    "name": "OP",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP Financial Group",
-    "Url": "",
+    "name": "OP Financial Group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP Insurance Ltd",
-    "Url": "",
+    "name": "OP Insurance Ltd",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP palvelut",
-    "Url": "",
+    "name": "OP palvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP Palvelut Oy",
-    "Url": "",
+    "name": "OP Palvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP Ryhmä",
-    "Url": "",
+    "name": "OP Ryhmä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP Vakuutus Oy",
-    "Url": "",
+    "name": "OP Vakuutus Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP Yrityspankki Oyj",
-    "Url": "",
+    "name": "OP Yrityspankki Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OPENOCEAN",
-    "Url": "",
+    "name": "OPENOCEAN",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP-Palvelut",
-    "Url": "",
+    "name": "OP-Palvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OP-Palvelut Oy",
-    "Url": "",
+    "name": "OP-Palvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Optirima Oy",
-    "Url": "",
+    "name": "Optirima Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OpusCapita",
-    "Url": "",
+    "name": "OpusCapita",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "OpusCapita Group Oy",
-    "Url": "",
+    "name": "OpusCapita Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Orion Oyj, Orion Pharma",
-    "Url": "",
+    "name": "Orion Oyj, Orion Pharma",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Orto Consulting",
-    "Url": "",
+    "name": "Orto Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Osuuspankki",
-    "Url": "",
+    "name": "Osuuspankki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Otava",
-    "Url": "",
+    "name": "Otava",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Otava-konserni",
-    "Url": "",
+    "name": "Otava-konserni",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oulun kaupunki",
-    "Url": "",
+    "name": "Oulun kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oulun Tietotekniikka",
-    "Url": "",
+    "name": "Oulun Tietotekniikka",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oulun Yliopisto",
-    "Url": "",
+    "name": "Oulun Yliopisto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ouman Oy",
-    "Url": "",
+    "name": "Ouman Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Outokumpu Stainless Oy",
-    "Url": "",
+    "name": "Outokumpu Stainless Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Outotec Oyj",
-    "Url": "",
+    "name": "Outotec Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oxit Oy",
-    "Url": "",
+    "name": "Oxit Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oy AGA Ab",
-    "Url": "",
+    "name": "Oy AGA Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oy ePartners 2010 Ab",
-    "Url": "",
+    "name": "Oy ePartners 2010 Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oy Lillan Ab/Lillan Autotech Consulting",
-    "Url": "",
+    "name": "Oy Lillan Ab/Lillan Autotech Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oy Perkko",
-    "Url": "",
+    "name": "Oy Perkko",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oy Samlink Ab",
-    "Url": "",
+    "name": "Oy Samlink Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Oy Shoulders of Giants Ltd.",
-    "Url": "",
+    "name": "Oy Shoulders of Giants Ltd.",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Painopalvelu Arkki Oy",
-    "Url": "",
+    "name": "Painopalvelu Arkki Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pedab Finland",
-    "Url": "",
+    "name": "Pedab Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pedab Finland Oy",
-    "Url": "",
+    "name": "Pedab Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "PehuTec",
-    "Url": "",
+    "name": "PehuTec",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "People Geeks Ltd Oy",
-    "Url": "",
+    "name": "People Geeks Ltd Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Perigeum Oy",
-    "Url": "",
+    "name": "Perigeum Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pertti Ruosaari Oy",
-    "Url": "",
+    "name": "Pertti Ruosaari Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pfizer",
-    "Url": "",
+    "name": "Pfizer",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pfizer Oy",
-    "Url": "",
+    "name": "Pfizer Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pfizer PFE Finland Oy",
-    "Url": "",
+    "name": "Pfizer PFE Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pihlajalinna",
-    "Url": "",
+    "name": "Pihlajalinna",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pihlajalinna Oyj",
-    "Url": "",
+    "name": "Pihlajalinna Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pisara - Jyväskylän Energia Oy",
-    "Url": "",
+    "name": "Pisara - Jyväskylän Energia Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Planmeca Group",
-    "Url": "",
+    "name": "Planmeca Group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Planmeca Oy",
-    "Url": "",
+    "name": "Planmeca Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pleinert Partner",
-    "Url": "",
+    "name": "Pleinert Partner",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Polar Electro Oy",
-    "Url": "",
+    "name": "Polar Electro Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Poliisi",
-    "Url": "",
+    "name": "Poliisi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Poliisihallitus",
-    "Url": "",
+    "name": "Poliisihallitus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Polku Innovations Oy",
-    "Url": "",
+    "name": "Polku Innovations Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Posintra Oy",
-    "Url": "",
+    "name": "Posintra Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Posti",
-    "Url": "",
+    "name": "Posti",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Posti Group Oyj",
-    "Url": "",
+    "name": "Posti Group Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Posti Kotipalvelut Oy",
-    "Url": "",
+    "name": "Posti Kotipalvelut Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Posti Oy",
-    "Url": "",
+    "name": "Posti Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "PostNord Strålfors Oy",
-    "Url": "",
+    "name": "PostNord Strålfors Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Potmi Consulting",
-    "Url": "",
+    "name": "Potmi Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Primera Holidays oy",
-    "Url": "",
+    "name": "Primera Holidays oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Private Consultant",
-    "Url": "",
+    "name": "Private Consultant",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "ProAgria",
-    "Url": "",
+    "name": "ProAgria",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Professa Oy",
-    "Url": "",
+    "name": "Professa Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Proficium Oy",
-    "Url": "",
+    "name": "Proficium Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Profiport oy",
-    "Url": "",
+    "name": "Profiport oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Profit Up Consulting Oy Ab",
-    "Url": "",
+    "name": "Profit Up Consulting Oy Ab",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Projecthings",
-    "Url": "",
+    "name": "Projecthings",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Project-IT",
-    "Url": "",
+    "name": "Project-IT",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Propentus Oy",
-    "Url": "",
+    "name": "Propentus Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pro-Source Oy",
-    "Url": "",
+    "name": "Pro-Source Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Provad Oy",
-    "Url": "",
+    "name": "Provad Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Proveka Oy",
-    "Url": "",
+    "name": "Proveka Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Puolustusvoimat",
-    "Url": "",
+    "name": "Puolustusvoimat",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "PwC",
-    "Url": "",
+    "name": "PwC",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "PwC Finland",
-    "Url": "",
+    "name": "PwC Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "PwC Oy",
-    "Url": "",
+    "name": "PwC Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pyhtään kunta",
-    "Url": "",
+    "name": "Pyhtään kunta",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Päijät-Hämeen hyvinvointikuntayhtymä",
-    "Url": "",
+    "name": "Päijät-Hämeen hyvinvointikuntayhtymä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Päijät-Hämeen hyvinvointiyhtymä",
-    "Url": "",
+    "name": "Päijät-Hämeen hyvinvointiyhtymä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pääesikunta",
-    "Url": "",
+    "name": "Pääesikunta",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pöyry Management Consulting",
-    "Url": "",
+    "name": "Pöyry Management Consulting",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Pöyry Oyj",
-    "Url": "",
+    "name": "Pöyry Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Qentinel Oy",
-    "Url": "",
+    "name": "Qentinel Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Qentinel QA Oy",
-    "Url": "",
+    "name": "Qentinel QA Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Q-Factory Oy / Codemen Oy",
-    "Url": "",
+    "name": "Q-Factory Oy / Codemen Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Qitec",
-    "Url": "",
+    "name": "Qitec",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "QPR Software Oyj",
-    "Url": "",
+    "name": "QPR Software Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "QSAA",
-    "Url": "",
+    "name": "QSAA",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Qvik",
-    "Url": "",
+    "name": "Qvik",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Rakennustieto Oy",
-    "Url": "",
+    "name": "Rakennustieto Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ramboll",
-    "Url": "",
+    "name": "Ramboll",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ramboll Finland",
-    "Url": "",
+    "name": "Ramboll Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Rapal Oy",
-    "Url": "",
+    "name": "Rapal Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "RD Velho",
-    "Url": "",
+    "name": "RD Velho",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Redheart Entertainment",
-    "Url": "",
+    "name": "Redheart Entertainment",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "RELEX",
-    "Url": "",
+    "name": "RELEX",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Rexel Finland Oy",
-    "Url": "",
+    "name": "Rexel Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ricoh Finland Oy",
-    "Url": "",
+    "name": "Ricoh Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Rightware",
-    "Url": "",
+    "name": "Rightware",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Rittal Oy",
-    "Url": "",
+    "name": "Rittal Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Rogerstudio Oy",
-    "Url": "",
+    "name": "Rogerstudio Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "RW-Automaatio",
-    "Url": "",
+    "name": "RW-Automaatio",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "S&N Osakeyhtiö",
-    "Url": "",
+    "name": "S&N Osakeyhtiö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "S&P Digital",
-    "Url": "",
+    "name": "S&P Digital",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Saga Furs Oyj",
-    "Url": "",
+    "name": "Saga Furs Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Saintpaulia Oy",
-    "Url": "",
+    "name": "Saintpaulia Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SAK",
-    "Url": "",
+    "name": "SAK",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sako Ltd",
-    "Url": "",
+    "name": "Sako Ltd",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Salesforce",
-    "Url": "",
+    "name": "Salesforce",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Samlink",
-    "Url": "",
+    "name": "Samlink",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Samlink Oy",
-    "Url": "",
+    "name": "Samlink Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sanoma",
-    "Url": "",
+    "name": "Sanoma",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sanoma Media Finland",
-    "Url": "",
+    "name": "Sanoma Media Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Santa Monica Networks",
-    "Url": "",
+    "name": "Santa Monica Networks",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SAP",
-    "Url": "",
+    "name": "SAP",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SAP Finland",
-    "Url": "",
+    "name": "SAP Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sarkia&Co",
-    "Url": "",
+    "name": "Sarkia&Co",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Satapirkan Sähkö Oy",
-    "Url": "",
+    "name": "Satapirkan Sähkö Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Savonlinnan kaupunki",
-    "Url": "",
+    "name": "Savonlinnan kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SC(FVH)",
-    "Url": "",
+    "name": "SC(FVH)",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Schaeffler Finland Oy",
-    "Url": "",
+    "name": "Schaeffler Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Schenker Oy",
-    "Url": "",
+    "name": "Schenker Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Schneider Electric",
-    "Url": "",
+    "name": "Schneider Electric",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Screen-interactive",
-    "Url": "",
+    "name": "Screen-interactive",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SeaKing Oy",
-    "Url": "",
+    "name": "SeaKing Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Segmento Oy",
-    "Url": "",
+    "name": "Segmento Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Senaatti-kiinteistöt",
-    "Url": "",
+    "name": "Senaatti-kiinteistöt",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Shantou University",
-    "Url": "",
+    "name": "Shantou University",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SHIFT",
-    "Url": "",
+    "name": "SHIFT",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SHIFT Business Festival",
-    "Url": "",
+    "name": "SHIFT Business Festival",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Shoulders of Giants",
-    "Url": "",
+    "name": "Shoulders of Giants",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Siemens Osakeyhtiö",
-    "Url": "",
+    "name": "Siemens Osakeyhtiö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sigma Solutions Oy",
-    "Url": "",
+    "name": "Sigma Solutions Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Siili",
-    "Url": "",
+    "name": "Siili",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Siili Solutions",
-    "Url": "",
+    "name": "Siili Solutions",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Siili Solutions Oyj",
-    "Url": "",
+    "name": "Siili Solutions Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Silo AI",
-    "Url": "",
+    "name": "Silo AI",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Silta Oy",
-    "Url": "",
+    "name": "Silta Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SimAnalytics Oy",
-    "Url": "",
+    "name": "SimAnalytics Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sisäministeriö",
-    "Url": "",
+    "name": "Sisäministeriö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sitra",
-    "Url": "",
+    "name": "Sitra",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Siun Sote",
-    "Url": "",
+    "name": "Siun Sote",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SKA-Research Oy",
-    "Url": "",
+    "name": "SKA-Research Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SKS Group Oy",
-    "Url": "",
+    "name": "SKS Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SMART Internationalization Oy",
-    "Url": "",
+    "name": "SMART Internationalization Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Smartblock Oy",
-    "Url": "",
+    "name": "Smartblock Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SmartWatcher Oy",
-    "Url": "",
+    "name": "SmartWatcher Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Smash Mill Oy",
-    "Url": "",
+    "name": "Smash Mill Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Soacloud9",
-    "Url": "",
+    "name": "Soacloud9",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Socfinder Oy",
-    "Url": "",
+    "name": "Socfinder Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sofigate",
-    "Url": "",
+    "name": "Sofigate",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sofigate Oy",
-    "Url": "",
+    "name": "Sofigate Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sofigate Services Oy",
-    "Url": "",
+    "name": "Sofigate Services Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sofor",
-    "Url": "",
+    "name": "Sofor",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sofor Oy",
-    "Url": "",
+    "name": "Sofor Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SoftwareONE",
-    "Url": "",
+    "name": "SoftwareONE",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SOG",
-    "Url": "",
+    "name": "SOG",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sogeti",
-    "Url": "",
+    "name": "Sogeti",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sogeti Finland",
-    "Url": "",
+    "name": "Sogeti Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SOK",
-    "Url": "",
+    "name": "SOK",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SOK/Suomen osuuskauppojen keskuskunta",
-    "Url": "",
+    "name": "SOK/Suomen osuuskauppojen keskuskunta",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Soleno Oy",
-    "Url": "",
+    "name": "Soleno Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Solita",
-    "Url": "",
+    "name": "Solita",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Solita Oy",
-    "Url": "",
+    "name": "Solita Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Solteq",
-    "Url": "",
+    "name": "Solteq",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Solteq Oyj",
-    "Url": "",
+    "name": "Solteq Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Someco",
-    "Url": "",
+    "name": "Someco",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sovelto",
-    "Url": "",
+    "name": "Sovelto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Sovelto Oyj",
-    "Url": "",
+    "name": "Sovelto Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Space Systems Finland",
-    "Url": "",
+    "name": "Space Systems Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SSAB",
-    "Url": "",
+    "name": "SSAB",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SSAB AB",
-    "Url": "",
+    "name": "SSAB AB",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Startup Weekend",
-    "Url": "",
+    "name": "Startup Weekend",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Stockholm",
-    "Url": "",
+    "name": "Stockholm",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Stora Enso",
-    "Url": "",
+    "name": "Stora Enso",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Stora Enso Oyj",
-    "Url": "",
+    "name": "Stora Enso Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "storaenso",
-    "Url": "",
+    "name": "storaenso",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Straquest",
-    "Url": "",
+    "name": "Straquest",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "StratCommunications Oy",
-    "Url": "",
+    "name": "StratCommunications Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Strategia.Design | Petri Hakanen Oy",
-    "Url": "",
+    "name": "Strategia.Design | Petri Hakanen Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Strygg",
-    "Url": "",
+    "name": "Strygg",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suojelupoliisi",
-    "Url": "",
+    "name": "Suojelupoliisi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomalainen Kirjakauppa",
-    "Url": "",
+    "name": "Suomalainen Kirjakauppa",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Asiakastieto Oy",
-    "Url": "",
+    "name": "Suomen Asiakastieto Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Erillisverkot",
-    "Url": "",
+    "name": "Suomen Erillisverkot",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen itsenäisyyden juhlarahasto Sitra",
-    "Url": "",
+    "name": "Suomen itsenäisyyden juhlarahasto Sitra",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Konehuone Oy",
-    "Url": "",
+    "name": "Suomen Konehuone Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Kuntaliitto ry",
-    "Url": "",
+    "name": "Suomen Kuntaliitto ry",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Lääkäriliitto",
-    "Url": "",
+    "name": "Suomen Lääkäriliitto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Messut",
-    "Url": "",
+    "name": "Suomen Messut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Pankki",
-    "Url": "",
+    "name": "Suomen Pankki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Suomen Syöpäyhdistys",
-    "Url": "",
+    "name": "Suomen Syöpäyhdistys",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "SUSE Suomi",
-    "Url": "",
+    "name": "SUSE Suomi",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Svenska Handelsbanken",
-    "Url": "",
+    "name": "Svenska Handelsbanken",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "swipx",
-    "Url": "",
+    "name": "swipx",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Symbio",
-    "Url": "",
+    "name": "Symbio",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Symbio Finland",
-    "Url": "",
+    "name": "Symbio Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Symbio Finland Oy",
-    "Url": "",
+    "name": "Symbio Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Syncron Tech Oy",
-    "Url": "",
+    "name": "Syncron Tech Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Säästöpankki",
-    "Url": "",
+    "name": "Säästöpankki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "TalentAdore",
-    "Url": "",
+    "name": "TalentAdore",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tampere University of Technology",
-    "Url": "",
+    "name": "Tampere University of Technology",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tampereen kaupunki",
-    "Url": "",
+    "name": "Tampereen kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tampereen teknillinen yliopisto",
-    "Url": "",
+    "name": "Tampereen teknillinen yliopisto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tampereen Teknillinen Yliopisto, Porin yksikkö",
-    "Url": "",
+    "name": "Tampereen Teknillinen Yliopisto, Porin yksikkö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tamro",
-    "Url": "",
+    "name": "Tamro",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tamro Oyj",
-    "Url": "",
+    "name": "Tamro Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Taplow Finland Oy",
-    "Url": "",
+    "name": "Taplow Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Techcode Finland",
-    "Url": "",
+    "name": "Techcode Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teemu Lehtinen",
-    "Url": "",
+    "name": "Teemu Lehtinen",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tekes",
-    "Url": "",
+    "name": "Tekes",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tekes - Innovaatiorahoituskeskus",
-    "Url": "",
+    "name": "Tekes - Innovaatiorahoituskeskus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tekniikan akateemiset TEK",
-    "Url": "",
+    "name": "Tekniikan akateemiset TEK",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teknologian tutkimuskeskus VTT",
-    "Url": "",
+    "name": "Teknologian tutkimuskeskus VTT",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teknologian tutkimuskeskus VTT Oy",
-    "Url": "",
+    "name": "Teknologian tutkimuskeskus VTT Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teknoware Oy",
-    "Url": "",
+    "name": "Teknoware Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tele-Expert Oy",
-    "Url": "",
+    "name": "Tele-Expert Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teleste Oyj",
-    "Url": "",
+    "name": "Teleste Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Telia",
-    "Url": "",
+    "name": "Telia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Telia Company",
-    "Url": "",
+    "name": "Telia Company",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Telia Company Finland",
-    "Url": "",
+    "name": "Telia Company Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Telia Finland",
-    "Url": "",
+    "name": "Telia Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Telia Finland Oy",
-    "Url": "",
+    "name": "Telia Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Telia Finland Oyj",
-    "Url": "",
+    "name": "Telia Finland Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teosto",
-    "Url": "",
+    "name": "Teosto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Teradata",
-    "Url": "",
+    "name": "Teradata",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tero Karhu",
-    "Url": "",
+    "name": "Tero Karhu",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Terveyden ja hyvinvoinnin laitos",
-    "Url": "",
+    "name": "Terveyden ja hyvinvoinnin laitos",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "The Button Corporation ltd",
-    "Url": "",
+    "name": "The Button Corporation ltd",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "The New York Times",
-    "Url": "",
+    "name": "The New York Times",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "THTH ry",
-    "Url": "",
+    "name": "THTH ry",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tiedekeskus Heureka",
-    "Url": "",
+    "name": "Tiedekeskus Heureka",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tieto",
-    "Url": "",
+    "name": "Tieto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tieto Finland",
-    "Url": "",
+    "name": "Tieto Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tieto Finland Oy",
-    "Url": "",
+    "name": "Tieto Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tieto Finland Oyj",
-    "Url": "",
+    "name": "Tieto Finland Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tieto Oyj",
-    "Url": "",
+    "name": "Tieto Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tietohallinto",
-    "Url": "",
+    "name": "Tietohallinto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tilastokeskus",
-    "Url": "",
+    "name": "Tilastokeskus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Titansoft Oy",
-    "Url": "",
+    "name": "Titansoft Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "T-Media Oy",
-    "Url": "",
+    "name": "T-Media Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tmi Kim Karme",
-    "Url": "",
+    "name": "Tmi Kim Karme",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Toyota Auto Finland Oy",
-    "Url": "",
+    "name": "Toyota Auto Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Toyota Finance Finland Oy",
-    "Url": "",
+    "name": "Toyota Finance Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Trainers' House Oyj",
-    "Url": "",
+    "name": "Trainers' House Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Transaxiom oy",
-    "Url": "",
+    "name": "Transaxiom oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "TRANSEARCH Finland Oy",
-    "Url": "",
+    "name": "TRANSEARCH Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tribered Oy",
-    "Url": "",
+    "name": "Tribered Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "tuleva yksityisyrittäjä",
-    "Url": "",
+    "name": "tuleva yksityisyrittäjä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tulli",
-    "Url": "",
+    "name": "Tulli",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Tuocon Oy",
-    "Url": "",
+    "name": "Tuocon Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Turku Energia",
-    "Url": "",
+    "name": "Turku Energia",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Turku Science Park oy",
-    "Url": "",
+    "name": "Turku Science Park oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Turun Kauppakorkeakoulu, Johtamisen ja Yrittäjyydenlaitos, Tietojärjestelmätiede",
-    "Url": "",
+    "name": "Turun Kauppakorkeakoulu, Johtamisen ja Yrittäjyydenlaitos, Tietojärjestelmätiede",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Turun Kaupungin hyvinvointitoimiala",
-    "Url": "",
+    "name": "Turun Kaupungin hyvinvointitoimiala",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Turun kaupunki, hyvinvointitoimiala",
-    "Url": "",
+    "name": "Turun kaupunki, hyvinvointitoimiala",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "TYöeläkeyhtiö Varma",
-    "Url": "",
+    "name": "TYöeläkeyhtiö Varma",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Työterveyslaitos",
-    "Url": "",
+    "name": "Työterveyslaitos",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "UNICOM Global Finland",
-    "Url": "",
+    "name": "UNICOM Global Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "University of Eastern Finland",
-    "Url": "",
+    "name": "University of Eastern Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "University of Tampere",
-    "Url": "",
+    "name": "University of Tampere",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "UPM",
-    "Url": "",
+    "name": "UPM",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "UPM Oyj",
-    "Url": "",
+    "name": "UPM Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "UPM-Kymmene Oyj",
-    "Url": "",
+    "name": "UPM-Kymmene Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vaasan Oy",
-    "Url": "",
+    "name": "Vaasan Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vaisala",
-    "Url": "",
+    "name": "Vaisala",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vaisala Oyj",
-    "Url": "",
+    "name": "Vaisala Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vakuutuskeskus",
-    "Url": "",
+    "name": "Vakuutuskeskus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valmet",
-    "Url": "",
+    "name": "Valmet",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valo Solutions (Riovan Oy)",
-    "Url": "",
+    "name": "Valo Solutions (Riovan Oy)",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valtiokonttori",
-    "Url": "",
+    "name": "Valtiokonttori",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "valtion talous- ja henkilöstöhallinnon palvelukeskus, Palkeet",
-    "Url": "",
+    "name": "valtion talous- ja henkilöstöhallinnon palvelukeskus, Palkeet",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valtion tieto- ja viestintätekniikka keskus Valtori",
-    "Url": "",
+    "name": "Valtion tieto- ja viestintätekniikka keskus Valtori",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valtion tieto- ja viestintätekniikkakeskus Valtori",
-    "Url": "",
+    "name": "Valtion tieto- ja viestintätekniikkakeskus Valtori",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valtiontalouden tarkastusvirasto",
-    "Url": "",
+    "name": "Valtiontalouden tarkastusvirasto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valtiovarainministeriö",
-    "Url": "",
+    "name": "Valtiovarainministeriö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valtori, TUVE-palvelut",
-    "Url": "",
+    "name": "Valtori, TUVE-palvelut",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valuatum Oy",
-    "Url": "",
+    "name": "Valuatum Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valve",
-    "Url": "",
+    "name": "Valve",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Valve Group Oy",
-    "Url": "",
+    "name": "Valve Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vantaan kaupunki",
-    "Url": "",
+    "name": "Vantaan kaupunki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vantaan kaupunki, tietohallinto | City of Vantaa, IT Administration",
-    "Url": "",
+    "name": "Vantaan kaupunki, tietohallinto | City of Vantaa, IT Administration",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wapice Oy",
-    "Url": "",
+    "name": "Wapice Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vapo Oy",
-    "Url": "",
+    "name": "Vapo Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Varma",
-    "Url": "",
+    "name": "Varma",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vattenfall Oy",
-    "Url": "",
+    "name": "Vattenfall Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Waulis Motors ltd",
-    "Url": "",
+    "name": "Waulis Motors ltd",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Webily",
-    "Url": "",
+    "name": "Webily",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "WEF Global Shapers",
-    "Url": "",
+    "name": "WEF Global Shapers",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Veikkaus",
-    "Url": "",
+    "name": "Veikkaus",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Veikkaus Oy",
-    "Url": "",
+    "name": "Veikkaus Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wellmo",
-    "Url": "",
+    "name": "Wellmo",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wellness Foundry Oy",
-    "Url": "",
+    "name": "Wellness Foundry Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "WellPro Oy",
-    "Url": "",
+    "name": "WellPro Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wellship Oy",
-    "Url": "",
+    "name": "Wellship Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "vero",
-    "Url": "",
+    "name": "vero",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Verohallinto",
-    "Url": "",
+    "name": "Verohallinto",
     "url2": ""
   },
   {
-    "Company": "Verohallinto / Harmaan talouden selvitysyksikkö",
-    "Url": "",
+    "name": "Verohallinto / Harmaan talouden selvitysyksikkö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vertical accelerator",
-    "Url": "",
+    "name": "Vertical accelerator",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Verticom Oy",
-    "Url": "",
+    "name": "Verticom Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Verticom Services Oy",
-    "Url": "",
+    "name": "Verticom Services Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vetonaula Oy",
-    "Url": "",
+    "name": "Vetonaula Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VIA Group Oy",
-    "Url": "",
+    "name": "VIA Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Viasat Finland / MTG",
-    "Url": "",
+    "name": "Viasat Finland / MTG",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Widian Oy",
-    "Url": "",
+    "name": "Widian Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vierula Consulting Oy",
-    "Url": "",
+    "name": "Vierula Consulting Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Viessmann",
-    "Url": "",
+    "name": "Viessmann",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Viestintävirasto",
-    "Url": "",
+    "name": "Viestintävirasto",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wihuri International Oy",
-    "Url": "",
+    "name": "Wihuri International Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "WIM-Advisors Oy",
-    "Url": "",
+    "name": "WIM-Advisors Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vimma CC Oy",
-    "Url": "",
+    "name": "Vimma CC Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vincit",
-    "Url": "",
+    "name": "Vincit",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vincit Group Oyj",
-    "Url": "",
+    "name": "Vincit Group Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vincit Oy",
-    "Url": "",
+    "name": "Vincit Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Windester Oy",
-    "Url": "",
+    "name": "Windester Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Vine Oy",
-    "Url": "",
+    "name": "Vine Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Winland Espoo oy",
-    "Url": "",
+    "name": "Winland Espoo oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VMware",
-    "Url": "",
+    "name": "VMware",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VMware Finland",
-    "Url": "",
+    "name": "VMware Finland",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Voglia Oy",
-    "Url": "",
+    "name": "Voglia Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Woltti Group",
-    "Url": "",
+    "name": "Woltti Group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Woltti Group Oy",
-    "Url": "",
+    "name": "Woltti Group Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Woolman Oy",
-    "Url": "",
+    "name": "Woolman Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Workday Finland Oy",
-    "Url": "",
+    "name": "Workday Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VR Group",
-    "Url": "",
+    "name": "VR Group",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VR Group Ltd.",
-    "Url": "",
+    "name": "VR Group Ltd.",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Write technologies oy",
-    "Url": "",
+    "name": "Write technologies oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VTT",
-    "Url": "",
+    "name": "VTT",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "VTT Oy",
-    "Url": "",
+    "name": "VTT Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wunder",
-    "Url": "",
+    "name": "Wunder",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wunder Finland Oy",
-    "Url": "",
+    "name": "Wunder Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wärtsilä",
-    "Url": "",
+    "name": "Wärtsilä",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wärtsilä Corporation",
-    "Url": "",
+    "name": "Wärtsilä Corporation",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Wärtsilä Oyj",
-    "Url": "",
+    "name": "Wärtsilä Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "xEdu Oy",
-    "Url": "",
+    "name": "xEdu Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Xerox",
-    "Url": "",
+    "name": "Xerox",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "YAP Solutions Oy",
-    "Url": "",
+    "name": "YAP Solutions Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Yaskawa Finland Oy",
-    "Url": "",
+    "name": "Yaskawa Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "YIT Oyj",
-    "Url": "",
+    "name": "YIT Oyj",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Yle, the Finnish Broadcasting Company",
-    "Url": "",
+    "name": "Yle, the Finnish Broadcasting Company",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Yleisradio",
-    "Url": "",
+    "name": "Yleisradio",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Yleisradio Oy",
-    "Url": "",
+    "name": "Yleisradio Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Yliopiston Apteekki",
-    "Url": "",
+    "name": "Yliopiston Apteekki",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ylioppilaiden terveydenhoitosäätiö",
-    "Url": "",
+    "name": "Ylioppilaiden terveydenhoitosäätiö",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Ylioppilastutkintolautakunta",
-    "Url": "",
+    "name": "Ylioppilastutkintolautakunta",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "You-Get Finland Oy",
-    "Url": "",
+    "name": "You-Get Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "Zenitel Finland Oy",
-    "Url": "",
+    "name": "Zenitel Finland Oy",
+    "url": "",
     "url2": ""
   },
   {
-    "Company": "zztribe",
-    "Url": "",
+    "name": "zztribe",
+    "url": "",
     "url2": ""
   }
 ]
+}
