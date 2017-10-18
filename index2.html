@@ -135,7 +135,7 @@
 				<p>Tämä oli viimeinen kysymys. Sano "Tulos" kun olet vastannut.</p>
 			</div>
 			<div id="section_email" class="hidden aino-speech">
-				<p style="font-size:smaller;"> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen. 
+				<p style="font-size:smaller;"> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen.
 				<form name="ainoform" action="index2.html" netlify-honeypot="bot-field" netlify>
 					<p class="hidden">
 					    <label style="font-size:smaller;">Don’t fill this out: <input name="bot-field"></label>
@@ -149,7 +149,7 @@
 					<p class="">
 					    <label style="font-size:smaller;"> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
 					  </p>
-					
+
 					<p class="">
 					    <label style="font-size:smaller;" > Tulokset vastauksittain: <textarea class="aino-speech" name="message_details" id="message_details" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
 					  </p>
@@ -214,15 +214,15 @@
 			$( '#_stop' ).trigger('click');
 			//$( '#_stop' ).click(function() {console.log("stop.click")});
 		}
-		
-		var sound = document.getElementById("ainobailaa"); 
 
-		function playSound() { 
-		    sound.play(); 
-		} 
+		var sound = document.getElementById("ainobailaa");
 
-		function pauseSound() { 
-		    sound.pause(); 
+		function playSound() {
+		    sound.play();
+		}
+
+		function pauseSound() {
+		    sound.pause();
 		}
 
 		var f_AIno_initialize = function () {
@@ -482,7 +482,8 @@
 
 	    var send_form = function() {
 				speak_aino('Lomake lähetetty');
-		    		$( '#result_form' ).trigger('click');
+				$( "#ainoform" ).submit();
+		    //$( '#result_form' ).trigger('click');
 
       };
 
