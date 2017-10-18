@@ -481,8 +481,8 @@
       };
 
 	    var send_form = function() {
+				console.log("sposti:" + document.getElementById("recipient_email").value);
 				speak_aino('Lomake lähetetty');
-				// $( "#ainoform" ).submit();
 		    $( '#result_form' ).trigger('click');
 
       };
