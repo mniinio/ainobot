@@ -136,7 +136,7 @@
 			</div>
 			<div id="section_email" class="hidden aino-speech">
 				<p style="font-size:smaller;"> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen.
-				<form name="ainoform" netlify-honeypot="bot-field" netlify> <!--action="index2.html" -->
+				<form id="aino-frm" name="ainoform" data-netlify="true" netlify-honeypot="bot-field" netlify> <!--action="index2.html" -->
 					<p class="hidden">
 					    <label style="font-size:smaller;">Don’t fill this out: <input name="bot-field"></label>
 					</p>
@@ -483,12 +483,13 @@
 	    var send_form = function() {
 				console.log("sposti:" + document.getElementById("recipient_email").value);
 				speak_aino('Lomake lähetetty');
+				$( "#aino-form" ).submit();
 		    $( '#result_form' ).trigger('click');
 
       };
 
 			var get_mirror = function() {
-				speak_aino('O Lady Queen, though fair ye be, Snow-White is fairer far to see');
+				speak_aino('Sinä olet kaunein päällä maan, ei kaltaistasi löydy milloinkaan.');
 			};
 	    		var dance = function() {
 					hideAinoTalking();
