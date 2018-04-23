@@ -3,7 +3,7 @@
 function ainoTalking() {
     var iframe = document.getElementById( 'aino-talking' );
     var version = '1.0.0';
-    var urlid = 'e535f09ece994dd0988a52a6086e40dd';
+    var urlid = '1b3df2c94ff14a4693d0b82b81ecd3fa';
     var client = new Sketchfab( version, iframe );
 
     client.init( urlid, {
@@ -41,7 +41,7 @@ function ainoTalking() {
 function ainoIdle() {
     var iframe = document.getElementById( 'aino-idle' );
     var version = '1.0.0';
-    var urlid = 'c6f5458181314752bfdc39d153920cee';
+    var urlid = '1b3df2c94ff14a4693d0b82b81ecd3fa';
     var client = new Sketchfab( version, iframe );
 
     client.init( urlid, {
@@ -78,7 +78,7 @@ function ainoIdle() {
 function ainoDancing() {
     var iframe = document.getElementById( 'aino-dancing' );
     var version = '1.0.0';
-    var urlid = '5344313985f34a5ca8caa95145ea9fc3';
+    var urlid = '1b3df2c94ff14a4693d0b82b81ecd3fa';
     var client = new Sketchfab( version, iframe );
 
     client.init( urlid, {
