@@ -102,7 +102,7 @@ function ainoDancing() {
         error: function onError() {
             console.log( 'Viewer error' );
         },
-				transparent: 0,
+				transparent: 1,
 				camera: 0,
 				ui_infos: 0,
 				ui_controls: 0,
