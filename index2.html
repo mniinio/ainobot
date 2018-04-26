@@ -1,176 +1,176 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>AIno bot</title>
-		<link rel="stylesheet" type="text/css" href="ainobot-1.0.2.css">
-		<link rel="stylesheet" href="main.min.css">
-		<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.1.js"></script>
-		<script type="text/javascript" src="character-1.0.1.js"></script>
-		<script src="annyang.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
-	</head>
-	<body>
+
+<head>
+	<meta charset="UTF-8">
+	<title>AIno bot</title>
+	<link rel="stylesheet" type="text/css" href="ainobot-1.0.2.css">
+	<link rel="stylesheet" href="main.min.css">
+	<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.0.1.js"></script>
+	<script type="text/javascript" src="character-1.0.1.js"></script>
+	<script src="annyang.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+</head>
+
+<body>
 
 	<!-- DRAW 3D CHARACTERS -->
-		<!-- Hidden buttons used to control playing/pausing the 3D animation -->
-		<p align="right" class="hidden">
-			<button id="_play" type="button" title="play">play</button>
-			<button id="_stop" type="button" title="stop">stop</button>
-		</p>
+	<!-- Hidden buttons used to control playing/pausing the 3D animation -->
+	<p align="right" class="hidden">
+		<button id="_play" type="button" title="play">play</button>
+		<button id="_stop" type="button" title="stop">stop</button>
+	</p>
 
 
-		<!-- Insert an empty iframe for AIno 3D animation -->
-		<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		<iframe src="" id="aino-idle" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		<iframe src="" id="aino-talking" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
-		<audio id="ainobailaa" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false">
+	<!-- Insert an empty iframe for AIno 3D animation -->
+	<iframe src="" id="aino-dancing" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+	<iframe src="" id="aino-idle" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+	<iframe src="" id="aino-talking" style="height: auto; border: none;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" class="hidden"></iframe>
+	<audio id="ainobailaa" src="Lobo_Loco_-_08_-_Silent_Movie_Car_Chase_ID_709.mp3" loop="false">
 		Your browser does not support the audio element.
 		</audio>
-		 <!-- Insert an empty iframe, hidden by default using a class-->
-		<!-- Initialize the viewer -->
-    <script type="text/javascript">
-
+	<!-- Insert an empty iframe, hidden by default using a class-->
+	<!-- Initialize the viewer -->
+	<script type="text/javascript">
 		ainoIdle();
-	       	ainoDancing();
+		ainoDancing();
 		ainoTalking();
-
-
-    </script>
+	</script>
 
 	<!-- START SPEACH -->
 
-    <section id="section_hei" class="sec">
-      <p id="intro" class="hidden voice_instructions aino-speech">Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
-      <p id="hei" class="hidden aino-speech">Aloita sanomalla "<b>Nimi on</b>... (yrityksesi tai organisaatiosi nimi)"</p>
-			<p id="p_org" class="hidden aino-speech">
-				Kuulinko oikein? <input id="aino_org" type="text" class="aino-speech" /> </br>
-				Ole hyvä ja vahvista nimi sanomalla "<b>Nimi oikein</b>".
-			</p>
-			<div id="p_question1" class="hidden aino-speech">
-				Valitse vaihtoehto sanomalla esimerkiksi "Vastaus A". </br>
-				Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
-				<ul>
-					<li>
-						<input type="radio" name="question1" id="vastausA1">
-						<label for="f-option">A) Olemme jo diginatiiveja, saamme kilpailuetua digitalisaatiosta.</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question1" id="vastausB1">
-						<label for="f-option">B) Miksei? Ei ole meille kovin iso muutos</label>
-						<div class="check"></div>
-					</li>
+	<section id="section_hei" class="sec">
+		<p id="intro" class="hidden voice_instructions aino-speech">Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla "Hei"!"</p>
+		<p id="hei" class="hidden aino-speech">Aloita sanomalla "<b>Nimi on</b>... (yrityksesi tai organisaatiosi nimi)"</p>
+		<p id="p_org" class="hidden aino-speech">
+			Kuulinko oikein? <input id="aino_org" type="text" class="aino-speech" /> </br>
+			Ole hyvä ja vahvista nimi sanomalla "<b>Nimi oikein</b>".
+		</p>
+		<div id="p_question1" class="hidden aino-speech">
+			Valitse vaihtoehto sanomalla esimerkiksi "Vastaus A". </br>
+			Kysymys 1: Tärkein syy digitalisaatioon organisaatiossamme on:
+			<ul>
+				<li>
+					<input type="radio" name="question1" id="vastausA1">
+					<label for="f-option">A) Olemme jo diginatiiveja, saamme kilpailuetua digitalisaatiosta.</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" name="question1" id="vastausB1">
+					<label for="f-option">B) Miksei? Ei ole meille kovin iso muutos</label>
+					<div class="check"></div>
+				</li>
 
-					<li>
-						<input type="radio" name="question1" id="vastausC1">
-						<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question1" id="vastausD1">
-						<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
-						<div class="check"></div>
-					</li>
-				</ul>
-				<p>Sano "Seuraava kysymys" kun olet vastannut</p>
-			</div>
+				<li>
+					<input type="radio" name="question1" id="vastausC1">
+					<label for="f-option">C) Kilpailutilanne pakottaa meidät digitalisaatioon</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" name="question1" id="vastausD1">
+					<label for="f-option">D) Digitalisaatio ei kosketa meitä</label>
+					<div class="check"></div>
+				</li>
+			</ul>
+			<p>Sano "Seuraava kysymys" kun olet vastannut</p>
+		</div>
 
-			<div id="p_question2" class="hidden aino-speech">
-				Kysymys 2. Yhteiskehittely asiakkaiden kanssa ja valmius kumppanuuksiin:
+		<div id="p_question2" class="hidden aino-speech">
+			Kysymys 2. Yhteiskehittely asiakkaiden kanssa ja valmius kumppanuuksiin:
 
-				<ul>
-					<li>
-						<input type="radio" name="question2" id="vastausA2">
-						<label for="f-option">A) Toimintamallimme ja rajapintamme tuottavat jo lisäarvoa asiakkaille ja kumppaneille</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question2" id="vastausB2">
-						<label for="f-option">B) Teknologiset ratkaisumme voisivat tukea paremminkin kehitystä asiakkaiden ja kumppaneiden kanssa</label>
-						<div class="check"></div>
-					</li>
+			<ul>
+				<li>
+					<input type="radio" name="question2" id="vastausA2">
+					<label for="f-option">A) Toimintamallimme ja rajapintamme tuottavat jo lisäarvoa asiakkaille ja kumppaneille</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" name="question2" id="vastausB2">
+					<label for="f-option">B) Teknologiset ratkaisumme voisivat tukea paremminkin kehitystä asiakkaiden ja kumppaneiden kanssa</label>
+					<div class="check"></div>
+				</li>
 
-					<li>
-						<input type="radio" name="question2" id="vastausC2">
-						<label for="f-option">C) Teemme yhteiskehittelyä asiakkaiden kanssa, kumppanistrategiamme vielä vaiheessa</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question2" id="vastausD2">
-						<label for="f-option">D) Nämä asiat ajankohtaisia ehkä tulevaisuudessa</label>
-						<div class="check"></div>
-					</li>
-				</ul>
-				<p>Sano "Seuraava kysymys" kun olet vastannut</p>
-			</div>
+				<li>
+					<input type="radio" name="question2" id="vastausC2">
+					<label for="f-option">C) Teemme yhteiskehittelyä asiakkaiden kanssa, kumppanistrategiamme vielä vaiheessa</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" name="question2" id="vastausD2">
+					<label for="f-option">D) Nämä asiat ajankohtaisia ehkä tulevaisuudessa</label>
+					<div class="check"></div>
+				</li>
+			</ul>
+			<p>Sano "Seuraava kysymys" kun olet vastannut</p>
+		</div>
 
-			<div id="p_question3" class="hidden aino-speech">
-				Kysymys 3. Digitalisaatio-osaaminen:
+		<div id="p_question3" class="hidden aino-speech">
+			Kysymys 3. Digitalisaatio-osaaminen:
 
-				<ul>
-					<li>
-						<input type="radio" name="question3" id="vastausA3">
-						<label for="f-option">A) Digiosaajia riittää, navigoimme ekosysteemeissä ja aikaansaamme kehitystä</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question3" id="vastausB3">
-						<label for="f-option">B) Digitaalisuuden, avoimen innovoinnin ja erikoisosaamisemme kehittäminen on hyvässä mallissa</label>
-						<div class="check"></div>
-					</li>
+			<ul>
+				<li>
+					<input type="radio" name="question3" id="vastausA3">
+					<label for="f-option">A) Digiosaajia riittää, navigoimme ekosysteemeissä ja aikaansaamme kehitystä</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" name="question3" id="vastausB3">
+					<label for="f-option">B) Digitaalisuuden, avoimen innovoinnin ja erikoisosaamisemme kehittäminen on hyvässä mallissa</label>
+					<div class="check"></div>
+				</li>
 
-					<li>
-						<input type="radio" name="question3" id="vastausC3">
-						<label for="f-option">C) Muutos on suuri, mutta kehitämme suunnitelmallisesti osaamista ja kulttuuria</label>
-						<div class="check"></div>
-					</li>
-					<li>
-						<input type="radio" name="question3" id="vastausD3">
-						<label for="f-option">D) Uudet teknologiat ja palveluiden innovatiivinen yhteiskehittely on meille vielä uutta</label>
-						<div class="check"></div>
-					</li>
-				</ul>
-				<p>Tämä oli viimeinen kysymys. Sano "Tulos" kun olet vastannut.</p>
-			</div>
-			<div id="section_email" class="hidden aino-speech">
-				<p style="font-size:smaller;"> Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. Twitter-viesti lähtee @ainobot_digia nimellä ilman viittausta yritykseen.
-				<form name="ainoform" action="finish.html" netlify-honeypot="bot-field" data-netlify="true">
-					<p class="hidden">
-					    <label style="font-size:smaller;">Don’t fill this out: <input name="bot-field"></label>
-					</p>
-					<p>
-						<label style="font-size:smaller;">Nimeni on: <input class="aino-speech" type="text" name="name" id="recipient_name"></label>
-					</p>
-					<p>
-						<label style="font-size:smaller;">Sähköpostiosoitteeni on: <input class="aino-speech" type="email" name="email" id="recipient_email"></label>
-					</p>
-					<p class="">
-					    <label style="font-size:smaller;"> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
-					  </p>
+				<li>
+					<input type="radio" name="question3" id="vastausC3">
+					<label for="f-option">C) Muutos on suuri, mutta kehitämme suunnitelmallisesti osaamista ja kulttuuria</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" name="question3" id="vastausD3">
+					<label for="f-option">D) Uudet teknologiat ja palveluiden innovatiivinen yhteiskehittely on meille vielä uutta</label>
+					<div class="check"></div>
+				</li>
+			</ul>
+			<p>Tämä oli viimeinen kysymys. Sano "Tulos" kun olet vastannut.</p>
+		</div>
+		<div id="section_email" class="hidden aino-speech">
+			<p style="font-size:smaller;">Tuloksesi. Saat halutessasi tuloksen sähköpostilla. </p>
+			<p style="font-size:smaller;">Sano "Nimeni on.." Korjaa sähköpostiosoite tarvittaessa käsin. </p>
+			<form name="ainoform" action="finish.html" netlify-honeypot="bot-field" data-netlify="true">
+				<p class="hidden">
+					<label style="font-size:smaller;">Don’t fill this out: <input name="bot-field"></label>
+				</p>
+				<p>
+					<label style="font-size:smaller;">Nimeni on: <input class="aino-speech" type="text" name="name" id="recipient_name"></label>
+				</p>
+				<p>
+					<label style="font-size:smaller;">Sähköpostiosoitteeni on: <input class="aino-speech" type="email" name="email" id="recipient_email"></label>
+				</p>
+				<p class="">
+					<label style="font-size:smaller;"> Analyysin tulos: <textarea class="aino-speech" name="message" id="message_text" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
+				</p>
 
-					<p class="">
-					    <label style="font-size:smaller;" > Tulokset vastauksittain: <textarea class="aino-speech" name="message_details" id="message_details" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
-					  </p>
-					<p>
-						Sano: <button style="font-size:smaller;" class="aino-speech" type="submit" id="result_form">"Lähetä lomake"</button>
-					</p>
-					<p style="font-size: smaller">Sähköpostiosoitetta voidaan käyttää Digia Oyj:n ja Digia Finland Oy:n markkinointitarkoituksiin.</p>
-					<p style="color: #000">
-					    <!-- <input  style="color: #000; background: #000; border: 0;" type="text" name="number" id="recipient_message"> -->
-					 </p>
-				</form>
+				<p class="">
+					<label style="font-size:smaller;"> Tulokset vastauksittain: <textarea class="aino-speech" name="message_details" id="message_details" style="font-size:smaller; width: 100%; height: 50px; margin-left: 0px;"></textarea></label>
+				</p>
+				<p>
+					Sano: <button style="font-size:smaller;" class="aino-speech" type="submit" id="result_form">"Lähetä lomake"</button>
+				</p>
+				<p style="font-size: smaller">Sähköpostiosoitetta voidaan käyttää Digia Oyj:n ja Digia Finland Oy:n markkinointitarkoituksiin.</p>
+				<p style="color: #000">
+					<!-- <input  style="color: #000; background: #000; border: 0;" type="text" name="number" id="recipient_message"> -->
+				</p>
+			</form>
 
-			</div>
-		</section>
-    <div id="unsupported" class="hidden">
-      <h4>It looks like your browser doesn't support speech recognition.</h4>
-      <p>annyang plays nicely with all browsers, progressively enhancing modern browsers that support the SpeechRecognition standard, while leaving users with older browsers unaffected.</p>
-      <p>Please visit <a href="http://www.annyangjs.com/">http://www.annyangjs.com/</a> in a desktop browser like Chrome.</p>
-    </div>
-		<script>
-    "use strict";
+		</div>
+	</section>
+	<div id="unsupported" class="hidden">
+		<h4>It looks like your browser doesn't support speech recognition.</h4>
+		<p>annyang plays nicely with all browsers, progressively enhancing modern browsers that support the SpeechRecognition standard, while leaving users with older browsers unaffected.</p>
+		<p>Please visit <a href="http://www.annyangjs.com/">http://www.annyangjs.com/</a> in a desktop browser like Chrome.</p>
+	</div>
+	<script>
+		"use strict";
 		var digipoints_raw = 0; //these points are added everytime user answers question or analysis is ready
 		var digipoints_percentile = 0; // categorized digipoints with scale of 1-5
 		var digipoints_analysis = "";
@@ -186,7 +186,9 @@
 			// meSpeak.speak calls the pause3D as callback when finished
 			annyang.abort();
 			hideIdle();
-			responsiveVoice.speak(speechtext, "Finnish Female", {rate: 1.5});
+			responsiveVoice.speak(speechtext, "Finnish Female", {
+				rate: 1.5
+			});
 			setTimeout(enterIdle, 6500);
 			annyang.start();
 		}
@@ -194,38 +196,44 @@
 		function enterIdle() {
 			$("#aino-talking").addClass("hidden");
 			$("#aino-idle").removeClass("hidden");
-			$("#aino-idle").animate({zIndex: 100, opacity: 1}, "slow");
+			$("#aino-idle").animate({
+				zIndex: 100,
+				opacity: 1
+			}, "slow");
 		}
 
 		function hideIdle() {
 			$("#aino-talking").removeClass("hidden");
-			$("#aino-idle").animate({zIndex: -100, opacity: 0}, "slow");
+			$("#aino-idle").animate({
+				zIndex: -100,
+				opacity: 0
+			}, "slow");
 			$("#aino-idle").addClass("hidden");
 		}
 
 		function play3D() {
 			//$( '#_play' ).prop('checked', true);
-			$( '#_play' ).trigger('click');
+			$('#_play').trigger('click');
 			//$( '#_play' ).click(function() {console.log("play.click")});
 		}
 
 		function pause3D() {
 			//$( '#_play' ).prop('checked', fal<se);
-			$( '#_stop' ).trigger('click');
+			$('#_stop').trigger('click');
 			//$( '#_stop' ).click(function() {console.log("stop.click")});
 		}
 
 		var sound = document.getElementById("ainobailaa");
 
 		function playSound() {
-		    sound.play();
+			sound.play();
 		}
 
 		function pauseSound() {
-		    sound.pause();
+			sound.pause();
 		}
 
-		var f_AIno_initialize = function () {
+		var f_AIno_initialize = function() {
 			$("#intro").slideDown("slow");
 			speak_aino('Tervehdys! Olen Ainobot, avustajasi digitalisaatiossa. Voit puhua minulle. Aloita sanomalla hei!');
 
@@ -234,7 +242,7 @@
 		// This function is called when the AIno 3D-model iframe is loaded
 		function AIno_intro() {
 			// JS way to have pause before calling f_AIno_initialize
-			$('#aino-idle').ready(function () {
+			$('#aino-idle').ready(function() {
 				enterIdle();
 				hideIdle();
 				setTimeout(f_AIno_initialize, 2000);
@@ -243,23 +251,23 @@
 		}
 
 
-    if (annyang) {
+		if (annyang) {
 
 
-      // define the functions our commands will run.
-     	var hello = function() {
+			// define the functions our commands will run.
+			var hello = function() {
 				$("#intro").slideUp("slow");
 				$("#hei").slideDown("slow");
 				scrollTo("#section_hei");
 				//tarkista kuuleeko käyttäjä, jos ei kuule, vaihda pois responsivevoicesta
 				speak_aino('Hei, hauska tutustua! Kerro yrityksesi tai organisaatiosi nimi? Aloita sanomalla "Nimi on"');
-    	};
+			};
 
 			var get_org = function(heard_org) {
 				$("#hei").slideUp("slow");
-        			$("#p_org").slideDown("slow");
+				$("#p_org").slideDown("slow");
 				document.getElementById("aino_org").value = heard_org.toString();
-				speak_aino('Kuulinko oikein, sanoitko '+ heard_org.toString());
+				speak_aino('Kuulinko oikein, sanoitko ' + heard_org.toString());
 				companyname = heard_org.toString();
 				var url = encodeURI('https://html-page-reader-undiagramed-aerographer.eu-de.mybluemix.net/api/searchcomp?companyname=' + companyname);
 				$.ajax({
@@ -267,17 +275,17 @@
 					url: url,
 					async: true,
 					dataType: 'json',
-					success: function (data) {
+					success: function(data) {
 						//alert(data.message);
 						if (data.filename != 'url not found') {
 							imageRetrieved = true;
 						} else {
-						speak_aino('Yritin etsiä yritystä mutta en löytänyt tiedoistani.');
+							speak_aino('Yritin etsiä yritystä mutta en löytänyt tiedoistani.');
 						}
 					}
 				});
 
-      };
+			};
 
 			var got_name_right = function() {
 				$("#p_org").slideUp("slow");
@@ -293,7 +301,7 @@
 					url: url,
 					async: true,
 					dataType: 'json',
-					success: function (data) {
+					success: function(data) {
 						//alert(data.message);
 						if (data.filename != 'url not found') {
 							imageRetrieved = true;
@@ -308,16 +316,15 @@
 					url: url,
 					async: false,
 					dataType: 'json',
-					success: function (data) {
+					success: function(data) {
 						//alert(data.message);
 						answers[4] = data.needs[0].percentile;
 						answers_score[4] = data.needs[0].percentile;
-						if( answers[4] ) {
-						} else {
-							answers[4]=0;
+						if (answers[4]) {} else {
+							answers[4] = 0;
 							answers_score[4];
 						}
-						console.log('percentile '+answers_score[4]);
+						console.log('percentile ' + answers_score[4]);
 					}
 				});
 
@@ -328,131 +335,129 @@
 					url: url,
 					async: false,
 					dataType: 'json',
-					success: function (data) {
+					success: function(data) {
 						//alert(data.message);
 						answers[5] = data.result;
 						answers_score[5] = data.result;
-						if( answers[5] ) {
-						} else {
-							answers[5]=0;
+						if (answers[5]) {} else {
+							answers[5] = 0;
 							answers_score[5];
 						}
-						console.log('image '+answers_score[5]);
+						console.log('image ' + answers_score[5]);
 						answers_score[5] = answers_score[5] * 2;
 					}
 				});
 
-				speak_aino('Valitse vaihtoehto sanomalla "Vastaus A"');
+				speak_aino('Valitse vaihtoehto A, B, C tai D sanomalla esimerkiksi "Vastaus A"');
 			}
 
 			var next_question = function() {
 				// calculate score
 				// if lastanswered == 3 then present total and show form
-				if( answers[lastanswered] ) {
-				} else {
-					answers[lastanswered]=0;
-					answers_score[lastanswered]=0;
+				if (answers[lastanswered]) {} else {
+					answers[lastanswered] = 0;
+					answers_score[lastanswered] = 0;
 				}
 				lastanswered++;
 				console.log(lastanswered);
-				let next = lastanswered+1;
-				let qname = '#p_question'+next;
-				$("#p_question"+lastanswered).slideUp("slow");
+				let next = lastanswered + 1;
+				let qname = '#p_question' + next;
+				$("#p_question" + lastanswered).slideUp("slow");
 				$(qname).slideDown("slow");
-				speak_aino('Kysymys numero'+next);
+				speak_aino('Kysymys numero' + next);
 			}
 
 			var choose_vastausA = function() {
-				let answeredelement = lastanswered+1
-				document.getElementById("vastausA"+answeredelement).checked = true;
+				let answeredelement = lastanswered + 1
+				document.getElementById("vastausA" + answeredelement).checked = true;
 				// push answer to array
-				answers[lastanswered+1] = "A";
-				answers_score[lastanswered+1] = 1;
+				answers[lastanswered + 1] = "A";
+				answers_score[lastanswered + 1] = 1;
 			}
 			var choose_vastausB = function() {
-				let answeredelement = lastanswered+1
-				document.getElementById("vastausB"+answeredelement).checked = true;
-				answers[lastanswered+1] = "B";
-				answers_score[lastanswered+1] = 0.75;
+				let answeredelement = lastanswered + 1
+				document.getElementById("vastausB" + answeredelement).checked = true;
+				answers[lastanswered + 1] = "B";
+				answers_score[lastanswered + 1] = 0.75;
 			}
 			var choose_vastausC = function() {
-				let answeredelement = lastanswered+1
-				document.getElementById("vastausC"+answeredelement).checked = true;
-				answers[lastanswered+1] = "C";
-				answers_score[lastanswered+1] = 0.50;
+				let answeredelement = lastanswered + 1
+				document.getElementById("vastausC" + answeredelement).checked = true;
+				answers[lastanswered + 1] = "C";
+				answers_score[lastanswered + 1] = 0.50;
 			}
 			var choose_vastausD = function() {
-				let answeredelement = lastanswered+1
-				document.getElementById("vastausD"+answeredelement).checked = true;
-				answers[lastanswered+1] = "D";
-				answers_score[lastanswered+1] = 0;
+				let answeredelement = lastanswered + 1
+				document.getElementById("vastausD" + answeredelement).checked = true;
+				answers[lastanswered + 1] = "D";
+				answers_score[lastanswered + 1] = 0;
 			}
 
 			var high_score = function indexOfMax(arr) {
-				    if (arr.length === 0) {
+				if (arr.length === 0) {
 					return -1;
-				    }
-
-				    var max = arr[0];
-				    var maxIndex = 0;
-
-				    for (var i = 1; i < arr.length; i++) {
-					if (arr[i] > max) {
-					    maxIndex = i;
-					    max = arr[i];
-					}
-				    }
-
-				    return maxIndex;
 				}
+
+				var max = arr[0];
+				var maxIndex = 0;
+
+				for (var i = 1; i < arr.length; i++) {
+					if (arr[i] > max) {
+						maxIndex = i;
+						max = arr[i];
+					}
+				}
+
+				return maxIndex;
+			}
 
 			var results = function() {
 				//tulosta viestiä parin sekunnin välein että haku on käynnissä
 				//hae website kuvan arvio
 				//hae personallisuusarvio
 				lastanswered++;
-				if (answers_score[5]*2 > 1) {
-		   			answers_score[5] = 1;
+				if (answers_score[5] * 2 > 1) {
+					answers_score[5] = 1;
 				} else {
-					answers_score[5] = answers_score[5]*2;
+					answers_score[5] = answers_score[5] * 2;
 				}
-				digipoints_raw = answers_score[1]+answers_score[2]+answers_score[3]+answers_score[4]+answers_score[5]; //täydennä loput
+				digipoints_raw = answers_score[1] + answers_score[2] + answers_score[3] + answers_score[4] + answers_score[5]; //täydennä loput
 				var hi_score = high_score(answers_score);
 				var message = "";
 				var message_details = "";
-				message_details = message_details+ "Motivaatiomme digitalisaatioon: "+ answers_score[1].toFixed(2) +", ";
-				message_details = message_details+ "Yhteistyö asiakkaiden ja kumppaneiden kanssa: "+answers_score[2].toFixed(2) +", ";
-				message_details = message_details+ "Osaaminen : "+answers_score[3].toFixed(2) +", ";
-				message_details = message_details+ "Uteliaisuuden osuus organisaatiokulttuurissa: "+answers_score[4].toFixed(2)+", ";
-				message_details = message_details+ "Verkkosivujen modernius: "+answers_score[5].toFixed(2);
-				console.log("Max "+hi_score);
+				message_details = message_details + "Motivaatiomme digitalisaatioon: " + answers_score[1].toFixed(2) + ", ";
+				message_details = message_details + "Yhteistyö asiakkaiden ja kumppaneiden kanssa: " + answers_score[2].toFixed(2) + ", ";
+				message_details = message_details + "Osaaminen : " + answers_score[3].toFixed(2) + ", ";
+				message_details = message_details + "Uteliaisuuden osuus organisaatiokulttuurissa: " + answers_score[4].toFixed(2) + ", ";
+				message_details = message_details + "Verkkosivujen modernius: " + answers_score[5].toFixed(2);
+				console.log("Max " + hi_score);
 				if (digipoints_raw <= 1) {
-				    digipoints_percentile = 1;
-				    message = "Tukevasti jalat digitalisaation tasolla 1: Älä kutsu digitalisaatiota unelmaksi. Sano että se on suunnitelma";
+					digipoints_percentile = 1;
+					message = "Tukevasti jalat digitalisaation tasolla 1: Älä kutsu digitalisaatiota unelmaksi. Sano että se on suunnitelma";
 				} else if (digipoints_raw > 1 && digipoints_raw <= 2) {
-				    digipoints_percentile = 2;
-				    message = "Ponnistelet digitalisaation tasolla 2: Ole utelias. Digitalisaatiota voi tehdä pienin askelin.";
+					digipoints_percentile = 2;
+					message = "Ponnistelet digitalisaation tasolla 2: Ole utelias. Digitalisaatiota voi tehdä pienin askelin.";
 				} else if (digipoints_raw > 2 && digipoints_raw <= 3) {
-				    digipoints_percentile = 3;
-				    message = "Liidät digitalisaation tasolla 3: Seikkaile, avaa kumppaneille rajapintasi ja kehitä palveluita asiakkaidesi kanssa.";
+					digipoints_percentile = 3;
+					message = "Liidät digitalisaation tasolla 3: Seikkaile, avaa kumppaneille rajapintasi ja kehitä palveluita asiakkaidesi kanssa.";
 				} else if (digipoints_raw > 3 && digipoints_raw <= 4) {
-				    digipoints_percentile = 4;
-				    message = "Kukoistat digitalisaation tasolla 4: Aktivoidu ekosysteemiin! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella.";
+					digipoints_percentile = 4;
+					message = "Kukoistat digitalisaation tasolla 4: Aktivoidu ekosysteemiin! Kaikki kehitys tapahtuu mukavuusalueesi ulkopuolella.";
 				} else if (digipoints_raw > 4 && digipoints_raw <= 5) {
-				    digipoints_percentile = 5;
-				    message = "Transendentiaalinen taso 5: Rajapinnat auki, estetiikka kukkii, diginatiivit asiakaslähtöiset ratkaisut liitävät.";
+					digipoints_percentile = 5;
+					message = "Transendentiaalinen taso 5: Rajapinnat auki, estetiikka kukkii, diginatiivit asiakaslähtöiset ratkaisut liitävät.";
 				} else {
-				    digipoints_percentile = 0;
-				   message = "Aino on tosi pahoillaan, mutta tällä kertaa ainon hakutaidot eivät riittäneet nettisivujesi löytämiseen.";
+					digipoints_percentile = 0;
+					message = "Aino on tosi pahoillaan, mutta tällä kertaa ainon hakutaidot eivät riittäneet nettisivujesi löytämiseen.";
 				}
 				//näytä tulos ja lyhyt lausunto ja kuva
 				//$("#recipient_message").val(hi_score.toString());
 				$("#recipient_message").val(digipoints_percentile.toString());
 				$("#message_text").val(message);
 				$("#message_details").val(message_details);
-				$("#p_question"+lastanswered).slideUp("slow");
+				$("#p_question" + lastanswered).slideUp("slow");
 				$(section_email).slideDown("slow");
-				speak_aino('Syvällisen analyysin tulos on seuraava. '+ message);
+				speak_aino('Syvällisen analyysin tulos on seuraava. ' + message);
 				console.log(answers[0]);
 				console.log(answers[1]);
 				console.log(answers[2]);
@@ -472,81 +477,83 @@
 
 			var get_name = function(heard_name) {
 				document.getElementById("recipient_name").value = heard_name.toString();
-				document.getElementById("recipient_email").value = document.getElementById("recipient_name").value.replace(" ",".") + "@" + companyname + ".com";
-				speak_aino('Kuulinko oikein, sanoitko '+heard_name.toString());
-      			 };
+				document.getElementById("recipient_email").value = document.getElementById("recipient_name").value.replace(" ", ".") + "@" + companyname + ".com";
+				speak_aino('Kuulinko oikein, sanoitko ' + heard_name.toString());
+			};
 
-	    var get_email = function(heard_email) {
+			var get_email = function(heard_email) {
 				document.getElementById("recipient_email").value = heard_email.toString();
-				speak_aino('Kuulinko oikein, sanoitko '+heard_email.toString());
-      };
+				speak_aino('Kuulinko oikein, sanoitko ' + heard_email.toString());
+			};
 
-	    var send_form = function() {
+			var send_form = function() {
 				console.log("sposti:" + document.getElementById("recipient_email").value);
 				speak_aino('Lomake lähetetty');
-		    $( '#result_form' ).trigger('click');
+				$('#result_form').trigger('click');
 
-      };
+			};
 
 			var get_mirror = function() {
 				speak_aino('Sinä olet kaunein päällä maan, ei kaltaistasi löydy milloinkaan.');
 			};
-	    		var dance = function() {
-					hideAinoTalking();
-					hideAinoIdle();
-					showAinoDancing();
-					playSound();
-					setTimeout(hideAinoDancing, 30000);
-					setTimeout(pauseSound,30000);
-					showAinoIdle();
+			var dance = function() {
+				hideAinoTalking();
+				hideAinoIdle();
+				showAinoDancing();
+				playSound();
+				setTimeout(hideAinoDancing, 30000);
+				setTimeout(pauseSound, 30000);
+				showAinoIdle();
 			};
 
-      // Let's define our first command. First the text we expect, and then the function it should call
-      var commands = {
-        			'hei': hello,
-				'nimi on *hear_org':  get_org,
+			// Let's define our first command. First the text we expect, and then the function it should call
+			var commands = {
+				'hei': hello,
+				'nimi on *hear_org': get_org,
 				'nimi oikein': got_name_right,
 				'vastaus A': choose_vastausA,
-	      			'vastaus B': choose_vastausB,
+				'vastaus B': choose_vastausB,
 				'vastaus C': choose_vastausC,
 				'vastaus D': choose_vastausD,
-	      			'seuraava kysymys': next_question,
-	      			'tulos': results,
-	      			'nimeni on *hear_name': get_name,
-	      			'sähköpostiosoitteeni on *hear_email': get_email,
-	      			'lähetä lomake': send_form,
+				'seuraava kysymys': next_question,
+				'tulos': results,
+				'nimeni on *hear_name': get_name,
+				'sähköpostiosoitteeni on *hear_email': get_email,
+				'lähetä lomake': send_form,
 				'kerro kerro *hear_kerro': get_mirror,
-	      			'tanssi': dance
+				'tanssi': dance
 
-      };
+			};
 
-      // OPTIONAL: activate debug mode for detailed logging in the console
-      annyang.debug();
+			// OPTIONAL: activate debug mode for detailed logging in the console
+			annyang.debug();
 
-      // Add our commands to annyang
-      annyang.addCommands(commands);
+			// Add our commands to annyang
+			annyang.addCommands(commands);
 
-      // OPTIONAL: Set a language for speech recognition (defaults to English)
-      // For a full list of language codes, see the documentation:
-      // https://github.com/TalAter/annyang/blob/master/docs/FAQ.md#what-languages-are-supported
-      annyang.setLanguage('fi');
+			// OPTIONAL: Set a language for speech recognition (defaults to English)
+			// For a full list of language codes, see the documentation:
+			// https://github.com/TalAter/annyang/blob/master/docs/FAQ.md#what-languages-are-supported
+			annyang.setLanguage('fi');
 
-	// Start listening, don't restart automatically, stop recognition after first phrase recognized
-	annyang.start({ autoRestart: false, continuous: false });
+			// Start listening, don't restart automatically, stop recognition after first phrase recognized
+			annyang.start({
+				autoRestart: false,
+				continuous: false
+			});
 
 			var scrollTo = function(identifier, speed) {
-		    $('html, body').animate({
-		        scrollTop: $(identifier).offset().top
-		    }, speed || 1000);
-		  }
-    } else {
-      $(document).ready(function() {
-        $('#unsupported').fadeIn('fast');
-      });
-    }
+				$('html, body').animate({
+					scrollTop: $(identifier).offset().top
+				}, speed || 1000);
+			}
+		} else {
+			$(document).ready(function() {
+				$('#unsupported').fadeIn('fast');
+			});
+		}
+	</script>
 
+</body>
 
-    </script>
-
-	</body>
 </html>
